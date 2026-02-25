@@ -33,9 +33,6 @@ def extract_text_from_pdf(pdf_path):
 # print("---- RAW START ----")
 # print(extract_text_from_pdf(PDF_PATH))
 # print("---- RAW END ----")
-# ==============================
-# STEP 2: Clean Raw Text
-# ==============================
 
 def clean_text(text):
 
