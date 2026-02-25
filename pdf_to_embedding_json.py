@@ -4,77 +4,108 @@ import fitz  # PyMuPDF
 from transformers import AutoTokenizer
 from tqdm import tqdm
 
-# -------- CONFIG -------- #
+# ==============================
+# CONFIG
+# ==============================
+
 PDF_PATH = "kebo109.pdf"
-OUTPUT_JSON = "biology_chunks.json"
+OUTPUT_JSON = "biology_clean_chunks.json"
 MAX_TOKENS = 200
 SUBJECT = "Biology"
 TOKENIZER_MODEL = "bert-base-uncased"
 
-# -------- LOAD TOKENIZER -------- #
-tokenizer = AutoTokenizer.from_pretrained(TOKENIZER_MODEL)
+tokenizer = AutoTokenizer.from_pretrained(
+    TOKENIZER_MODEL,
+    clean_up_tokenization_spaces=True
+)
 
-# -------- STEP 1: EXTRACT TEXT FROM PDF -------- #
+# ==============================
+# STEP 1: Extract Raw Text
+# ==============================
+
 def extract_text_from_pdf(pdf_path):
     doc = fitz.open(pdf_path)
     full_text = ""
-
     for page in doc:
-        text = page.get_text("text")
-        full_text += text + "\n"
-
+        full_text += page.get_text("text") + "\n"
     return full_text
 
+# print("---- RAW START ----")
+# print(extract_text_from_pdf(PDF_PATH))
+# print("---- RAW END ----")
+# ==============================
+# STEP 2: Clean Raw Text
+# ==============================
 
-# -------- STEP 2: CLEAN TEXT -------- #
 def clean_text(text):
-    text = re.sub(r"Reprint \d{4}-\d{2}", "", text)
+
+    # Remove page numbers alone in lines
+    text = re.sub(r"\n\d+\n", "\n", text)
+
+    # Remove repeating headers
+    text = re.sub(r"\nBIOLOGY\n", "\n", text, flags=re.IGNORECASE)
+    # text = re.sub(r"\nBIOMOLECULES\n", "\n", text, flags=re.IGNORECASE)
+
+    # Remove table blocks
+    text = re.sub(r"TABLE\s+\d+.*?(?=\n\n)", "", text, flags=re.DOTALL)
+
+    # Remove figure captions
+    text = re.sub(r"Figure\s+\d+.*?\n", "", text)
+
+    # Remove excessive newlines
     text = re.sub(r"\n{2,}", "\n", text)
+
+    # Normalize spaces
     text = re.sub(r"\s{2,}", " ", text)
-    text = text.strip()
-    return text
+
+    return text.strip()
 
 
-# -------- STEP 3: SPLIT INTO CHAPTERS -------- #
-def split_chapters(text):
-    chapter_pattern = r"CHAPTER\s+(\d+)\s+([A-Z][A-Za-z\s]+)"
-    matches = list(re.finditer(chapter_pattern, text))
+# ==============================
+# STEP 3: Detect Chapter
+# ==============================
 
-    chapters = []
+def extract_chapter_info(text):
 
-    for i, match in enumerate(matches):
-        chapter_number = match.group(1)
-        chapter_title = match.group(2).strip()
+    lines = text.split("\n")
+    lines = [l.strip() for l in lines if l.strip()]
 
-        start = match.start()
-        end = matches[i+1].start() if i+1 < len(matches) else len(text)
+    chapter_number = "Unknown"
+    chapter_title = "Unknown"
 
-        chapter_text = text[start:end]
+    for i, line in enumerate(lines):
+        match = re.search(r"CHAPTER\s+(\d+)", line, re.IGNORECASE)
+        if match:
+            chapter_number = match.group(1)
 
-        chapters.append({
-            "chapter_number": chapter_number,
-            "chapter_title": chapter_title,
-            "text": chapter_text
-        })
+            # Take previous line as title
+            if i > 0:
+                chapter_title = lines[i - 1].title()
 
-    return chapters
+            break
+
+    return chapter_number, chapter_title
 
 
-# -------- STEP 4: SPLIT INTO SECTIONS (9.1, 9.2 etc) -------- #
-def split_sections(chapter_text):
-    section_pattern = r"\n(\d+\.\d+)\s+([A-Z][A-Z\s]+)"
-    matches = list(re.finditer(section_pattern, chapter_text))
+# ==============================
+# STEP 4: Split Into Sections
+# ==============================
+
+def split_sections(text):
+    section_pattern = r"\n(\d+\.\d+)\s+([A-Za-z][^\n]+)"
+
+    matches = list(re.finditer(section_pattern, text))
 
     sections = []
 
     for i, match in enumerate(matches):
         section_number = match.group(1)
-        section_title = match.group(2).title()
+        section_title = match.group(2).replace("\n", "").strip().title()
 
         start = match.start()
-        end = matches[i+1].start() if i+1 < len(matches) else len(chapter_text)
+        end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
 
-        section_text = chapter_text[start:end]
+        section_text = text[start:end]
 
         sections.append({
             "section_number": section_number,
@@ -85,7 +116,10 @@ def split_sections(chapter_text):
     return sections
 
 
-# -------- STEP 5: TOKEN-BASED CHUNKING -------- #
+# ==============================
+# STEP 5: Sentence-Based Chunking
+# ==============================
+
 def chunk_text(text, max_tokens=MAX_TOKENS):
     sentences = re.split(r'(?<=[.!?]) +', text)
     chunks = []
@@ -108,7 +142,10 @@ def chunk_text(text, max_tokens=MAX_TOKENS):
     return chunks
 
 
-# -------- MAIN PIPELINE -------- #
+# ==============================
+# MAIN PIPELINE
+# ==============================
+
 def process_pdf():
     print("Extracting text...")
     raw_text = extract_text_from_pdf(PDF_PATH)
@@ -116,38 +153,39 @@ def process_pdf():
     print("Cleaning text...")
     cleaned_text = clean_text(raw_text)
 
-    print("Splitting chapters...")
-    chapters = split_chapters(cleaned_text)
+    print("Extracting chapter info...")
+    chapter_number, chapter_title = extract_chapter_info(cleaned_text)
+
+    print(f"Detected Chapter {chapter_number}: {chapter_title}")
+
+    print("Splitting sections...")
+    sections = split_sections(cleaned_text)
+
+    print(f"Detected {len(sections)} sections")
 
     all_chunks = []
 
-    for chapter in tqdm(chapters):
-        chapter_num = chapter["chapter_number"]
-        chapter_title = chapter["chapter_title"]
+    for section in tqdm(sections):
+        section_number = section["section_number"]
+        section_title = section["section_title"]
 
-        sections = split_sections(chapter["text"])
+        chunks = chunk_text(section["text"])
 
-        for section in sections:
-            section_num = section["section_number"]
-            section_title = section["section_title"]
+        for idx, chunk in enumerate(chunks):
+            chunk_id = f"bio_ch{chapter_number}_{section_number}_{idx:03}"
 
-            chunks = chunk_text(section["text"])
+            all_chunks.append({
+                "id": chunk_id,
+                "subject": SUBJECT,
+                "chapter": chapter_title,
+                "chapter_number": chapter_number,
+                "section": section_number,
+                "section_title": section_title,
+                "text": chunk.strip(),
+                "chunk_index": idx
+            })
 
-            for idx, chunk in enumerate(chunks):
-                chunk_id = f"bio_ch{chapter_num}_{section_num}_{idx:03}"
-
-                all_chunks.append({
-                    "id": chunk_id,
-                    "subject": SUBJECT,
-                    "chapter": chapter_title,
-                    "chapter_number": chapter_num,
-                    "section": section_num,
-                    "section_title": section_title,
-                    "text": chunk,
-                    "chunk_index": idx
-                })
-
-    print(f"Generated {len(all_chunks)} chunks.")
+    print(f"Generated {len(all_chunks)} clean chunks.")
 
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(all_chunks, f, indent=2)
