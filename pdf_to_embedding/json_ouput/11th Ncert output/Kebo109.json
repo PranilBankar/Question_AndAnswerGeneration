@@ -1,0 +1,218 @@
+[
+{
+"id": "bio_ch9_9.1_0000",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.1",
+"section_title": "How to Analyse Chemical Composition?",
+"text": "There is a wide diversity in living organisms in our biosphere. Now a question that arises in our minds is: Are all living organisms made of the same chemicals, i.e., elements and compounds? You have learnt in chemistry how elemental analysis is performed. If we perform such an analysis on a plant tissue, animal tissue or a microbial paste, we obtain a list of elements like carbon, hydrogen, oxygen and several others and their respective content per unit mass of a living tissue. If the same analysis is performed on a piece of earth’s crust as an example of non-living matter, we obtain a similar list. In absolute terms, no such differences could be made out. All the elements present in a sample of earth’s crust are also present in a sample of living tissue. However, a closer examination reveals that the relative abundance of carbon and hydrogen with respect to other elements is higher in any living organism than in earth’s crust."
+},
+{
+"id": "bio_ch9_9.1_0001",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.1",
+"section_title": "How to Analyse Chemical Composition?",
+"text": "We can continue asking in the same way, what type of organic compounds are found in living organisms? To get an answer, one has to perform a chemical analysis. We can take any living tissue and grind it in trichloroacetic acid using a mortar and a pestle. We obtain a thick slurry. If we were to strain this through a cheesecloth or cotton we would obtain two fractions. One is called the filtrate or more technically, the acid-soluble pool, and the second, the retentate or the acid-insoluble fraction. Scientists have found thousands of organic compounds in the acid-soluble pool. In higher classes you will learn about how to analyse a living tissue sample and identify a particular organic compound. It will suffice to say here that one extracts the compounds, then subjects the extract to various separation techniques till one has separated a compound from all other compounds. In other words, one isolates and purifies a compound."
+},
+{
+"id": "bio_ch9_9.1_0002",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.1",
+"section_title": "How to Analyse Chemical Composition?",
+"text": "Analytical techniques, when applied to the compound give us an idea of the molecular formula and the probable structure of the compound. All the carbon compounds that we get from living tissues can be called ‘biomolecules’. However, living organisms have also got inorganic elements and compounds in them. How do we know this? A slightly different but destructive experiment has to be done. One weighs a small amount of a living tissue and dry it. All the water evaporates. The remaining material gives dry weight. Now if the tissue is fully burnt, all the carbon compounds are oxidised to gaseous form and are removed. What is remaining is called ‘ash’. This ash contains inorganic elements like calcium, magnesium etc. Inorganic compounds like sulphate, phosphate, etc., are also seen in the acid-soluble fraction. Therefore elemental analysis gives elemental composition of living tissues while analysis for compounds gives an idea of the kind of organic and inorganic constituents present in living tissues."
+},
+{
+"id": "bio_ch9_9.1_0003",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.1",
+"section_title": "How to Analyse Chemical Composition?",
+"text": "From a chemistry point of view, one can identify functional groups like aldehydes, ketones, aromatic compounds, etc. But from a biological point of view, we shall classify them into amino acids, nucleotide bases, fatty acids etc. Amino acids are organic compounds containing an amino group and an acidic group as substituents on the same carbon i.e., the alpha-carbon. Hence, they are called alpha-amino acids. They are substituted methanes. There are four substituent groups occupying the four valency positions. These are hydrogen, carboxyl group, amino group and a variable group designated as R group. Based on the nature of R group there are many amino acids. However, those which occur in proteins are only of twenty types. The R group in these proteinaceous amino acids could be a hydrogen (glycine), a methyl group (alanine), hydroxy methyl (serine), etc."
+},
+{
+"id": "bio_ch9_9.1_0004",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.1",
+"section_title": "How to Analyse Chemical Composition?",
+"text": "The chemical and physical properties of amino acids are essentially of the amino, carboxyl and the R functional groups. Based on number of amino and carboxyl groups, there are acidic (e.g., glutamic acid), basic (lysine) and neutral (valine) amino acids. Similarly, there are aromatic amino acids (tyrosine, phenylalanine, tryptophan). A particular property of amino acids is the ionizable nature of amino and carboxyl groups. Hence in solutions of different pH, the structure of amino acids changes. Lipids are generally water insoluble. They could be simple fatty acids. A fatty acid has a carboxyl group attached to an R group. The R group could be a methyl, or ethyl or higher number of CH2 groups (1 carbon to 19 carbons). For example, palmitic acid has 16 carbons including carboxyl carbon. Arachidonic acid has 20 carbon atoms including the carboxyl carbon. Fatty acids could be saturated (without double bond) or unsaturated (with one or more C=C double bonds)."
+},
+{
+"id": "bio_ch9_9.1_0005",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.1",
+"section_title": "How to Analyse Chemical Composition?",
+"text": "Another simple lipid is glycerol which is trihydroxy propane. Many lipids have both glycerol and fatty acids. Here the fatty acids are found esterified with glycerol. They can be then monoglycerides, diglycerides and triglycerides. These are also called fats and oils based on melting point. Oils have lower melting point and hence remain as oil in winters. Some lipids have phosphorous and a phosphorylated organic compound in them. These are phospholipids. They are found in cell membrane. Lecithin is one example. Some tissues especially the neural tissues have lipids with more complex structures. Living organisms have a number of carbon compounds in which heterocyclic rings can be found. Some of these are nitrogen bases – adenine, guanine, cytosine, uracil, and thymine. When found attached to a sugar, they are called nucleosides. If a phosphate group is also found esterified to the sugar they are called nucleotides."
+},
+{
+"id": "bio_ch9_9.2_0006",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.2",
+"section_title": "Primary and Secondary Metabolites",
+"text": "The most exciting aspect of chemistry deals with isolating thousands of compounds, small and big, from living organisms, determining their structure and if possible synthesising them. If one were to make a list of biomolecules, such a list would have thousands of organic compounds including amino acids, sugars, etc. For reasons that are given in section 9.10, we can call these biomolecules as ‘metabolites’. In animal tissues, one notices the presence of all such categories of compounds. These are primary metabolites. However, when one analyses plant, fungal and microbial cells, one would see thousands of compounds other than these primary metabolites, e.g. alkaloids, flavonoids, rubber, essential oils, antibiotics, coloured pigments, scents, gums, spices. These are called secondary metabolites. While primary metabolites have identifiable functions and play known roles in normal physiological processes, we do not at the moment, understand the role or functions of all the ‘secondary metabolites’ in host organisms."
+},
+{
+"id": "bio_ch9_9.3_0007",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.3",
+"section_title": "Biomacromolecules",
+"text": "There is one feature common to all those compounds found in the acid soluble pool. They have molecular weights ranging from 18 to around 800 daltons (Da) approximately. The acid insoluble fraction has only four types of organic compounds i.e., proteins, nucleic acids, polysaccharides and lipids. These classes of compounds with the exception of lipids, have molecular weights in the range of ten thousand daltons and above. For this very reason, biomolecules, i.e., chemical compounds found in living organisms are of two types. One, those which have molecular weights less than one thousand dalton and are usually referred to as micromolecules or simply biomolecules while those which are found in the acid insoluble fraction are called macromolecules or biomacromolecules. The molecules in the insoluble fraction with the exception of lipids are polymeric substances. Lipids are indeed small molecular weight compounds and are present not only as such but also arranged into structures like cell membrane and other membranes."
+},
+{
+"id": "bio_ch9_9.3_0008",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.3",
+"section_title": "Biomacromolecules",
+"text": "When we grind a tissue, we are disrupting the cell structure. Cell membrane and other membranes are broken into pieces, and form vesicles which are not water soluble. Therefore, these membrane fragments in the form of vesicles get separated along with the acid insoluble pool and hence in the macromolecular fraction. Lipids are not strictly macromolecules. The acid soluble pool represents roughly the cytoplasmic composition. The macromolecules from cytoplasm and organelles become the acid insoluble fraction. Together they represent the entire chemical composition of living tissues or organisms. In summary if we represent the chemical composition of living tissue from abundance point of view and arrange them class-wise, we observe that water is the most abundant chemical in living organisms."
+},
+{
+"id": "bio_ch9_9.4_0009",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.4",
+"section_title": "Proteins",
+"text": "Proteins are polypeptides. They are linear chains of amino acids linked by peptide bonds. Each protein is a polymer of amino acids. As there are 20 types of amino acids, a protein is a heteropolymer and not a homopolymer. A homopolymer has only one type of monomer repeating 'n' number of times. This information about the amino acid content is important as certain amino acids are essential for our health and they have to be supplied through our diet. Hence, dietary proteins are the source of essential amino acids. Therefore, amino acids can be essential or non-essential. The latter are those which our body can make, while we get essential amino acids through our diet/food. Proteins carry out many functions in living organisms, some transport nutrients across cell membrane, some fight infectious organisms, some are hormones, some are enzymes, etc. Collagen is the most abundant protein in animal world and Ribulose bisphosphate Carboxylase-Oxygenase (RuBisCO) is the most abundant protein in the whole of the biosphere."
+},
+{
+"id": "bio_ch9_9.5_0010",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.5",
+"section_title": "Polysaccharides",
+"text": "The acid insoluble pellet also has polysaccharides (carbohydrates) as another class of macromolecules. Polysaccharides are long chains of sugars. They are threads containing different monosaccharides as building blocks. For example, cellulose is a polymeric polysaccharide consisting of only one type of monosaccharide i.e., glucose. Cellulose is a homopolymer. Starch is a variant of this but present as a store house of energy in plant tissues. Animals have another variant called glycogen. Inulin is a polymer of fructose. In a polysaccharide chain (say glycogen), the right end is called the reducing end and the left end is called the non-reducing end. It has branches. Starch forms helical secondary structures. In fact, starch can hold I2 molecules in the helical portion. The starch-I2 is blue in colour. Cellulose does not contain complex helices and hence cannot hold I2. Plant cell walls are made of cellulose. Paper made from plant pulp and cotton fibre is cellulosic."
+},
+{
+"id": "bio_ch9_9.6_0011",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.6",
+"section_title": "Nucleic Acids",
+"text": "The other type of macromolecule that one would find in the acid insoluble fraction of any living tissue is the nucleic acid. These are polynucleotides. Together with polysaccharides and polypeptides these comprise the true macromolecular fraction of any living tissue or cell. For nucleic acids, the building block is a nucleotide. A nucleotide has three chemically distinct components. One is a heterocyclic compound, the second is a monosaccharide and the third a phosphoric acid or phosphate. The heterocyclic compounds in nucleic acids are the nitrogenous bases named adenine, guanine, uracil, cytosine, and thymine. Adenine and Guanine are substituted purines while the rest are substituted pyrimidines. The skeletal heterocyclic ring is called as purine and pyrimidine respectively. The sugar found in polynucleotides is either ribose or 2’ deoxyribose. A nucleic acid containing deoxyribose is called deoxyribonucleic acid (DNA) while that which contains ribose is called ribonucleic acid (RNA)."
+},
+{
+"id": "bio_ch9_9.7_0012",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.7",
+"section_title": "Structure of Proteins",
+"text": "Proteins are heteropolymers containing strings of amino acids. Structure of molecules means different things in different contexts. In inorganic chemistry, the structure invariably refers to the molecular formulae. Organic chemists always write a two dimensional view of the molecules while representing the structure. Physicists conjure up the three dimensional views while biologists describe the protein structure at four levels. The sequence of amino acids i.e., the positional information in a protein – which is the first amino acid, which is second, and so on – is called the primary structure of a protein. A protein is imagined as a line, the left end represented by the first amino acid and the right end represented by the last amino acid. The first amino acid is also called as N-terminal amino acid. The last amino acid is called the C-terminal amino acid. A protein thread does not exist throughout as an extended rigid rod."
+},
+{
+"id": "bio_ch9_9.7_0013",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.7",
+"section_title": "Structure of Proteins",
+"text": "The thread is folded in the form of a helix. In proteins, only right handed helices are observed. Other regions of the protein thread are folded into other forms in what is called the secondary structure. In addition, the long protein chain is also folded upon itself like a hollow woolen ball, giving rise to the tertiary structure. This gives us a 3-dimensional view of a protein. Tertiary structure is absolutely necessary for the many biological activities of proteins. Some proteins are an assembly of more than one polypeptide or subunits. The manner in which these individual folded polypeptides or subunits are arranged with respect to each other is the architecture of a protein otherwise called the quaternary structure of a protein. Adult human haemoglobin consists of 4 subunits. Two of these are identical to each other. Hence, two subunits of alpha type and two subunits of beta type together constitute the human haemoglobin (Hb)."
+},
+{
+"id": "bio_ch9_9.8_0014",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.8",
+"section_title": "Enzymes",
+"text": "Almost all enzymes are proteins. There are some nucleic acids that behave like enzymes; these are called ribozymes. An enzyme like any protein has a primary structure, secondary structure, and tertiary structure. When you look at a tertiary structure upon itself, the chain criss-crosses itself and hence, many crevices or pockets are made. One such pocket is the ‘active site’. An active site of an enzyme is a crevice or pocket into which the substrate fits. Thus enzymes, through their active site, catalyse reactions at a high rate. Enzyme catalysts differ from inorganic catalysts in many ways. Inorganic catalysts work efficiently at high temperatures and high pressures, while enzymes get damaged at high temperatures (say above 40°C). However, enzymes isolated from organisms who normally live under extremely high temperatures are stable and retain their catalytic power even at high temperatures. Thermal stability is thus an important quality of such enzymes isolated from thermophilic organisms."
+},
+{
+"id": "bio_ch9_9.8.1_0015",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.8.1",
+"section_title": "Chemical Reactions",
+"text": "Chemical compounds undergo two types of changes. A physical change simply refers to a change in shape without breaking of bonds. Another physical process is a change in state of matter: when ice melts into water, or when water becomes a vapour. However, when bonds are broken and new bonds are formed during transformation, this will be called a chemical reaction. Rate of a physical or chemical process refers to the amount of product formed per unit time. Rates of physical and chemical processes are influenced by temperature among other factors. A general rule of thumb is that rate doubles or decreases by half for every 10°C change in either direction. Catalysed reactions proceed at rates vastly higher than that of uncatalysed ones. When enzyme catalysed reactions are observed, the rate would be vastly higher than the same but uncatalysed reaction. For example, carbonic anhydrase speeds the reaction of carbon dioxide and water to form carbonic acid dramatically."
+},
+{
+"id": "bio_ch9_9.8.1_0016",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.8.1",
+"section_title": "Chemical Reactions",
+"text": "In the absence of any enzyme, the reaction to form carbonic acid is very slow, with about 200 molecules being formed in an hour. However, by using the enzyme present within the cytoplasm called carbonic anhydrase, the reaction speeds with about 600,000 molecules being formed every second. The enzyme has accelerated the reaction rate by about 10 million times. There are thousands of types of enzymes each catalysing a unique chemical or metabolic reaction. A multistep chemical reaction, when each of the steps is catalysed by the same enzyme complex or different enzymes, is called a metabolic pathway. For example, the pathway in which glucose becomes pyruvic acid through ten different enzyme catalysed metabolic reactions is a metabolic pathway. This very metabolic pathway with additional reactions gives rise to a variety of metabolic end products such as lactic acid, pyruvic acid, or ethanol depending on aerobic or anaerobic conditions."
+},
+{
+"id": "bio_ch9_9.8.2_0017",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.8.2",
+"section_title": "How do Enzymes bring about such High Rates of Chemical Conversions?",
+"text": "To understand this we should study enzymes a little more. We have already understood the idea of an ‘active site’. The chemical or metabolic conversion refers to a reaction. The chemical which is converted into a product is called a ‘substrate’. Hence enzymes, i.e. proteins with three dimensional structures including an ‘active site’, convert a substrate (S) into a product (P). It is now understood that the substrate ‘S’ has to bind the enzyme at its ‘active site’ within a given cleft or pocket. The substrate has to diffuse towards the ‘active site’. There is thus, an obligatory formation of an ‘ES’ complex. This complex formation is a transient phenomenon. During the state where substrate is bound to the enzyme active site, a new structure of the substrate called transition state structure is formed. Very soon, after the expected bond breaking/making is completed, the product is released from the active site."
+},
+{
+"id": "bio_ch9_9.8.2_0018",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.8.2",
+"section_title": "How do Enzymes bring about such High Rates of Chemical Conversions?",
+"text": "Stability is something related to energy status of the molecule or the structure. The y-axis represents the potential energy content. The x-axis represents the progression of the structural transformation through the ‘transition state’. You would notice two things: the energy level difference between S and P. If ‘P’ is at a lower level than ‘S’, the reaction is an exothermic reaction. One need not supply energy in order to form the product. However, whether it is an exothermic or spontaneous reaction or an endothermic or energy requiring reaction, the ‘S’ has to go through a much higher energy state or transition state. The difference in average energy content of ‘S’ from that of this transition state is called ‘activation energy’. Enzymes eventually bring down this energy barrier making the transition of ‘S’ to ‘P’ more easy."
+},
+{
+"id": "bio_ch9_9.8.3_0019",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.8.3",
+"section_title": "Nature of Enzyme Action",
+"text": "Each enzyme (E) has a substrate (S) binding site in its molecule so that a highly reactive enzyme-substrate complex (ES) is produced. This complex is short-lived and dissociates into its product(s) P and the unchanged enzyme with an intermediate formation of the enzyme-product complex (EP). The formation of the ES complex is essential for catalysis. The catalytic cycle of an enzyme action can be described in the following steps: First, the substrate binds to the active site of the enzyme, fitting into the active site. Second, the binding of the substrate induces the enzyme to alter its shape, fitting more tightly around the substrate. Third, the active site of the enzyme, now in close proximity of the substrate breaks the chemical bonds of the substrate and the new enzyme-product complex is formed. Fourth, the enzyme releases the products of the reaction and the free enzyme is ready to bind to another molecule of the substrate."
+},
+{
+"id": "bio_ch9_9.8.4_0020",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.8.4",
+"section_title": "Factors Affecting Enzyme Activity",
+"text": "The activity of an enzyme can be affected by a change in the conditions which can alter the tertiary structure of the protein. These include temperature, pH, change in substrate concentration or binding of specific chemicals that regulate its activity. Enzymes generally function in a narrow range of temperature and pH. Each enzyme shows its highest activity at a particular temperature and pH called the optimum temperature and optimum pH. Activity declines both below and above the optimum value. Low temperature preserves the enzyme in a temporarily inactive state whereas high temperature destroys enzymatic activity because proteins are denatured by heat. With the increase in substrate concentration, the velocity of the enzymatic reaction rises at first. The reaction ultimately reaches a maximum velocity (Vmax) which is not exceeded by any further rise in concentration of the substrate. This is because the enzyme molecules are fewer than the substrate molecules and after saturation there are no free enzyme molecules."
+},
+{
+"id": "bio_ch9_9.8.4_0021",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.8.4",
+"section_title": "Factors Affecting Enzyme Activity",
+"text": "The activity of an enzyme is also sensitive to the presence of specific chemicals that bind to the enzyme. When the binding of the chemical shuts off enzyme activity, the process is called inhibition and the chemical is called an inhibitor. When the inhibitor closely resembles the substrate in its molecular structure and inhibits the activity of the enzyme, it is known as competitive inhibitor. Due to its close structural similarity with the substrate, the inhibitor competes with the substrate for the substrate-binding site of the enzyme. Consequently, the substrate cannot bind and as a result, the enzyme action declines, e.g., inhibition of succinic dehydrogenase by malonate which closely resembles the substrate succinate in structure. Such competitive inhibitors are often used in the control of bacterial pathogens."
+},
+{
+"id": "bio_ch9_9.8.5_0022",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.8.5",
+"section_title": "Classification and Nomenclature of Enzymes",
+"text": "Thousands of enzymes have been discovered, isolated and studied. Most of these enzymes have been classified into different groups based on the type of reactions they catalyse. Enzymes are divided into 6 classes: Oxidoreductases/dehydrogenases catalyse oxidoreduction between two substrates. Transferases catalyse a transfer of a group between a pair of substrates. Hydrolases catalyse hydrolysis of ester, ether, peptide, glycosidic, C-C, C-halide or P-N bonds. Lyases catalyse removal of groups from substrates by mechanisms other than hydrolysis leaving double bonds. Isomerases include all enzymes catalysing inter-conversion of optical, geometric or positional isomers. Ligases catalyse the linking together of 2 compounds, e.g., enzymes which catalyse joining of C-O, C-S, C-N, P-O etc. bonds."
+},
+{
+"id": "bio_ch9_9.8.6_0023",
+"subject": "Biology",
+"chapter": "Biomolecules",
+"chapter_number": "9",
+"section": "9.8.6",
+"section_title": "Co-factors",
+"text": "Enzymes are composed of one or several polypeptide chains. However, there are a number of cases in which non-protein constituents called co-factors are bound to the enzyme to make the enzyme catalytically active. In these instances, the protein portion of the enzymes is called the apoenzyme. Three kinds of cofactors may be identified: prosthetic groups, co-enzymes and metal ions. Prosthetic groups are organic compounds and are distinguished from other cofactors in that they are tightly bound to the apoenzyme. For example, in peroxidase and catalase, haem is the prosthetic group. Co-enzymes are also organic compounds but their association with the apoenzyme is only transient, usually occurring during the course of catalysis. The essential chemical components of many coenzymes are vitamins. A number of enzymes require metal ions for their activity which form coordination bonds with side chains at the active site, e.g., zinc is a cofactor for the proteolytic enzyme carboxypeptidase."
+}
+]
