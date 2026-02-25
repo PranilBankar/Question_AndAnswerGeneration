@@ -8,7 +8,7 @@ from tqdm import tqdm
 # CONFIG
 # ==============================
 
-PDF_PATH = "kebo109.pdf"
+PDF_PATH = r"D:\Users\Pranil\Github Repos\NLP_pdfDataset\11th Ncert\kebo109.pdf"
 OUTPUT_JSON = "biology_clean_chunks.json"
 MAX_TOKENS = 200
 SUBJECT = "Biology"
