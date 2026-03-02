@@ -9,7 +9,7 @@ from tqdm import tqdm
 # ==============================
 # CONFIG
 # ==============================
-JSON_OUTPUT_DIR = r"D:\Users\Pranil\Github Repos\Question_AndAnswerGeneration\pdf_to_embedding\json_ouput"
+JSON_OUTPUT_DIR = r"D:\Users\Pranil\Github Repos\Question_AndAnswerGeneration\pdf_to_embedding"
 EMBEDDING_MODEL_NAME = "BAAI/bge-small-en-v1.5"
 
 # Batch size for Supabase insertion to avoid payload too large errors
