@@ -227,7 +227,7 @@ def process_pdf():
     with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
         json.dump(all_chunks, f, indent=2)
 
-    print(f"Saved to {OUTPUT_JSON}")
+    print(f"Saved to {OUTPUT_JSON}")//
 
 
 if __name__ == "__main__":
