@@ -11,19 +11,18 @@ create table if not exists ncert_knowledge_chunks (
   section text,                         -- '1.1'
   section_title text,                   -- 'What is Living?'
   text_content text not null,           -- the actual raw text chunk
-  metadata jsonb default '{}'::jsonb,   -- strictly for any extra metadata
-  embedding vector(384),                -- BGE embeddings are 384 dimensions
+  metadata jsonb default '{}'::jsonb,   -- for any extra metadata
+  embedding vector(384),                -- BGE-small-en-v1.5 produces 384-dim vectors
   created_at timestamp with time zone default timezone('utc'::text, now()) not null
 );
 
--- Create an HNSW index to make vector similarity search fast!
--- (Uses cosine distance operator: vector_cosine_ops)
+-- HNSW index for fast approximate nearest-neighbour cosine search
 create index on ncert_knowledge_chunks using hnsw (embedding vector_cosine_ops);
 
 -- ==========================================
--- Optional: Create a function for similarity search
+-- Helper function for similarity search
 -- ==========================================
-create or function match_ncert_chunks (
+create or replace function match_ncert_chunks (
   query_embedding vector(384),
   match_threshold float,
   match_count int,
