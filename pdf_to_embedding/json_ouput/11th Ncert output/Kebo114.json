@@ -1,0 +1,75 @@
+
+[
+{
+"id": "bio_ch14_14.1_0000",
+"subject": "Biology",
+"chapter": "Breathing and Exchange of Gases",
+"chapter_number": "14",
+"section": "14.1",
+"section_title": "Respiratory Organs",
+"text": "Oxygen (O2) is utilised by organisms to indirectly break down simple molecules like glucose, amino acids, and fatty acids to derive energy to perform various activities. Carbon dioxide (CO2), which is harmful, is also released during these catabolic reactions. It is, therefore, evident that O2 has to be continuously provided to the cells and CO2 produced by the cells has to be released out. This process of exchange of O2 from the atmosphere with CO2 produced by the cells is called breathing, commonly known as respiration. Mechanisms of breathing vary among different groups of animals depending mainly on their habitats and levels of organisation. Lower invertebrates like sponges, coelenterates, and flatworms exchange O2 with CO2 by simple diffusion over their entire body surface. Earthworms use their moist cuticle and insects have a network of tracheal tubes to transport atmospheric air within the body. Special vascularised structures called gills are used by most of the aquatic arthropods and molluscs, whereas vascularised bags called lungs are used by the terrestrial forms for the exchange of gases. Among vertebrates, fishes use gills whereas amphibians, reptiles, birds and mammals respire through lungs. Amphibians like frogs can respire through their moist skin via cutaneous respiration also."
+},
+{
+"id": "bio_ch14_14.1.1_0001",
+"subject": "Biology",
+"chapter": "Breathing and Exchange of Gases",
+"chapter_number": "14",
+"section": "14.1.1",
+"section_title": "Human Respiratory System",
+"text": "The human respiratory system begins with a pair of external nostrils opening out above the upper lips, leading to a nasal chamber through the nasal passage. The nasal chamber opens into the pharynx, which is the common passage for food and air. The pharynx opens through the larynx region into the trachea. The larynx is a cartilaginous box which helps in sound production and is hence called the sound box. During swallowing, the glottis can be covered by a thin elastic cartilaginous flap called the epiglottis to prevent the entry of food into the larynx. The trachea is a straight tube extending up to the mid-thoracic cavity, which divides at the level of the 5th thoracic vertebra into right and left primary bronchi. Each bronchi undergoes repeated divisions to form the secondary and tertiary bronchi and bronchioles, ending up in very thin terminal bronchioles. The tracheae, primary, secondary and tertiary bronchi, and initial bronchioles are supported by incomplete cartilaginous rings. Each terminal bronchiole gives rise to a number of very thin, irregular-walled and vascularised bag-like structures called alveoli. The branching network of bronchi, bronchioles and alveoli comprise the lungs, which are situated in the thoracic chamber and covered by a double layered pleura with pleural fluid reducing friction."
+},
+{
+"id": "bio_ch14_14.2_0002",
+"subject": "Biology",
+"chapter": "Breathing and Exchange of Gases",
+"chapter_number": "14",
+"section": "14.2",
+"section_title": "Mechanism of Breathing",
+"text": "Breathing involves two stages: inspiration, during which atmospheric air is drawn in, and expiration, by which the alveolar air is released out. The movement of air into and out of the lungs is carried out by creating a pressure gradient between the lungs and the atmosphere. Inspiration can occur if the pressure within the lungs (intra-pulmonary pressure) is less than the atmospheric pressure, i.e., there is a negative pressure in the lungs with respect to atmospheric pressure. Similarly, expiration takes place when the intra-pulmonary pressure is higher than the atmospheric pressure. The diaphragm and a specialised set of muscles—external and internal intercostals between the ribs—help in the generation of such gradients. Inspiration is initiated by the contraction of the diaphragm which increases the volume of the thoracic chamber in the antero-posterior axis. The contraction of external inter-costal muscles lifts up the ribs and the sternum causing an increase in the volume of the thoracic chamber in the dorso-ventral axis. The overall increase in the thoracic volume causes a similar increase in pulmonary volume, decreasing intra-pulmonary pressure and forcing air from outside into the lungs. Relaxation of the diaphragm and the inter-costal muscles returns the diaphragm and sternum to their normal positions, reducing thoracic volume and expelling air."
+},
+{
+"id": "bio_ch14_14.2.1_0003",
+"subject": "Biology",
+"chapter": "Breathing and Exchange of Gases",
+"chapter_number": "14",
+"section": "14.2.1",
+"section_title": "Respiratory Volumes and Capacities",
+"text": "Tidal Volume (TV) is the volume of air inspired or expired during a normal respiration, approximately 500 mL. Inspiratory Reserve Volume (IRV) is the additional volume of air a person can inspire by a forcible inspiration, averaging 2500 mL to 3000 mL. Expiratory Reserve Volume (ERV) is the additional volume of air a person can expire by a forcible expiration, averaging 1000 mL to 1100 mL. Residual Volume (RV) is the volume of air remaining in the lungs even after a forcible expiration, averaging 1100 mL to 1200 mL. By adding these respiratory volumes, one can derive pulmonary capacities for clinical diagnosis. Inspiratory Capacity (IC) is the total volume of air a person can inspire after a normal expiration (TV+IRV). Expiratory Capacity (EC) is the total volume of air a person can expire after a normal inspiration (TV+ERV). Functional Residual Capacity (FRC) is the volume of air that will remain in the lungs after a normal expiration (ERV+RV). Vital Capacity (VC) is the maximum volume of air a person can breathe in after a forced expiration (ERV, TV and IRV). Total Lung Capacity (TLC) is the total volume of air accommodated in the lungs at the end of a forced inspiration, including RV, ERV, TV and IRV."
+},
+{
+"id": "bio_ch14_14.3_0004",
+"subject": "Biology",
+"chapter": "Breathing and Exchange of Gases",
+"chapter_number": "14",
+"section": "14.3",
+"section_title": "Exchange of Gases",
+"text": "Alveoli are the primary sites of gas exchange, which also occur between blood and tissues. O2 and CO2 are exchanged in these sites by simple diffusion mainly based on pressure or concentration gradients. Solubility of the gases as well as the thickness of the membranes involved in diffusion are also important factors affecting the rate of diffusion. Pressure contributed by an individual gas in a mixture of gases is called partial pressure, represented as pO2 for oxygen and pCO2 for carbon dioxide. Gradients for oxygen exist from alveoli to blood and blood to tissues, while a gradient for CO2 is present in the opposite direction from tissues to blood and blood to alveoli. As the solubility of CO2 is 20-25 times higher than that of O2, the amount of CO2 that can diffuse through the diffusion membrane per unit difference in partial pressure is much higher. The diffusion membrane is made up of three major layers: the thin squamous epithelium of alveoli, the endothelium of alveolar capillaries, and the basement substance composed of a thin basement membrane supporting the epithelium and the basement membrane surrounding the endothelial cells. However, its total thickness is much less than a millimetre, making all factors in our body favourable for the diffusion of O2 from alveoli to tissues and CO2 from tissues to alveoli."
+},
+{
+"id": "bio_ch14_14.4_0005",
+"subject": "Biology",
+"chapter": "Breathing and Exchange of Gases",
+"chapter_number": "14",
+"section": "14.4",
+"section_title": "Transport of Gases and Oxygen",
+"text": "Blood is the medium of transport for O2 and CO2. About 97 per cent of O2 is transported by RBCs in the blood, while the remaining 3 per cent is carried in a dissolved state through the plasma. Oxygen can bind with haemoglobin in a reversible manner to form oxyhaemoglobin. Each haemoglobin molecule can carry a maximum of four molecules of O2. Binding of oxygen with haemoglobin is primarily related to the partial pressure of O2. Partial pressure of CO2, hydrogen ion concentration, and temperature are other factors that can interfere with this binding. A sigmoid curve is obtained when percentage saturation of haemoglobin with O2 is plotted against the pO2, known as the Oxygen dissociation curve. In the alveoli, where there is high pO2, low pCO2, lesser H+ concentration and lower temperature, the factors are all favourable for the formation of oxyhaemoglobin. In the tissues, where low pO2, high pCO2, high H+ concentration and higher temperature exist, the conditions are favourable for dissociation of oxygen from the oxyhaemoglobin. This indicates that O2 binds to haemoglobin at the lung surface and dissociates at the tissues. Every 100 ml of oxygenated blood can deliver around 5 ml of O2 to the tissues under normal physiological conditions."
+},
+{
+"id": "bio_ch14_14.4.2_0006",
+"subject": "Biology",
+"chapter": "Breathing and Exchange of Gases",
+"chapter_number": "14",
+"section": "14.4.2",
+"section_title": "Transport of Carbon dioxide",
+"text": "Nearly 20-25 per cent of CO2 is transported by RBCs whereas 70 per cent of it is carried as bicarbonate, and about 7 per cent is carried in a dissolved state through plasma. CO2 is carried by haemoglobin as carbamino-haemoglobin. When pCO2 is high and pO2 is low in the tissues, more binding of carbon dioxide occurs. RBCs contain a very high concentration of the enzyme carbonic anhydrase, which facilitates the reversible reaction where CO2 and H2O form carbonic acid, which then dissociates into bicarbonate and hydrogen ions. At the tissue site where the partial pressure of CO2 is high due to catabolism, CO2 diffuses into blood and forms HCO3- and H+. At the alveolar site where pCO2 is low, the reaction proceeds in the opposite direction leading to the formation of CO2 and H2O. Thus, CO2 trapped as bicarbonate at the tissue level and transported to the alveoli is released out as CO2. Every 100 ml of deoxygenated blood delivers approximately 4 ml of CO2 to the alveoli. This process ensures the efficient removal of respiratory byproducts from the body while maintaining cellular homeostasis."
+},
+{
+"id": "bio_ch14_14.5_0007",
+"subject": "Biology",
+"chapter": "Breathing and Exchange of Gases",
+"chapter_number": "14",
+"section": "14.5",
+"section_title": "Regulation of Respiration and Disorders",
+"text": "Human beings have a significant ability to maintain and moderate the respiratory rhythm through the neural system. A specialised respiratory rhythm centre in the medulla region of the brain is primarily responsible for this regulation. Another centre in the pons, called the pneumotaxic centre, can moderate the functions of the rhythm centre by reducing the duration of inspiration and altering the respiratory rate. A chemosensitive area adjacent to the rhythm centre is highly sensitive to CO2 and hydrogen ions; an increase in these substances activates this centre, which then signals the rhythm centre to make necessary adjustments to eliminate them. Receptors in the aortic arch and carotid artery also recognise changes in CO2 and H+ concentration and send signals to the rhythm centre. Respiratory disorders include asthma, a difficulty in breathing causing wheezing due to inflammation of bronchi and bronchioles. Emphysema is a chronic disorder where alveolar walls are damaged, decreasing the respiratory surface, often caused by cigarette smoking. Occupational respiratory disorders occur in industries involving grinding or stone-breaking, where long exposure to dust causes lung inflammation and fibrosis, leading to serious lung damage."
+}
+]
