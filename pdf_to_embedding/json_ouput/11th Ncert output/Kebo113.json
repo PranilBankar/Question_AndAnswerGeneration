@@ -1,0 +1,102 @@
+
+[
+{
+"id": "bio_ch13_13.0_0000",
+"subject": "Biology",
+"chapter": "Plant Growth and Development",
+"chapter_number": "13",
+"section": "13.0",
+"section_title": "Introduction to Plant Development",
+"text": "The structures of a flowering plant, such as roots, stems, leaves, flowers, fruits, and seeds, arise in an orderly sequence. Trees continue to increase in height or girth over time, while leaves, flowers, and fruits have limited dimensions and appear and fall periodically. All cells of a plant are descendants of the zygote, yet they develop different structural and functional attributes. Development is the sum of two processes: growth and differentiation. The development of a mature plant from a zygote follows a precise and highly ordered succession of events, resulting in a complex body organisation. The first step in plant growth is seed germination, which occurs when favourable environmental conditions exist. In the absence of such conditions, seeds enter a period of suspended growth or rest. Once favourable conditions return, metabolic activities resume and growth takes place. Developmental processes are governed by both intrinsic (internal) and extrinsic (external) factors."
+},
+{
+"id": "bio_ch13_13.1_0001",
+"subject": "Biology",
+"chapter": "Plant Growth and Development",
+"chapter_number": "13",
+"section": "13.1",
+"section_title": "Characteristics of Plant Growth",
+"text": "Growth is regarded as one of the most fundamental and conspicuous characteristics of a living being. It is defined as an irreversible permanent increase in size of an organ, its parts, or even an individual cell. Growth is generally accompanied by metabolic processes, both anabolic and catabolic, occurring at the expense of energy. Plant growth is unique because plants retain the capacity for unlimited growth throughout their life due to the presence of meristems at specific locations. These meristematic cells have the capacity to divide and self-perpetuate. While some products of division lose the capacity to divide and make up the plant body, the meristem continues to add new cells, a phenomenon called the open form of growth. Root apical meristems and shoot apical meristems are responsible for primary growth, contributing to the elongation of the plant along its axis. In dicotyledonous plants and gymnosperms, lateral meristems like vascular cambium and cork-cambium appear later and increase the girth of organs, known as secondary growth."
+},
+{
+"id": "bio_ch13_13.1.2_0002",
+"subject": "Biology",
+"chapter": "Plant Growth and Development",
+"chapter_number": "13",
+"section": "13.1.2",
+"section_title": "Measurability and Phases of Growth",
+"text": "At a cellular level, growth is principally a consequence of an increase in the amount of protoplasm. Since this is difficult to measure directly, growth is measured using proportional parameters such as increase in fresh weight, dry weight, length, area, volume, and cell number. For instance, a single maize root apical meristem can produce more than 17,500 new cells per hour, while cells in a watermelon can increase in size by up to 350,000 times. The growth period is divided into three phases: meristematic, elongation, and maturation. The meristematic phase occurs at the root and shoot apex, where cells are rich in protoplasm, have large nuclei, and thin primary cellulosic walls with abundant plasmodesmatal connections. In the elongation phase, cells undergo increased vacuolation, enlargement, and new cell wall deposition. Finally, in the maturation phase, cells attain their maximal size with significant wall thickening and protoplasmic modifications, forming the various tissues of the plant."
+},
+{
+"id": "bio_ch13_13.1.4_0003",
+"subject": "Biology",
+"chapter": "Plant Growth and Development",
+"chapter_number": "13",
+"section": "13.1.4",
+"section_title": "Growth Rates and the Sigmoid Curve",
+"text": "Growth rate is defined as the increased growth per unit time and can be expressed mathematically as arithmetic or geometric growth. In arithmetic growth, following mitotic cell division, only one daughter cell continues to divide while the other differentiates and matures. This is seen in root elongation at a constant rate, resulting in a linear curve expressed as Lt = L0 + rt. In geometric growth, typical of most systems, initial growth is slow (lag phase) followed by a rapid increase at an exponential rate (log phase) because both progeny cells retain the ability to divide. With limited nutrient supply, growth eventually slows down, leading to a stationary phase. Plotting growth against time yields a sigmoid or S-curve, characteristic of living organisms in natural environments. Exponential growth is expressed as W1 = W0e^rt, where 'r' is the relative growth rate or efficiency index, reflecting the plant's ability to produce new material. Absolute growth rate compares total growth per unit time, while relative growth rate expresses growth per unit initial parameter."
+},
+{
+"id": "bio_ch13_13.1.5_0004",
+"subject": "Biology",
+"chapter": "Plant Growth and Development",
+"chapter_number": "13",
+"section": "13.1.5",
+"section_title": "Conditions for Growth",
+"text": "Several factors are necessary for plant growth, including water, oxygen, and nutrients. Water is essential for cell enlargement, and cell turgidity facilitates extension growth. It also provides the medium for necessary enzymatic activities. Oxygen is required for the release of metabolic energy needed for growth activities. Nutrients, both macro and micro essential elements, serve as the source of energy and the building blocks for the synthesis of protoplasm. Additionally, every plant has an optimum temperature range best suited for its growth, and deviations from this range can be detrimental to survival. Environmental signals such as light and gravity also influence specific phases and stages of plant growth. These external factors interact with the plant's genetic predisposition and internal chemical regulators to determine the final rate and pattern of development."
+},
+{
+"id": "bio_ch13_13.2_0005",
+"subject": "Biology",
+"chapter": "Plant Growth and Development",
+"chapter_number": "13",
+"section": "13.2",
+"section_title": "Differentiation, Dedifferentiation and Redifferentiation",
+"text": "Differentiation is the process by which cells derived from meristems mature to perform specific functions. During this act, cells undergo structural changes in their cell walls and protoplasm. For example, tracheary elements lose their protoplasm and develop strong, elastic, lignocellulosic secondary cell walls to conduct water under high tension. Differentiated cells can sometimes regain the capacity to divide under certain conditions, a phenomenon called dedifferentiation. Examples include the formation of interfascicular cambium and cork cambium from fully differentiated parenchyma cells. These dedifferentiated meristems produce cells that eventually lose their division capacity and mature again to perform specific functions, a process known as redifferentiation. Because cells arising from the same meristem can have different structures at maturity depending on their location, differentiation in plants is considered open. For instance, cells positioned away from the root apical meristem differentiate into root-cap cells, while those pushed to the periphery mature into the epidermis."
+},
+{
+"id": "bio_ch13_13.3_0006",
+"subject": "Biology",
+"chapter": "Plant Growth and Development",
+"chapter_number": "13",
+"section": "13.3",
+"section_title": "Development and Plasticity",
+"text": "Development encompasses all changes an organism undergoes during its life cycle, from seed germination to senescence. Plants follow different pathways in response to the environment or phases of life to form different structures, a property known as plasticity. A common example is heterophylly, where the leaves of juvenile plants differ in shape from those of mature plants, as seen in cotton, coriander, and larkspur. In other cases, environmental factors trigger structural differences, such as in buttercup, where leaves produced in air differ significantly from those produced in water. Growth, differentiation, and development are closely related events. Broadly, development is the sum of growth and differentiation. These processes are controlled by intrinsic factors, which include genetic factors and intercellular chemicals called plant growth regulators (PGRs), as well as extrinsic factors like light, temperature, water, oxygen, and nutrition."
+},
+{
+"id": "bio_ch13_13.4_0007",
+"subject": "Biology",
+"chapter": "Plant Growth and Development",
+"chapter_number": "13",
+"section": "13.4",
+"section_title": "Plant Growth Regulators (PGRs)",
+"text": "Plant growth regulators (PGRs) are small, simple molecules of diverse chemical composition, including indole compounds (IAA), adenine derivatives (kinetin), carotenoid derivatives (abscisic acid), terpenes (gibberellic acid), and gases (ethylene). They are also known as plant growth substances, plant hormones, or phytohormones. PGRs are broadly divided into two groups based on their functions. One group consists of plant growth promoters involved in cell division, enlargement, pattern formation, tropic growth, flowering, and seed formation (e.g., auxins, gibberellins, and cytokinins). The second group is involved in responses to wounds and stresses of biotic and abiotic origin, typically performing growth-inhibiting activities like dormancy and abscission (e.g., abscisic acid). Ethylene is a gaseous PGR that can fit into either group but is largely an inhibitor. The discovery of each major PGR group was often accidental, starting with Charles Darwin's observations on phototropism in canary grass coleoptiles."
+},
+{
+"id": "bio_ch13_13.4.3_0008",
+"subject": "Biology",
+"chapter": "Plant Growth and Development",
+"chapter_number": "13",
+"section": "13.4.3",
+"section_title": "Physiological Effects of Auxins and Gibberellins",
+"text": "Auxins, such as indole-3-acetic acid (IAA) and indole butyric acid (IBA), are produced by growing apices of stems and roots and migrate to their regions of action. Synthetic auxins like NAA and 2, 4-D are used in agriculture to initiate rooting in cuttings, promote flowering in pineapples, and prevent early fruit and leaf drop. Auxins induce apical dominance, where the apical bud inhibits the growth of lateral buds; removing the shoot tip (decapitation) allows lateral buds to grow. They also induce parthenocarpy and serve as herbicides. Gibberellins (GAs) are acidic regulators with over 100 reported types, GA3 being the most studied. They cause a wide range of physiological responses, including increasing the length of axis (grapes), elongating and improving the shape of fruits (apples), and delaying senescence. GA3 is used to speed up the malting process in brewing. Spraying sugarcane with gibberellins increases stem length and yield, while in rosette plants like beet and cabbage, they promote bolting (internode elongation prior to flowering)."
+},
+{
+"id": "bio_ch13_13.4.3.3_0009",
+"subject": "Biology",
+"chapter": "Plant Growth and Development",
+"chapter_number": "13",
+"section": "13.4.3.3",
+"section_title": "Physiological Effects of Cytokinins and Ethylene",
+"text": "Cytokinins have specific effects on cytokinesis and were first discovered as kinetin from herring sperm DNA. Natural cytokinins, like zeatin isolated from corn kernels and coconut milk, are synthesised in regions of rapid cell division such as root apices and developing shoot buds. They help produce new leaves, chloroplasts, and lateral shoots, and help overcome apical dominance. Cytokinins also promote nutrient mobilisation, which delays leaf senescence. Ethylene is a gaseous PGR synthesised in large amounts by tissues undergoing senescence and ripening fruits. It influences horizontal growth, axis swelling, and apical hook formation in seedlings. Ethylene is highly effective in fruit ripening, enhancing the respiration rate in a process called respiratory climactic. It breaks seed and bud dormancy, initiates germination in peanuts, and triggers sprouting in potato tubers. In deep water rice, ethylene promotes rapid internode elongation, helping leaves stay above water. It is used in agriculture via ethephon to hasten fruit ripening in tomatoes and apples and accelerate abscission in various crops."
+},
+{
+"id": "bio_ch13_13.4.3.5_0010",
+"subject": "Biology",
+"chapter": "Plant Growth and Development",
+"chapter_number": "13",
+"section": "13.4.3.5",
+"section_title": "Abscisic Acid and Integrative Control",
+"text": "Abscisic acid (ABA) acts as a general plant growth inhibitor and an inhibitor of metabolism, playing a critical role in regulating abscission and dormancy. It inhibits seed germination and stimulates the closure of stomata, increasing the plant's tolerance to various stresses; thus, it is often called the stress hormone. ABA is vital for seed development, maturation, and dormancy, helping seeds withstand desiccation. In many situations, ABA acts as an antagonist to gibberellins. Plant growth and development are controlled by the interaction of these various PGRs, which may act complimentarily or antagonistically. PGRs represent intrinsic control, but they work alongside genomic control and extrinsic factors like light and temperature. Events such as vernalisation, flowering, dormancy, seed germination, and plant movements are the result of these complex interactions. For any phase of growth, one or more PGRs have a role to play, whether individualistic or synergistic, ensuring the plant adapts to its environment throughout its life cycle."
+}
+]

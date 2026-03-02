@@ -1,0 +1,128 @@
+[
+{
+"id": "bio_ch11_11.1_0000",
+"subject": "Biology",
+"chapter": "Photosynthesis in Higher Plants",
+"chapter_number": "11",
+"section": "11.1",
+"section_title": "What do we Know?",
+"text": "All animals including human beings depend on plants for their food. Green plants synthesise the food they need through photosynthesis and are therefore called autotrophs. All other organisms that depend on green plants for food are heterotrophs. Green plants carry out photosynthesis, a physico-chemical process by which they use light energy to drive the synthesis of organic compounds. Ultimately, all living forms on earth depend on sunlight for energy. The use of energy from sunlight by plants doing photosynthesis is the basis of life on earth. Photosynthesis is important because it is the primary source of all food on earth and is responsible for the release of oxygen into the atmosphere by green plants. Simple experiments have shown that chlorophyll (green pigment of the leaf), light and carbon dioxide are required for photosynthesis to occur. Experiments looking for starch formation in variegated leaves or leaves partially covered with black paper demonstrate that photosynthesis occurs only in the green parts of the leaves in the presence of light."
+},
+{
+"id": "bio_ch11_11.2_0001",
+"subject": "Biology",
+"chapter": "Photosynthesis in Higher Plants",
+"chapter_number": "11",
+"section": "11.2",
+"section_title": "Early Experiments",
+"text": "Joseph Priestley (1733-1804) in 1770 performed a series of experiments that revealed the essential role of air in the growth of green plants. Priestley discovered oxygen in 1774. He observed that a candle burning in a closed bell jar soon gets extinguished, and a mouse would soon suffocate. He concluded that both damage the air. However, when he placed a mint plant in the same bell jar, he found that the mouse stayed alive and the candle continued to burn. Priestley hypothesised that plants restore to the air whatever breathing animals and burning candles remove. Jan Ingenhousz (1730-1799) later showed that sunlight is essential for the plant process that purifies the air. In an experiment with an aquatic plant, he showed that in bright sunlight, small bubbles were formed around the green parts while in the dark they did not. He identified these bubbles as oxygen, proving that only the green part of the plants could release oxygen."
+},
+{
+"id": "bio_ch11_11.2_0002",
+"subject": "Biology",
+"chapter": "Photosynthesis in Higher Plants",
+"chapter_number": "11",
+"section": "11.2",
+"section_title": "Historical Development of Photosynthetic Equations",
+"text": "It was not until about 1854 that Julius von Sachs provided evidence for the production of glucose when plants grow. Glucose is usually stored as starch. His studies showed that the green substance in plants, chlorophyll, is located in special bodies later called chloroplasts within plant cells. He found that the green parts in plants are where glucose is made. T.W. Engelmann (1843–1909), using a prism to split light, illuminated a green alga, Cladophora, in a suspension of aerobic bacteria. The bacteria accumulated mainly in the region of blue and red light, describing the first action spectrum of photosynthesis. By the middle of the nineteenth century, the empirical equation for photosynthesis was understood as carbon dioxide and water producing carbohydrates and oxygen in the presence of light. Cornelius van Niel (1897-1985) later demonstrated that photosynthesis is essentially a light-dependent reaction in which hydrogen from a suitable oxidisable compound reduces carbon dioxide to carbohydrates. In green plants, water is the hydrogen donor and is oxidised to oxygen. This proved that the oxygen evolved by green plants comes from water, not from carbon dioxide."
+},
+{
+"id": "bio_ch11_11.3_0003",
+"subject": "Biology",
+"chapter": "Photosynthesis in Higher Plants",
+"chapter_number": "11",
+"section": "11.3",
+"section_title": "Where does Photosynthesis take place?",
+"text": "Photosynthesis takes place in the green leaves of plants and also in other green parts. Mesophyll cells in the leaves have a large number of chloroplasts. Usually, the chloroplasts align themselves along the walls of the mesophyll cells to get the optimum quantity of incident light. Within the chloroplast, there is a membranous system consisting of grana, stroma lamellae, and the matrix stroma. There is a clear division of labour within the chloroplast. The membrane system is responsible for trapping light energy and for the synthesis of ATP and NADPH. These are called light reactions or photochemical reactions. In the stroma, enzymatic reactions synthesise sugar, which in turn forms starch. These are not directly light-driven but are dependent on the products of light reactions (ATP and NADPH) and are conventionally called dark reactions or carbon reactions. This does not mean they occur in darkness; they are simply not directly dependent on light."
+},
+{
+"id": "bio_ch11_11.4_0004",
+"subject": "Biology",
+"chapter": "Photosynthesis in Higher Plants",
+"chapter_number": "11",
+"section": "11.4",
+"section_title": "How many Types of Pigments are involved in Photosynthesis?",
+"text": "The colour we see in leaves is due to four pigments: Chlorophyll a (bright or blue-green), chlorophyll b (yellow-green), xanthophylls (yellow), and carotenoids (yellow to yellow-orange). Pigments are substances that have the ability to absorb light at specific wavelengths. Chlorophyll a is the chief pigment associated with photosynthesis. The absorption spectrum shows that chlorophyll a absorbs maximum light in the blue and red regions, which also shows higher rates of photosynthesis in the action spectrum. Though chlorophyll a is the major pigment responsible for trapping light, other thylakoid pigments like chlorophyll b, xanthophylls, and carotenoids act as accessory pigments. They absorb light and transfer the energy to chlorophyll a. This enables a wider range of wavelengths of incoming light to be utilised for photosynthesis and also protects chlorophyll a from photo-oxidation. Most photosynthesis takes place in the blue and red regions of the spectrum, though some occurs at other wavelengths."
+},
+{
+"id": "bio_ch11_11.5_0005",
+"subject": "Biology",
+"chapter": "Photosynthesis in Higher Plants",
+"chapter_number": "11",
+"section": "11.5",
+"section_title": "What is Light Reaction?",
+"text": "Light reactions, or the photochemical phase, include light absorption, water splitting, oxygen release, and the formation of high-energy chemical intermediates, ATP and NADPH. Several protein complexes are involved in the process. The pigments are organised into two discrete photochemical light-harvesting complexes (LHC) within Photosystem I (PS I) and Photosystem II (PS II). These are named in the sequence of their discovery. The LHC are made up of hundreds of pigment molecules bound to proteins. Each photosystem has all the pigments forming a light-harvesting system, also called antennae, except for one molecule of chlorophyll a. This single chlorophyll a molecule forms the reaction centre. The reaction centre is different in both photosystems. In PS I, the reaction centre chlorophyll a has an absorption peak at 700 nm (P700), while in PS II it has an absorption maxima at 680 nm (P680)."
+},
+{
+"id": "bio_ch11_11.6_0006",
+"subject": "Biology",
+"chapter": "Photosynthesis in Higher Plants",
+"chapter_number": "11",
+"section": "11.6",
+"section_title": "The Electron Transport",
+"text": "In photosystem II, the reaction centre chlorophyll a absorbs 680 nm wavelength of red light, causing electrons to become excited and jump into an orbit farther from the atomic nucleus. These electrons are picked up by an electron acceptor which passes them to an electron transport system consisting of cytochromes. This movement of electrons is downhill in terms of an oxidation-reduction or redox potential scale. The electrons are passed on to the pigments of photosystem PS I. Simultaneously, electrons in the reaction centre of PS I are also excited by red light of 700 nm and are transferred to another acceptor molecule with a greater redox potential. These electrons are then moved downhill again to a molecule of energy-rich NADP+. The addition of these electrons reduces NADP+ to NADPH + H+. This whole scheme of transfer of electrons, starting from PS II, uphill to the acceptor, down the electron transport chain to PS I, excitation of electrons, transfer to another acceptor, and finally downhill to NADP+, is called the Z scheme."
+},
+{
+"id": "bio_ch11_11.6.1_0007",
+"subject": "Biology",
+"chapter": "Photosynthesis in Higher Plants",
+"chapter_number": "11",
+"section": "11.6.1",
+"section_title": "Splitting of Water and Photophosphorylation",
+"text": "The electrons moved from photosystem II must be replaced, which is achieved by the splitting of water. This process is associated with PS II; water is split into protons, oxygen, and electrons. This creates oxygen, one of the net products of photosynthesis. The electrons needed to replace those removed from photosystem I are provided by photosystem II. ATP is synthesised by cells in mitochondria and chloroplasts through phosphorylation. Photophosphorylation is the synthesis of ATP from ADP and inorganic phosphate in the presence of light. When the two photosystems work in a series, first PS II and then PS I, non-cyclic photophosphorylation occurs. When only PS I is functional, the electron is circulated within the photosystem and phosphorylation occurs due to cyclic flow of electrons. This typically happens in the stroma lamellae, which lack PS II and NADP reductase enzyme. Cyclic flow results only in the synthesis of ATP, not NADPH + H+."
+},
+{
+"id": "bio_ch11_11.6.3_0008",
+"subject": "Biology",
+"chapter": "Photosynthesis in Higher Plants",
+"chapter_number": "11",
+"section": "11.6.3",
+"section_title": "Chemiosmotic Hypothesis",
+"text": "The chemiosmotic hypothesis explains the mechanism of ATP synthesis in the chloroplast. ATP synthesis is linked to the development of a proton gradient across the thylakoid membranes. Protons accumulate towards the inside of the membrane, in the lumen. The gradient develops because splitting of water occurs on the inner side of the membrane, producing protons in the lumen. Additionally, as electrons move through the photosystems, the primary acceptor transfers electrons to an H carrier, which removes a proton from the stroma and releases it into the lumen. The NADP reductase enzyme on the stroma side also removes protons for the reduction of NADP+ to NADPH. This creates a high concentration of protons in the lumen and a decrease in the stroma, resulting in a proton gradient and a decrease in pH in the lumen. The breakdown of this gradient through the transmembrane channel of the ATPase enzyme provides energy to synthesise ATP. The ATPase consists of CF0, embedded in the membrane, and CF1, which protrudes on the stroma side."
+},
+{
+"id": "bio_ch11_11.7_0009",
+"subject": "Biology",
+"chapter": "Photosynthesis in Higher Plants",
+"chapter_number": "11",
+"section": "11.7",
+"section_title": "Where are the ATP and NADPH Used?",
+"text": "The products of the light reaction are ATP, NADPH, and oxygen. Oxygen diffuses out of the chloroplast, while ATP and NADPH are used to drive the processes leading to the synthesis of food, specifically sugars. This is the biosynthetic phase of photosynthesis, also known as the dark reaction. It does not directly depend on light but requires the products of the light reaction along with carbon dioxide and water. The first product of carbon dioxide fixation was discovered by Melvin Calvin using radioactive carbon-14 in algal photosynthesis studies. He found that the first stable product was a 3-carbon organic acid, 3-phosphoglyceric acid (PGA). This pathway is called the Calvin cycle. In other plants, the first stable product of carbon dioxide fixation is a 4-carbon organic acid identified as oxaloacetic acid (OAA), leading to the definition of two main types of carbon assimilation pathways: the C3 pathway and the C4 pathway."
+},
+{
+"id": "bio_ch11_11.7.2_0010",
+"subject": "Biology",
+"chapter": "Photosynthesis in Higher Plants",
+"chapter_number": "11",
+"section": "11.7.2",
+"section_title": "The Calvin Cycle",
+"text": "The Calvin pathway occurs in all photosynthetic plants, whether they have C3 or C4 pathways. It can be described under three stages: carboxylation, reduction, and regeneration. Carboxylation is the fixation of carbon dioxide into a stable organic intermediate where carbon dioxide is utilised for the carboxylation of ribulose-1,5-bisphosphate (RuBP). This reaction is catalysed by the enzyme RuBisCO, resulting in two molecules of 3-PGA. Reduction involves a series of reactions leading to the formation of glucose, utilizing two molecules of ATP for phosphorylation and two of NADPH for reduction per carbon dioxide molecule fixed. Six turns of the cycle are required to form one molecule of glucose. Regeneration of the carbon dioxide acceptor molecule RuBP is crucial for the cycle to continue and requires one ATP for phosphorylation. For every carbon dioxide molecule entering the Calvin cycle, three molecules of ATP and two of NADPH are required."
+},
+{
+"id": "bio_ch11_11.8_0011",
+"subject": "Biology",
+"chapter": "Photosynthesis in Higher Plants",
+"chapter_number": "11",
+"section": "11.8",
+"section_title": "The C4 Pathway",
+"text": "Plants adapted to dry tropical regions use the C4 pathway. While oxaloacetic acid is the first carbon dioxide fixation product, they still use the Calvin cycle as the main biosynthetic pathway. C4 plants have a special leaf anatomy called 'Kranz' anatomy, where large cells called bundle sheath cells form several layers around the vascular bundles. These cells have many chloroplasts, thick walls impervious to gas exchange, and no intercellular spaces. The primary carbon dioxide acceptor is phosphoenolpyruvate (PEP), located in the mesophyll cells. The fixation is catalysed by PEP carboxylase (PEPcase). Mesophyll cells lack the RuBisCO enzyme. OAA is formed in the mesophyll and converted to other 4-carbon compounds like malic acid or aspartic acid, which are transported to the bundle sheath cells. In the bundle sheath, these acids are broken down to release carbon dioxide and a 3-carbon molecule. The carbon dioxide then enters the Calvin pathway. C4 plants lack photorespiration and show greater productivity of biomass."
+},
+{
+"id": "bio_ch11_11.9_0012",
+"subject": "Biology",
+"chapter": "Photosynthesis in Higher Plants",
+"chapter_number": "11",
+"section": "11.9",
+"section_title": "Photorespiration",
+"text": "Photorespiration is a process that creates a significant difference between C3 and C4 plants. RuBisCO is the most abundant enzyme and its active site can bind to both carbon dioxide and oxygen. In C3 plants, some oxygen binds to RuBisCO, decreasing carbon dioxide fixation. Instead of forming two molecules of PGA, RuBP binds with oxygen to form one molecule of phosphoglycerate and one of phosphoglycolate in the photorespiratory pathway. This pathway involves neither the synthesis of sugars nor of ATP; instead, it results in the release of carbon dioxide with the utilisation of ATP. In C4 plants, photorespiration does not occur because they have a mechanism to increase the concentration of carbon dioxide at the enzyme site. When the C4 acid is broken down in the bundle sheath cells, it releases carbon dioxide, ensuring that RuBisCO functions as a carboxylase and minimising oxygenase activity. This is why productivity and yields are better in C4 plants."
+},
+{
+"id": "bio_ch11_11.10_0013",
+"subject": "Biology",
+"chapter": "Photosynthesis in Higher Plants",
+"chapter_number": "11",
+"section": "11.10",
+"section_title": "Factors affecting Photosynthesis",
+"text": "The rate of photosynthesis is determined by several internal and external factors. Internal factors include the number, size, age, and orientation of leaves, mesophyll cells, chloroplasts, internal carbon dioxide concentration, and chlorophyll content. External factors include the availability of sunlight, temperature, carbon dioxide concentration, and water. According to Blackman’s Law of Limiting Factors (1905), if a chemical process is affected by more than one factor, its rate is determined by the factor nearest to its minimal value. For light, there is a linear relationship between incident light and carbon dioxide fixation at low intensities, but the rate plateaus at higher intensities as other factors become limiting. Light saturation occurs at 10 percent of full sunlight. Carbon dioxide is the major limiting factor, with concentrations in the atmosphere being very low. C4 plants show saturation at lower concentrations than C3 plants. Temperature affects the enzymatic dark reactions more than light reactions. Water stress indirectly affects the rate by causing stomatal closure and leaf wilting."
+}
+]
