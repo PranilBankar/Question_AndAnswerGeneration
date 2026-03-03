@@ -116,8 +116,45 @@ def run_pipeline(
 
 
 if __name__ == "__main__":
-    import json
-    q = "What is the role of mitochondria in cellular respiration?"
-    result = run_pipeline(q)
-    print("\n" + "="*60)
-    print(json.dumps(result, indent=2))
+    import json, sys
+
+    # ── Chapters currently in your Supabase DB ──────────────────────────────
+    # Kebo101 → The Living World
+    # Kebo104 → Animal Kingdom
+    # Kebo109 → Biomolecules
+    # Pick any of these test questions:
+    TEST_QUESTIONS = [
+        "What type of symmetry do echinoderms show in their adult form?",       # Animal Kingdom
+        "What is the role of cofactors in enzyme activity?",                    # Biomolecules
+        "What are primary and secondary metabolites in living organisms?",      # Biomolecules
+        "What is the difference between coelom and pseudocoelom?",              # Animal Kingdom
+        "How does carbonic anhydrase speed up chemical reactions?",             # Biomolecules
+    ]
+
+    question = TEST_QUESTIONS[0]   # ← change index (0-4) to test different questions
+    debug    = "--debug" in sys.argv  # run with: python -m rag.pipeline --debug
+
+    print(f"\n{'='*60}")
+    print(f"QUESTION: {question}")
+    print(f"{'='*60}\n")
+
+    result = run_pipeline(question)
+
+    if debug:
+        # Show full retrieved context so you can verify what the LLM saw
+        print("\n── RETRIEVED CONTEXT ──────────────────────────────────────")
+        for i, src in enumerate(result["sources"], 1):
+            print(f"\n[{i}] ({src['similarity']:.3f}) {src['chapter']} > {src['section_title']}")
+            print(f"    {src['text_content'][:300]}...")
+        print()
+
+    print("── ANSWER ─────────────────────────────────────────────────")
+    print(result["answer"])
+
+    print("\n── JUSTIFICATION ──────────────────────────────────────────")
+    for step in result["justification"]:
+        print(f"  {step}")
+
+    print(f"\n── CONFIDENCE: {result['confidence']}  |  VERIFIED: {result['verified']} ──")
+    if result.get("verifier_note"):
+        print(f"   Verifier note: {result['verifier_note']}")
