@@ -120,15 +120,13 @@ if __name__ == "__main__":
 
     # ── Chapters currently in your Supabase DB ──────────────────────────────
     # Kebo101 → The Living World
-    # Kebo104 → Animal Kingdom
     # Kebo109 → Biomolecules
-    # Pick any of these test questions:
     TEST_QUESTIONS = [
-        "What type of symmetry do echinoderms show in their adult form?",       # Animal Kingdom
         "What is the role of cofactors in enzyme activity?",                    # Biomolecules
         "What are primary and secondary metabolites in living organisms?",      # Biomolecules
-        "What is the difference between coelom and pseudocoelom?",              # Animal Kingdom
         "How does carbonic anhydrase speed up chemical reactions?",             # Biomolecules
+        "What is the difference between metabolism, anabolism and catabolism?", # Biomolecules
+        "What is binomial nomenclature and who proposed it?",                  # The Living World
     ]
 
     question = TEST_QUESTIONS[0]   # ← change index (0-4) to test different questions
