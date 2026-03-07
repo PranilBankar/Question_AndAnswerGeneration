@@ -1,0 +1,128 @@
+[
+    {
+        "id": "bio_ch12_12.0_0000",
+        "subject": "Biology",
+        "chapter": "Ecosystem",
+        "chapter_number": "12",
+        "section": "12.0",
+        "section_title": "Introduction",
+        "text": "An ecosystem can be visualised as a functional unit of nature, where living organisms interact among themselves and also with the surrounding physical environment. Ecosystem varies greatly in size from a small pond to a large forest or a sea. Many ecologists regard the entire biosphere as a global ecosystem, as a composite of all local ecosystems on Earth. Since this system is too much big and complex to be studied at one time, it is convenient to divide it into two basic categories, namely terrestrial and aquatic. Forest, grassland and desert are some examples of terrestrial ecosystems; pond, lake, wetland, river and estuary are some examples of aquatic ecosystems. Crop fields and an aquarium may also be considered as man- made ecosystems. We will first look at the structure of the ecosystem, in order to appreciate the input (productivity), transfer of energy (food chain/web, nutrient cycling) and the output (degradation and energy loss). We will also look at the relationships - cycles, chains, webs - that are created as a result of these energy flows within the system and their inter- relationship."
+    },
+    {
+        "id": "bio_ch12_12.2_0000",
+        "subject": "Biology",
+        "chapter": "Ecosystem",
+        "chapter_number": "12",
+        "section": "12.2",
+        "section_title": "Productivity",
+        "text": "A constant input of solar energy is the basic requirement for any ecosystem to function and sustain. Primary production is defined as the amount of biomass or organic matter produced per unit area over a time period by plants during photosynthesis. It is expressed in terms of weight (g m^(-2)) or energy (kcal m^(-2)). The rate of biomass production is called productivity. It is expressed in terms of g m^(-2) yr^(-1) or (kcal m^(-2)) yr^(-1) to compare the productivity of different ecosystems. It can be divided into gross primary productivity (GPP) and net primary productivity (NPP). Gross primary productivity of an ecosystem is the rate of production of organic matter during photosynthesis. A considerable amount of GPP is utilised by plants in respiration. Gross primary productivity minus respiration losses (R), is the net primary productivity (NPP). GPP - R = NPP. Net primary productivity is the available biomass for the consumption to heterotrophs (herbivores and decomposers). Secondary productivity is defined as the rate of formation of new organic matter by consumers."
+    },
+    {
+        "id": "bio_ch12_12.2_0001",
+        "subject": "Biology",
+        "chapter": "Ecosystem",
+        "chapter_number": "12",
+        "section": "12.2",
+        "section_title": "Productivity",
+        "text": "Primary productivity depends on the plant species inhabiting a particular area. It also depends on a variety of environmental factors, availability of nutrients and photosynthetic capacity of plants. Therefore, it varies in different types of ecosystems. The annual net primary productivity of the whole biosphere is approximately 170 billion tons (dry weight) of organic matter. Of this, despite occupying about 70 per cent of the surface, the productivity of the oceans are only 55 billion tons. Rest of course, is on land. Discuss the main reason for the low productivity of ocean with your teacher."
+    },
+    {
+        "id": "bio_ch12_12.3_0000",
+        "subject": "Biology",
+        "chapter": "Ecosystem",
+        "chapter_number": "12",
+        "section": "12.3",
+        "section_title": "Decomposition",
+        "text": "You may have heard of the earthworm being referred to as the farmer's friend'. This is so because they help in the breakdown of complex organic matter as well as in loosening of the soil. Similarly, decomposers break down complex organic matter into inorganic substances like carbon dioxide, water and nutrients and the process is called decomposition. Dead plant remains such as leaves, bark, flowers and dead remains of animals, including fecal matter, constitute detritus, which is the raw material for decomposition. The important steps in the process of decomposition are fragmentation, leaching, catabolism, humification and mineralisation. Detritivores (e.g., earthworm) break down detritus into smaller particles. This process is called fragmentation. By the process of leaching, water- soluble inorganic nutrients go down into the soil horizon and get precipitated as unavailable salts. Bacterial and fungal enzymes degrade detritus into simpler inorganic substances. This process is called as catabolism."
+    },
+    {
+        "id": "bio_ch12_12.3_0001",
+        "subject": "Biology",
+        "chapter": "Ecosystem",
+        "chapter_number": "12",
+        "section": "12.3",
+        "section_title": "Decomposition",
+        "text": "It is important to note that all the above steps in decomposition operate simultaneously on the detritus. Humification and mineralisation occur during decomposition in the soil. Humification leads to accumulation of a dark coloured amorphous substance called humus that is highly resistant to microbial action and undergoes decomposition at an extremely slow rate. Being colloidal in nature it serves as a reservoir of nutrients. The humus is further degraded by some microbes and release of inorganic nutrients occur by the process known as mineralisation. Decomposition is largely an oxygen- requiring process. The rate of decomposition is controlled by chemical composition of detritus and climatic factors. In a particular climatic condition, decomposition rate is slower if detritus is rich in lignin and chitin, and quicker, if detritus is rich in nitrogen and water- soluble substances like sugars. Temperature and soil moisture are the most important climatic factors that regulate decomposition through their effects on the activities of soil microbes. Warm and moist environment favour decomposition whereas low temperature and anaerobiosis inhibit decomposition resulting in build up of organic materials."
+    },
+    {
+        "id": "bio_ch12_12.4_0000",
+        "subject": "Biology",
+        "chapter": "Ecosystem",
+        "chapter_number": "12",
+        "section": "12.4",
+        "section_title": "Energy Flow",
+        "text": "Except for the deep sea hydro-thermal ecosystem, sun is the only source of energy for all ecosystems on Earth. Of the incident solar radiation less than 50 per cent of it is photosynthetically active radiation (PAR). We know that plants and photosynthetic bacteria (autotrophs), fix Sun's radiant energy to make food from simple inorganic materials. Plants capture only 2-10 per cent of the PAR and this small amount of energy sustains the entire living world. So, it is very important to know how the solar energy captured by plants flows through different organisms of an ecosystem. All organisms are dependent for their food on producers, either directly or indirectly. So you find unidirectional flow of energy from the sun to producers and then to consumers. Is this in keeping with the first law of thermodynamics? Further, ecosystems are not exempt from the Second Law of thermodynamics. They need a constant supply of energy to synthesise the molecules they require, to counteract the universal tendency toward increasing disorderliness."
+    },
+    {
+        "id": "bio_ch12_12.4_0001",
+        "subject": "Biology",
+        "chapter": "Ecosystem",
+        "chapter_number": "12",
+        "section": "12.4",
+        "section_title": "Energy Flow",
+        "text": "The green plant in the ecosystem are called producers. In a terrestrial ecosystem, major producers are herbaceous and woody plants. Likewise, producers in an aquatic ecosystem are various species like phytoplankton, algae and higher plants. You have read about the food chains and webs that exist in nature. Starting from the plants (or producers) food chains or rather webs are formed such that an animal feeds on a plant or on another animal and in turn is food for another. The chain or web is formed because of this interdependency. No energy that is trapped into an organism remains in it for ever. The energy trapped by the producer, hence, is either passed on to a consumer or the organism dies. Death of organism is the beginning of the detritus food chain/web."
+    },
+    {
+        "id": "bio_ch12_12.4_0002",
+        "subject": "Biology",
+        "chapter": "Ecosystem",
+        "chapter_number": "12",
+        "section": "12.4",
+        "section_title": "Energy Flow",
+        "text": "All animals depend on plants (directly or indirectly) for their food needs. They are hence called consumers and also heterotrophs. If they feed on the producers, the plants, they are called primary consumers, and if the animals eat other animals which in turn eat the plants (or their produce) they are called secondary consumers. Likewise, you could have tertiary consumers too. Obviously the primary consumers will be herbivores. Some common herbivores are insects, birds and mammals in terrestrial ecosystem and molluscs in aquatic ecosystem. The consumers that feed on these herbivores are carnivores, or more correctly primary carnivores (though secondary consumers). Those animals that depend on the primary carnivores for food are labelled secondary carnivores."
+    },
+    {
+        "id": "bio_ch12_12.4_0003",
+        "subject": "Biology",
+        "chapter": "Ecosystem",
+        "chapter_number": "12",
+        "section": "12.4",
+        "section_title": "Energy Flow",
+        "text": "The detritus food chain (DFC) begins with dead organic matter. It is made up of decomposers which are heterotrophic organisms, mainly fungi and bacteria. They meet their energy and nutrient requirements by degrading dead organic matter or detritus. These are also known as saprotrophs (sapro: to decompose). Decomposers secrete digestive enzymes that breakdown dead and waste materials into simple, inorganic materials, which are subsequently absorbed by them. In an aquatic ecosystem, GFC is the major conduit for energy flow. As against this, in a terrestrial ecosystem, a much larger fraction of energy flows through the detritus food chain than through the GFC. Detritus food chain may be connected with the grazing food chain at some levels: some of the organisms of DFC are prey to the GFC animals, and in a natural ecosystem, some animals like cockroaches, crows, etc., are omnivores. These natural interconnection of food chains make it a food web."
+    },
+    {
+        "id": "bio_ch12_12.4_0004",
+        "subject": "Biology",
+        "chapter": "Ecosystem",
+        "chapter_number": "12",
+        "section": "12.4",
+        "section_title": "Energy Flow",
+        "text": "Organisms occupy a place in the natural surroundings or in a community according to their feeding relationship with other organisms. Based on the source of their nutrition or food, organisms occupy a specific place in the food chain that is known as their trophic level. Producers belong to the first trophic level, herbivores (primary consumer) to the second and carnivores (secondary consumer) to the third. The important point to note is that the amount of energy decreases at successive trophic levels. When any organism dies it is converted to detritus or dead biomass that serves as an energy source for decomposers. Organisms at each trophic level depend on those at the lower trophic level for their energy demands. Each trophic level has a certain mass of living material at a particular time called as the standing crop. The standing crop is measured as the mass of living organisms (biomass) or the number in a unit area. The biomass of a species is expressed in terms of fresh or dry weight. Measurement of biomass in terms of dry weight is more accurate. Why?"
+    },
+    {
+        "id": "bio_ch12_12.4_0005",
+        "subject": "Biology",
+        "chapter": "Ecosystem",
+        "chapter_number": "12",
+        "section": "12.4",
+        "section_title": "Energy Flow",
+        "text": "The number of trophic levels in the grazing food chain is restricted as the transfer of energy follows 10 per cent law - only 10 per cent of the energy is transferred to each trophic level from the lower trophic level. In nature, it is possible to have so many levels - producer, herbivore, primary carnivore, secondary carnivore in the grazing food chain. Do you think there is any such limitation in a detritus food chain?"
+    },
+    {
+        "id": "bio_ch12_12.5_0000",
+        "subject": "Biology",
+        "chapter": "Ecosystem",
+        "chapter_number": "12",
+        "section": "12.5",
+        "section_title": "Ecological Pyramids",
+        "text": "You must be familiar with the shape of a pyramid. The base of a pyramid is broad and it narrows towards the apex. One gets a similar shape, whether you express the food or energy relationship between organisms at different trophic levels. This relationship is expressed in terms of number, biomass or energy. The base of each pyramid represents the producers or the first trophic level while the apex represents tertiary or top level consumer. The three types of ecological pyramids that are usually studied are (a) pyramid of number; (b) pyramid of biomass and (c) pyramid of energy."
+    },
+    {
+        "id": "bio_ch12_12.5_0001",
+        "subject": "Biology",
+        "chapter": "Ecosystem",
+        "chapter_number": "12",
+        "section": "12.5",
+        "section_title": "Ecological Pyramids",
+        "text": "The pyramid of biomass in sea is generally inverted because the biomass of fishes far exceeds that of phytoplankton. Isn't that a paradox? How would you explain this? Pyramid of energy is always upright, can never be inverted, because when energy flows from a particular trophic level to the next trophic level, some energy is always lost as heat at each step. Each bar in the energy pyramid indicates the amount of energy present at each trophic level in a given time area."
+    },
+    {
+        "id": "bio_ch12_12.5_0002",
+        "subject": "Biology",
+        "chapter": "Ecosystem",
+        "chapter_number": "12",
+        "section": "12.5",
+        "section_title": "Ecological Pyramids",
+        "text": "However, there are certain limitations of ecological pyramids such as it does not take into account the same species belonging to two or more trophic levels. It assumes a simple food chain, something that almost never exists in nature; it does not accommodate a food web. Moreover, saprophytes are not given any place in ecological pyramids even though they play a vital role in the ecosystem."
+    }
+]
