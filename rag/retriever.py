@@ -12,7 +12,7 @@ SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL", "BAAI/bge-small-en-v1.5")
 TOP_K = 5                    # Number of chunks to retrieve
-SIMILARITY_THRESHOLD = 0.3   # Minimum cosine similarity to include a chunk
+SIMILARITY_THRESHOLD = 0.1   # Low floor — let chunks through, LLM + verifier will judge quality
 
 # ==============================
 # SINGLETON CLIENTS
