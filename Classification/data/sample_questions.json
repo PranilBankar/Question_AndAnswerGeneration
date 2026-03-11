@@ -1,0 +1,32 @@
+[
+  {
+    "question": "Which of the following is the powerhouse of the cell?",
+    "chapter": "Cell: The Unit of Life",
+    "chapter_id": 8
+  },
+  {
+    "question": "What is the function of ribosomes in a cell?",
+    "chapter": "Cell: The Unit of Life",
+    "chapter_id": 8
+  },
+  {
+    "question": "Which enzyme breaks down starch into maltose?",
+    "chapter": "Biomolecules",
+    "chapter_id": 9
+  },
+  {
+    "question": "What is the role of cofactors in enzyme activity?",
+    "chapter": "Biomolecules",
+    "chapter_id": 9
+  },
+  {
+    "question": "What is binomial nomenclature?",
+    "chapter": "The Living World",
+    "chapter_id": 1
+  },
+  {
+    "question": "Who proposed the two-kingdom classification system?",
+    "chapter": "Biological Classification",
+    "chapter_id": 2
+  }
+]
