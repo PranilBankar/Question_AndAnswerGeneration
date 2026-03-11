@@ -124,4 +124,4 @@ if __name__ == "__main__":
         result = predictor.predict(q)
         print(f"\nQ: {q}")
         print(f"→ Chapter: {result['chapter']} (confidence: {result['confidence']:.2%})")
-        print(f"  Top 3: {[(p['chapter'], f\"{p['confidence']:.2%\}") for p in result['top3']]}")
+        print(f"  Top 3: {[(p['chapter'], f"{p['confidence']:.2%}") for p in result['top3']]}")

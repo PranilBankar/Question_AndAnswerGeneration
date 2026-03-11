@@ -1,46 +1,46 @@
 CLASS 11 (19 chapters)
-  Ch 1: The Living World (13 chunks)
+  Ch 1: The Living World (13 chunks, 8 sections)
       1.0 - Introduction to Diversity in the Living World
+      1.0 - Ernst Mayr Biography
       1.1 - Diversity in the Living World
       1.2 - Taxonomic Categories
       1.2.1 - Species
       1.2.2 - Genus
-      1.2.3 - Family
-      1.2.4 - Order
-      1.2.5 - Class
-      1.2.6 - Phylum
+      1.2.4 - Order, Class, and Phylum
       1.2.7 - Kingdom
-  Ch 2: Biological Classification (15 chunks)
+  Ch 2: Biological Classification (15 chunks, 15 sections)
       2.0 - Introduction to Biological Classification
+      2.0 - Development of the Five Kingdom System
+      2.0 - Rationalization of Kingdom Classification
       2.1 - Kingdom Monera
       2.1.1 - Archaebacteria and Eubacteria
       2.1.2 - Metabolic Diversity and Reproduction in Monera
       2.2 - Kingdom Protista
-      2.2.1 - Chrysophytes
-      2.2.2 - Dinoflagellates
-      2.2.3 - Euglenoids
-      2.2.4 - Slime Moulds
+      2.2.2 - Dinoflagellates, Euglenoids, and Slime Moulds
       2.2.5 - Protozoans
       2.3 - Kingdom Fungi
-      2.3.1 - Phycomycetes
-      2.3.2 - Ascomycetes
-      2.3.3 - Basidiomycetes
-      2.3.4 - Deuteromycetes    
-      2.4 - Kingdoms Plantae
-      2.5 - Kingdom Animalia
+      2.3 - Fungal Life Cycle and Classification Basis
+      2.3.1 - Classes of Fungi
+      2.4 - Kingdoms Plantae and Animalia
       2.6 - Viruses, Viroids, and Prions
-  Ch 3: Plant Kingdom (15 chunks)
+      2.6 - Viroids, Prions, and Lichens
+  Ch 3: Plant Kingdom (15 chunks, 15 sections)
       3.0 - Introduction to Plant Classification
+      3.0 - Modern Taxonomic Approaches
       3.1 - Algae Characteristics and Reproduction
+      3.1 - Economic Importance of Algae
       3.1.1 - Chlorophyceae (Green Algae)
       3.1.2 - Phaeophyceae (Brown Algae)
       3.1.3 - Rhodophyceae (Red Algae)
       3.2 - Bryophytes Overview and Life Cycle
+      3.2 - Economic and Ecological Importance of Bryophytes
       3.2.1 - Liverworts and Mosses
       3.3 - Pteridophytes: Vascular Non-Seeded Plants
+      3.3 - Pteridophyte Reproduction and Classification
       3.4 - Gymnosperms Characteristics
+      3.4 - Gymnosperm Reproduction
       3.5 - Angiosperms: Flowering Plants
-  Ch 4: Animal Kingdom (19 chunks)
+  Ch 4: Animal Kingdom (19 chunks, 19 sections)
       4.1 - Basis of Classification and Levels of Organisation
       4.1.1 - Organ Systems and Body Symmetry
       4.1.3 - Germinal Layers and Coelom
@@ -60,7 +60,7 @@ CLASS 11 (19 chapters)
       4.2.11.5 - Class – Reptilia
       4.2.11.6 - Class – Aves
       4.2.11.7 - Class – Mammalia
-  Ch 5: Morphology of Flowering Plants (13 chunks)
+  Ch 5: Morphology of Flowering Plants (13 chunks, 13 sections)
       5.0 - Introduction to Plant Morphology
       5.1 - The Root System
       5.1.1 - Regions of the Root
@@ -69,11 +69,12 @@ CLASS 11 (19 chapters)
       5.3.2 - Types of Leaves and Phyllotaxy
       5.4 - The Inflorescence
       5.5 - The Flower Structure and Symmetry
+      5.5 - Floral Parts Positioning and Aestivation
       5.5.1.3 - Androecium and Gynoecium
       5.6 - The Fruit
       5.7 - Seed Structure
       5.9 - Family Solanaceae
-  Ch 6: Anatomy of Flowering Plants (8 chunks)
+  Ch 6: Anatomy of Flowering Plants (8 chunks, 8 sections)
       6.0 - Introduction to Plant Anatomy
       6.1 - The Tissue System and Epidermal Tissue
       6.1.1 - Stomatal Apparatus and Epidermal Appendages
@@ -82,15 +83,18 @@ CLASS 11 (19 chapters)
       6.2.2 - Monocot Root and Dicot Stem Anatomy
       6.2.3 - Vascular Arrangement in Stems
       6.2.5 - Anatomy of Dorsiventral and Isobilateral Leaves
-  Ch 7: Structural Organisation in Animals (6 chunks)
+  Ch 7: Structural Organisation in Animals (6 chunks, 6 sections)
       7.1 - Organ and Organ System
       7.2 - Frogs: Habitat and Morphology
       7.2.1 - Frog Morphology and Digestive Anatomy
       7.2.2 - Frog Respiratory and Vascular Systems
-  Ch 8: Cell: The Unit of Life (16 chunks)
+      7.2.2 - Frog Excretory and Coordination Systems
+      7.2.2 - Frog Reproductive Systems and Ecology
+  Ch 8: Cell: The Unit of Life (16 chunks, 16 sections)
       8.1 - What is a Cell?
       8.2 - Cell Theory
       8.3 - An Overview of Cell
+      8.3 - Cell Size and Shape
       8.4 - Prokaryotic Cells
       8.4.1 - Cell Envelope and its Modifications
       8.4.2 - Surface Structures, Ribosomes, and Inclusion Bodies
@@ -103,7 +107,7 @@ CLASS 11 (19 chapters)
       8.5.6 - Ribosomes, Cytoskeleton, Cilia, and Flagella
       8.5.9 - Centrosome, Centrioles, and the Nucleus
       8.5.10 - Chromosomes and Microbodies
-  Ch 9: Biomolecules (24 chunks)
+  Ch 9: Biomolecules (24 chunks, 14 sections)
       9.1 - How to Analyse Chemical Composition?
       9.2 - Primary and Secondary Metabolites
       9.3 - Biomacromolecules
@@ -118,10 +122,12 @@ CLASS 11 (19 chapters)
       9.8.4 - Factors Affecting Enzyme Activity
       9.8.5 - Classification and Nomenclature of Enzymes
       9.8.6 - Co-factors
-  Ch 10: Cell Cycle and Cell Division (17 chunks)
+  Ch 10: Cell Cycle and Cell Division (17 chunks, 17 sections)
       10.0 - Introduction
       10.1 - Cell Cycle
       10.1.1 - Phases of Cell Cycle
+      10.1.1 - Interphase Detail
+      10.1.1 - G2 and Quiescent Stage
       10.2 - M Phase
       10.2.1 - Prophase and Metaphase
       10.2.2 - Metaphase Plate and Anaphase
@@ -130,11 +136,14 @@ CLASS 11 (19 chapters)
       10.3 - Significance of Mitosis
       10.4 - Meiosis
       10.4.1 - Meiosis I - Prophase I Stages
+      10.4.1 - Meiosis I - Crossing Over and Diplotene
+      10.4.1 - Meiosis I - Diakinesis to Telophase I
       10.4.2 - Meiosis II
       10.5 - Significance of Meiosis
-  Ch 11: Photosynthesis in Higher Plants (14 chunks)
+  Ch 11: Photosynthesis in Higher Plants (14 chunks, 14 sections)
       11.1 - What do we Know?
       11.2 - Early Experiments
+      11.2 - Historical Development of Photosynthetic Equations
       11.3 - Where does Photosynthesis take place?
       11.4 - How many Types of Pigments are involved in Photosynthesis?
       11.5 - What is Light Reaction?
@@ -146,18 +155,22 @@ CLASS 11 (19 chapters)
       11.8 - The C4 Pathway
       11.9 - Photorespiration
       11.10 - Factors affecting Photosynthesis
-  Ch 12: Respiration in Plants (14 chunks)
+  Ch 12: Respiration in Plants (14 chunks, 14 sections)
       12.0 - Introduction to Cellular Respiration
+      12.0 - The Mechanism of Respiration
       12.1 - Do Plants Breathe?
+      12.1 - Catabolism of Glucose
       12.2 - Glycolysis
+      12.2 - Steps of Glycolysis
       12.3 - Fermentation
       12.4 - Aerobic Respiration
       12.4.1 - Tricarboxylic Acid Cycle
       12.4.2 - Electron Transport System (ETS) and Oxidative Phosphorylation
+      12.4.2 - ATP Synthesis and Chemiosmosis
       12.5 - The Respiratory Balance Sheet
       12.6 - Amphibolic Pathway
       12.7 - Respiratory Quotient
-  Ch 13: Plant Growth and Development (11 chunks)
+  Ch 13: Plant Growth and Development (11 chunks, 11 sections)
       13.0 - Introduction to Plant Development
       13.1 - Characteristics of Plant Growth
       13.1.2 - Measurability and Phases of Growth
@@ -169,7 +182,7 @@ CLASS 11 (19 chapters)
       13.4.3 - Physiological Effects of Auxins and Gibberellins
       13.4.3.3 - Physiological Effects of Cytokinins and Ethylene
       13.4.3.5 - Abscisic Acid and Integrative Control
-  Ch 14: Breathing and Exchange of Gases (8 chunks)
+  Ch 14: Breathing and Exchange of Gases (8 chunks, 8 sections)
       14.1 - Respiratory Organs
       14.1.1 - Human Respiratory System
       14.2 - Mechanism of Breathing
@@ -178,21 +191,24 @@ CLASS 11 (19 chapters)
       14.4 - Transport of Gases and Oxygen
       14.4.2 - Transport of Carbon dioxide
       14.5 - Regulation of Respiration and Disorders
-  Ch 15: Body Fluids and Circulation (16 chunks)
+  Ch 15: Body Fluids and Circulation (16 chunks, 16 sections)
       15.1 - Blood and Plasma
       15.1.2 - Formed Elements - Erythrocytes
+      15.1.2 - Formed Elements - Leucocytes and Platelets
       15.1.3 - Blood Groups - ABO System
       15.1.3.2 - Rh Grouping and Incompatibility
       15.1.4 - Coagulation of Blood
       15.2 - Lymph and Circulatory Pathways
       15.3 - Vertebrate Heart Evolution
       15.3.1 - The Human Heart Structure
+      15.3.1 - Cardiac Musculature and Nodal Tissue
       15.3.2 - The Cardiac Cycle
+      15.3.2 - Cardiac Output and Heart Sounds
       15.3.3 - Electrocardiogram (ECG)
       15.4 - Double Circulation
       15.5 - Regulation of Cardiac Activity
       15.6 - Disorders of the Circulatory System
-  Ch 16: Excretory Products and their Elimination (22 chunks)
+  Ch 16: Excretory Products and their Elimination (22 chunks, 8 sections)
       16.0 - Introduction
       16.2 - Urine Formation
       16.3 - Function of the Tubules
@@ -201,29 +217,52 @@ CLASS 11 (19 chapters)
       16.6 - Micturition
       16.7 - Role of other Organs in Excretion
       16.8 - Disorders of the Excretory System
-  Ch 17: Locomotion and Movement (20 chunks)
+  Ch 17: Locomotion and Movement (20 chunks, 6 sections)
       17.0 - Introduction
       17.1 - Types of Movement
       17.2 - Muscle
       17.3 - Skeletal System
       17.4 - Joints
       17.5 - Disorders of Muscular and Skeletal System
-  Ch 18: Neural Control and Coordination (16 chunks)
+  Ch 18: Neural Control and Coordination (16 chunks, 10 sections)
       18.0 - Introduction
       18.1 - Neural System
       18.2 - Human Neural System
       18.3 - Neuron as Structural and Functional Unit of Neural System
+      18.3 - Generation and Conduction of Nerve Impulse
+      18.3 - Transmission of Impulses
       18.4 - Central Neural System
-  Ch 19: Chemical Coordination and Integration (21 chunks)
+      18.4 - Forebrain
+      18.4 - Midbrain
+      18.4 - Hindbrain
+  Ch 19: Chemical Coordination and Integration (21 chunks, 15 sections)
       19.0 - Introduction
       19.1 - Endocrine Glands and Hormones
       19.2 - Human Endocrine System
+      19.2 - The Hypothalamus
+      19.2 - The Pituitary Gland
+      19.2 - The Pineal Gland
+      19.2 - Thyroid Gland
+      19.2 - Parathyroid Gland
+      19.2 - Thymus
+      19.2 - Adrenal Gland
+      19.2 - Pancreas
+      19.2 - Testis
+      19.2 - Ovary
       19.3 - Hormones of Heart, Kidney and Gastrointestinal Tract
       19.4 - Mechanism of Hormone Action
 CLASS 12 (13 chapters)
-  Ch 0: Title and Front Matter (21 chunks)
+  Ch 0: Title and Front Matter (21 chunks, 9 sections)
       0.0 - Title Page
-  Ch 2: Human Reproduction (30 chunks)
+      0.0 - Copyright
+      0.0 - Publication Offices
+      0.0 - Foreword
+      0.0 - Rationalisation of Content
+      0.0 - Preface
+      0.0 - Textbook Development Committee
+      0.0 - Acknowledgements
+      0.0 - Table of Contents
+  Ch 2: Human Reproduction (30 chunks, 7 sections)
       2.1 - The Male Reproductive System
       2.2 - The Female Reproductive System
       2.3 - Gametogenesis
@@ -231,14 +270,14 @@ CLASS 12 (13 chapters)
       2.5 - Fertilisation and Implantation
       2.6 - Pregnancy and Embryonic Development
       2.7 - Parturition and Lactation
-  Ch 3: Reproductive Health (30 chunks)
+  Ch 3: Reproductive Health (30 chunks, 6 sections)
       3.0 - Introduction
       3.1 - Reproductive Health - Problems and Strategies
       3.2 - Population Stabilisation and Birth Control
       3.3 - Medical Termination of Pregnancy (MTP)
       3.4 - Sexually Transmitted Infections (STIs)
       3.5 - Infertility
-  Ch 4: Principles of Inheritance and Variation (60 chunks)
+  Ch 4: Principles of Inheritance and Variation (60 chunks, 20 sections)
       4.0 - Introduction
       4.1 - Mendel's Laws of Inheritance
       4.2 - Inheritance of One Gene
@@ -259,7 +298,7 @@ CLASS 12 (13 chapters)
       4.8.1 - Pedigree Analysis
       4.8.2 - Mendelian Disorders
       4.8.3 - Chromosomal Disorders
-  Ch 5: Molecular Basis of Inheritance (69 chunks)
+  Ch 5: Molecular Basis of Inheritance (69 chunks, 25 sections)
       5.0 - Introduction
       5.1 - The DNA
       5.1.1 - Structure of Polynucleotide Chain
@@ -285,7 +324,7 @@ CLASS 12 (13 chapters)
       5.9.1 - Salient Features of Human Genome
       5.9.2 - Applications and Future Challenges
       5.10 - DNA Fingerprinting
-  Ch 6: Evolution (36 chunks)
+  Ch 6: Evolution (36 chunks, 10 sections)
       6.0 - Introduction
       6.1 - Origin of Life
       6.2 - Evolution of Life Forms - A Theory
@@ -296,7 +335,7 @@ CLASS 12 (13 chapters)
       6.7 - Hardy-Weinberg Principle
       6.8 - A Brief Account of Evolution
       6.9 - Origin and Evolution of Man
-  Ch 7: Human Health and Disease (55 chunks)
+  Ch 7: Human Health and Disease (55 chunks, 17 sections)
       7.0 - Introduction
       7.1 - Common Diseases in Humans
       7.2 - Immunity
@@ -314,7 +353,7 @@ CLASS 12 (13 chapters)
       7.5.2 - Addiction and Dependence
       7.5.3 - Effects of Drug/Alcohol Abuse
       7.5.4 - Prevention and Control
-  Ch 8: Microbes in Human Welfare (23 chunks)
+  Ch 8: Microbes in Human Welfare (23 chunks, 10 sections)
       8.0 - Introduction
       8.1 - Microbes in Household Products
       8.2 - Microbes in Industrial Products
@@ -325,7 +364,7 @@ CLASS 12 (13 chapters)
       8.4 - Microbes in Production of Biogas
       8.5 - Microbes as Biocontrol Agents
       8.6 - Microbes as Biofertilisers
-  Ch 9: Biotechnology: Principles and Processes (29 chunks)
+  Ch 9: Biotechnology: Principles and Processes (29 chunks, 13 sections)
       9.0 - Introduction
       9.1 - Principles of Biotechnology
       9.2 - Tools of Recombinant DNA Technology
@@ -339,7 +378,7 @@ CLASS 12 (13 chapters)
       9.3.4 - Insertion of Recombinant DNA into the Host Cell/Organism
       9.3.5 - Obtaining the Foreign Gene Product
       9.3.6 - Downstream Processing
-  Ch 10: Biotechnology and Its Applications (27 chunks)
+  Ch 10: Biotechnology and Its Applications (27 chunks, 8 sections)
       10.0 - Introduction
       10.1 - Biotechnological Applications in Agriculture
       10.2 - Biotechnological Applications in Medicine
@@ -348,20 +387,20 @@ CLASS 12 (13 chapters)
       10.2.3 - Molecular Diagnosis
       10.3 - Transgenic Animals
       10.4 - Ethical Issues
-  Ch 11: Organisms and Populations (30 chunks)
+  Ch 11: Organisms and Populations (30 chunks, 6 sections)
       11.0 - Introduction
       11.1 - Populations
       11.1.1 - Population Attributes
       11.1.2 - Population Growth
       11.1.3 - Life History Variation
       11.1.4 - Population Interactions
-  Ch 12: Ecosystem (14 chunks)
+  Ch 12: Ecosystem (14 chunks, 5 sections)
       12.0 - Introduction
       12.2 - Productivity
       12.3 - Decomposition
       12.4 - Energy Flow
       12.5 - Ecological Pyramids
-  Ch 13: Biodiversity and Conservation (19 chunks)
+  Ch 13: Biodiversity and Conservation (19 chunks, 8 sections)
       13.0 - Introduction
       13.1 - Biodiversity
       13.1.1 - How Many Species are there on Earth and How Many in India?
