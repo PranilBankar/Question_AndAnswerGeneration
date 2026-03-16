@@ -35,7 +35,7 @@ from Classification.dataset import NEETDataset, build_label_map
 # CONFIG
 # ==============================
 CONFIG_PATH = "Classification/config.json"
-DATA_PATH   = "Classification/data/sample_questions.json"   # ← swap your real data here
+DATA_PATH   = "Classification/data/generated_questions.json"
 
 with open(CONFIG_PATH) as f:
     cfg = json.load(f)
@@ -52,8 +52,9 @@ SEED        = cfg["seed"]                 # 42
 # ==============================
 # STEP 1: Build label map
 # ==============================
-print("Building label map...")
-label_map = build_label_map(DATA_PATH, "Classification/data/label_map.json")
+print("Loading label map...")
+with open("Classification/data/label_map.json", "r", encoding="utf-8") as f:
+    label_map = json.load(f)
 num_labels = len(label_map)
 print(f"Number of classes (chapters): {num_labels}")
 
@@ -124,7 +125,7 @@ training_args = TrainingArguments(
     learning_rate=LR,
     warmup_ratio=cfg["warmup_ratio"],
     weight_decay=cfg["weight_decay"],
-    evaluation_strategy=cfg["eval_strategy"],
+    evaluation_strategy=cfg["evaluation_strategy"],
     save_strategy=cfg["save_strategy"],
     load_best_model_at_end=cfg["load_best_model_at_end"],
     metric_for_best_model=cfg["metric_for_best_model"],
@@ -159,8 +160,18 @@ trainer.save_model(best_model_dir)
 tokenizer.save_pretrained(best_model_dir)
 print(f"\n✅ Best model saved to: {best_model_dir}")
 
-# Save final eval metrics
+# Save final eval metrics to Evaluation_metrics folder
 metrics = trainer.evaluate()
 print(f"\nFinal Eval Metrics: {metrics}")
-with open(os.path.join(OUTPUT_DIR, "eval_metrics.json"), "w") as f:
+
+eval_dir = "Classification/Evaluation_metrics"
+os.makedirs(eval_dir, exist_ok=True)
+with open(os.path.join(eval_dir, "eval_metrics.json"), "w") as f:
     json.dump(metrics, f, indent=2)
+print(f"📊 Metrics saved to {eval_dir}/eval_metrics.json")
+
+# Also save training history
+log_history = trainer.state.log_history
+with open(os.path.join(eval_dir, "training_log.json"), "w") as f:
+    json.dump(log_history, f, indent=2)
+print(f"📊 Training log saved to {eval_dir}/training_log.json")
