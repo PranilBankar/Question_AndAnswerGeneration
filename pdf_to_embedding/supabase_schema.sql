@@ -33,6 +33,7 @@ returns table (
   id uuid,
   chunk_id text,
   chapter text,
+  section text,
   section_title text,
   text_content text,
   similarity float
@@ -43,6 +44,7 @@ as $$
     id,
     chunk_id,
     chapter,
+    section,
     section_title,
     text_content,
     1 - (embedding <=> query_embedding) as similarity

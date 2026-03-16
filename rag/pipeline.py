@@ -21,12 +21,14 @@ from rag.prompt_builder import (
 )
 from rag.generator  import generate_answer, generate_justification, verify_answer
 from rag.confidence import compute_confidence
+from Classification.classify_and_extract import classify_question
 
 
 def run_pipeline(
     question: str,
     chapter_filter: str = None,
     top_k: int = 5,
+    use_classifier: bool = True,
 ) -> dict:
     """
     End-to-end RAG pipeline for a NEET Biology question.
@@ -34,20 +36,30 @@ def run_pipeline(
     Args:
         question       : The student's question string.
         chapter_filter : Optional chapter name to restrict retrieval scope.
-                         (Will be auto-populated by BERT classifier in Phase 3)
+                         Auto-populated by BERT classifier if use_classifier=True.
         top_k          : Number of NCERT chunks to retrieve.
+        use_classifier : If True, auto-classify question to get chapter + topics.
 
     Returns a structured dict:
     {
         "question"       : str,
+        "classification" : {chapter, chapter_id, chapter_confidence, topics},
         "answer"         : str,
         "justification"  : list[str],
-        "sources"        : list[{chapter, section_title, text_content, similarity}],
+        "sources"        : list[{chapter, section, section_title, text_content, similarity}],
         "confidence"     : float,
         "verified"       : bool,
         "verifier_note"  : str,
     }
     """
+
+    # ── Step 0: BERT Classification + Topic Extraction ──────────────────────
+    classification = None
+    if use_classifier and chapter_filter is None:
+        print("[Pipeline] Step 0: BERT classification + topic extraction...")
+        classification = classify_question(question)
+        chapter_filter = classification["chapter"]
+        print(f"[Pipeline] Auto-filtered to chapter: {chapter_filter}")
 
     # ── Step 1: Retrieve relevant NCERT chunks ──────────────────────────────
     print("[Pipeline] Step 1: Retrieving NCERT chunks...")
@@ -55,13 +67,14 @@ def run_pipeline(
 
     if not chunks:
         return {
-            "question"      : question,
-            "answer"        : "Insufficient context: no relevant NCERT passages found.",
-            "justification" : [],
-            "sources"       : [],
-            "confidence"    : 0.0,
-            "verified"      : False,
-            "verifier_note" : "No chunks retrieved — cannot verify.",
+            "question"       : question,
+            "classification" : classification,
+            "answer"         : "Insufficient context: no relevant NCERT passages found.",
+            "justification"  : [],
+            "sources"        : [],
+            "confidence"     : 0.0,
+            "verified"       : False,
+            "verifier_note"  : "No chunks retrieved — cannot verify.",
         }
 
     # Extract top chapter/section for prompt context
@@ -97,6 +110,7 @@ def run_pipeline(
     sources = [
         {
             "chapter"      : c.get("chapter"),
+            "section"      : c.get("section"),
             "section_title": c.get("section_title"),
             "text_content" : c.get("text_content"),
             "similarity"   : round(c.get("similarity", 0.0), 4),
@@ -105,13 +119,14 @@ def run_pipeline(
     ]
 
     return {
-        "question"      : question,
-        "answer"        : answer,
-        "justification" : justification,
-        "sources"       : sources,
-        "confidence"    : confidence,
-        "verified"      : verified,
-        "verifier_note" : verifier_note,
+        "question"       : question,
+        "classification" : classification,
+        "answer"         : answer,
+        "justification"  : justification,
+        "sources"        : sources,
+        "confidence"     : confidence,
+        "verified"       : verified,
+        "verifier_note"  : verifier_note,
     }
 
 
