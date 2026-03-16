@@ -37,7 +37,7 @@ from Classification.dataset import NEETDataset, build_label_map
 CONFIG_PATH = "Classification/config.json"
 DATA_PATH   = "Classification/data/generated_questions.json"
 
-with open(CONFIG_PATH) as f:
+with open(CONFIG_PATH, encoding="utf-8") as f:
     cfg = json.load(f)
 
 MODEL_NAME  = cfg["model_name"]           # "bert-base-uncased"
@@ -65,7 +65,7 @@ cfg["num_labels"] = num_labels
 # ==============================
 # STEP 2: Load & split data
 # ==============================
-with open(DATA_PATH) as f:
+with open(DATA_PATH, encoding="utf-8") as f:
     all_data = json.load(f)
 
 train_data, val_data = train_test_split(
@@ -74,9 +74,9 @@ train_data, val_data = train_test_split(
 
 # Save splits for transparency
 os.makedirs("Classification/data", exist_ok=True)
-with open("Classification/data/train_split.json", "w") as f:
+with open("Classification/data/train_split.json", "w", encoding="utf-8") as f:
     json.dump(train_data, f, indent=2)
-with open("Classification/data/val_split.json", "w") as f:
+with open("Classification/data/val_split.json", "w", encoding="utf-8") as f:
     json.dump(val_data, f, indent=2)
 
 print(f"Train: {len(train_data)} | Val: {len(val_data)}")
