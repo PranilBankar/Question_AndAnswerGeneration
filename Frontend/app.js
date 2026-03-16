@@ -244,6 +244,23 @@ function renderQAResult(data, showClassification) {
     hideResults();
     resultsSection.style.display = "flex";
 
+    // Check if question was rejected (low confidence)
+    if (data.rejected) {
+        if (data.classification) {
+            renderClassificationCard(data.classification);
+            classificationCard.style.display = "block";
+        }
+        // Show rejection as an error-style answer
+        answerCard.style.display = "block";
+        const badge = document.getElementById("verificationBadge");
+        badge.className = "verification-badge verified-false";
+        badge.textContent = "✗ Rejected";
+        document.getElementById("answerContent").textContent = data.answer;
+        justificationCard.style.display = "none";
+        sourcesCard.style.display = "none";
+        return;
+    }
+
     // Classification
     if (showClassification && data.classification) {
         renderClassificationCard(data.classification);
