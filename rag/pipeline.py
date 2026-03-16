@@ -61,6 +61,21 @@ def run_pipeline(
         chapter_filter = classification["chapter"]
         print(f"[Pipeline] Auto-filtered to chapter: {chapter_filter}")
 
+        # ── Confidence gate: reject if BERT is too uncertain ──
+        if classification["chapter_confidence"] < 0.45:
+            print(f"[Pipeline] ⚠️ Low confidence ({classification['chapter_confidence']:.2%}) — rejecting question.")
+            return {
+                "question"       : question,
+                "classification" : None,
+                "answer"         : "❌ Unable to process this question. The model confidence is too low — this may not be a valid NEET Biology question or it falls outside the trained syllabus.",
+                "justification"  : [],
+                "sources"        : [],
+                "confidence"     : 0.0,
+                "verified"       : False,
+                "verifier_note"  : f"BERT confidence ({classification['chapter_confidence']:.2%}) is below the 30% threshold.",
+                "rejected"       : True,
+            }
+
     # ── Step 1: Retrieve relevant NCERT chunks ──────────────────────────────
     print("[Pipeline] Step 1: Retrieving NCERT chunks...")
     chunks = retrieve_chunks(question, chapter_filter=chapter_filter, top_k=top_k)
