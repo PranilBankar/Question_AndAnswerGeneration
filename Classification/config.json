@@ -1,20 +1,19 @@
 {
   "model_name": "bert-base-uncased",
   "max_length": 128,
-  "num_labels": 16,
+  "num_labels": 31,
   "batch_size": 16,
   "learning_rate": 2e-5,
-  "num_epochs": 10,
+  "num_epochs": 5,
   "warmup_ratio": 0.1,
   "weight_decay": 0.01,
+  "max_grad_norm": 1.0,
+  "lr_scheduler_type": "linear",
   "output_dir": "Classification/checkpoints",
   "logging_steps": 10,
-  "eval_strategy": "epoch",
+  "evaluation_strategy": "epoch",
   "save_strategy": "epoch",
   "load_best_model_at_end": true,
   "metric_for_best_model": "f1",
-  "seed": 42,
-
-  "_comment_num_labels": "Set this to the number of unique chapters in your dataset",
-  "_comment_label_map": "chapter_id values in your JSON must start from 0 and be contiguous"
+  "seed": 42
 }
