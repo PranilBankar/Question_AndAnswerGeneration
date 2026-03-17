@@ -2,5 +2,13 @@
 .env
 __pycache__
 *.pyc
-*.safetensors
-*.pt
+
+# Raw PDFs (large, not needed for deployment)
+*.pdf
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

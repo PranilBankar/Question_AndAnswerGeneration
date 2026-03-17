@@ -8,6 +8,10 @@
  *   - Health check polling
  */
 
+// ── API Base URL ─────────────────────────────────────────────────────────────
+// Development: http://localhost:8000
+// Production:  Replace with your Railway URL after deployment
+// e.g. const API_BASE = "https://your-app.up.railway.app";
 const API_BASE = "http://localhost:8000";
 
 // ==============================

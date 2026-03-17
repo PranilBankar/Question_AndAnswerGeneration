@@ -2,7 +2,10 @@ import os
 from groq import Groq
 from dotenv import load_dotenv
 
-load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '..', 'pdf_to_embedding', '.env'))
+# Load .env for local development (Railway injects env vars directly)
+_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+load_dotenv(dotenv_path=os.path.join(_root, '.env'), override=False)
+load_dotenv(dotenv_path=os.path.join(_root, 'pdf_to_embedding', '.env'), override=False)
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_MODEL   = os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile")
