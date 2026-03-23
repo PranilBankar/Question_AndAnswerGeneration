@@ -55,12 +55,24 @@ def evaluate_pipeline():
             
         hits = [t for t in retrieved_topics if is_hit(t, expected_topics)]
         
-        # Recall@K: Did AT LEAST ONE of the expected topics appear in the top K?
-        recall = 1.0 if len(hits) > 0 else 0.0
+        # Graded Recall@K:
+        #   0 hits  → 0.0  (nothing relevant retrieved)
+        #   1 hit   → 0.7  (partially relevant)
+        #   2+ hits → 1.0  (well covered)
+        num_hits = len(hits)
+        if num_hits == 0:
+            recall = 0.0
+        elif num_hits == 1:
+            recall = 0.7
+        else:
+            recall = 1.0
         
-        # Precision@K: What proportion of the retrieved chunks belong to the expected topics?
-        if len(retrieved_topics) > 0:
-            precision = len(hits) / len(retrieved_topics)
+        # Precision@3: Of the top 3 retrieved chunks, what fraction matched expected topics?
+        # We use top 3 to match the max 3 expected topics in eval_data.
+        top3_retrieved = retrieved_topics[:3]
+        top3_hits = [t for t in top3_retrieved if is_hit(t, expected_topics)]
+        if len(top3_retrieved) > 0:
+            precision = len(top3_hits) / len(top3_retrieved)
         else:
             precision = 0.0
             
