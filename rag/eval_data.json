@@ -118,5 +118,85 @@
     "expected_topics": ["Enzymes", "Dynamic State of Body Constituents - Concept of Metabolism", "Proteins"],
     "expected_answer": "Competitive inhibition occurs when an inhibitor molecule closely resembles the substrate in its molecular structure. As a result of this close structural similarity, the inhibitor competes with the substrate for the substrate-binding site of the enzyme. When the inhibitor binds to the active site, the proper substrate cannot bind, thus enzyme action declines. A classic example is the inhibition of succinic dehydrogenase by malonate, which closely resembles the natural substrate succinate in structure.",
     "type": "concept"
+  },
+  {
+    "id": 16,
+    "question": "What are the different levels of protein structure and how are they stabilized?",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": ["Structure of Proteins", "Proteins", "Nature of Bond Linking Monomers in a Polymer"],
+    "expected_answer": "Proteins have four levels of structure. Primary structure is the linear sequence of amino acids linked by peptide bonds. Secondary structure refers to local folding such as alpha-helix and beta-pleated sheet stabilized by hydrogen bonds. Tertiary structure is the three-dimensional folding of a polypeptide stabilized by interactions like hydrogen bonds, ionic bonds, disulfide bridges, and hydrophobic interactions. Quaternary structure involves the association of multiple polypeptide chains to form a functional protein.",
+    "type": "concept"
+  },
+  {
+    "id": 17,
+    "question": "What is the role of metal ions as cofactors in enzyme activity?",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": ["Enzymes", "Proteins", "Dynamic State of Body Constituents - Concept of Metabolism"],
+    "expected_answer": "Metal ions act as cofactors by forming coordination bonds with enzyme side chains at the active site and also with the substrate. This helps in stabilizing the enzyme-substrate complex and facilitates catalysis. Examples include Zn2+, Mg2+, and Fe2+ ions which are essential for proper enzyme function.",
+    "type": "concept"
+  },
+  {
+    "id": 18,
+    "question": "Explain the significance of botanical gardens as taxonomical aids.",
+    "expected_chapter": "The Living World",
+    "expected_topics": ["Taxonomical Aids", "Diversity in the Living World", "Taxonomic Categories"],
+    "expected_answer": "Botanical gardens are specialized institutions where living plant species are cultivated for reference and study. Each plant is labeled with its scientific name and family. They serve as important taxonomical aids for identification, conservation, and research. Botanical gardens also provide information about plant diversity and help in education and scientific studies.",
+    "type": "concept"
+  },
+  {
+    "id": 19,
+    "question": "What is the importance of museums in biological classification?",
+    "expected_chapter": "The Living World",
+    "expected_topics": ["Taxonomical Aids", "Diversity in the Living World", "Taxonomic Categories"],
+    "expected_answer": "Museums are repositories where preserved plant and animal specimens are stored, studied, and exhibited. Specimens are preserved in jars, containers, or as dried collections. They serve as reference materials for taxonomic studies and help scientists in identification and classification of organisms. Museums also provide educational value by displaying biodiversity.",
+    "type": "concept"
+  },
+  {
+    "id": 20,
+    "question": "What are polysaccharides? Give examples and their functions.",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": ["Biomacromolecules", "Carbohydrates", "How to Analyse Chemical Composition?"],
+    "expected_answer": "Polysaccharides are long chains of monosaccharide units linked by glycosidic bonds. They are complex carbohydrates and serve structural and storage functions. Examples include starch (energy storage in plants), glycogen (energy storage in animals), and cellulose (structural component of plant cell walls).",
+    "type": "concept"
+  },
+  {
+    "id": 21,
+    "question": "What is the difference between saturated and unsaturated fatty acids?",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": ["Lipids", "Biomacromolecules", "How to Analyse Chemical Composition?"],
+    "expected_answer": "Saturated fatty acids do not contain double bonds between carbon atoms and are usually solid at room temperature. Unsaturated fatty acids contain one or more double bonds and are generally liquid at room temperature. The presence of double bonds introduces kinks in the structure, preventing tight packing.",
+    "type": "concept"
+  },
+  {
+    "id": 22,
+    "question": "Define species and explain its importance in taxonomy.",
+    "expected_chapter": "The Living World",
+    "expected_topics": ["Taxonomic Categories", "Diversity in the Living World", "What is 'Living'?"],
+    "expected_answer": "Species is the basic unit of classification and refers to a group of organisms that can interbreed and produce fertile offspring. It is the lowest taxonomic category and forms the foundation for classification. Organisms within a species share common characteristics and genetic similarity.",
+    "type": "concept"
+  },
+  {
+    "id": 23,
+    "question": "What are the components of a nucleotide and how are they arranged?",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": ["Nucleic Acids", "Biomacromolecules", "Structure of Proteins"],
+    "expected_answer": "A nucleotide consists of three components: a nitrogenous base, a pentose sugar, and a phosphate group. The nitrogenous base is attached to the sugar, forming a nucleoside, and the phosphate group is attached to the sugar. These nucleotides link together via phosphodiester bonds to form nucleic acids.",
+    "type": "concept"
+  },
+  {
+    "id": 24,
+    "question": "What is the role of enzymes in lowering activation energy?",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": ["Enzymes", "Dynamic State of Body Constituents - Concept of Metabolism", "Metabolic Basis for Living"],
+    "expected_answer": "Enzymes lower the activation energy of a reaction by providing an alternative reaction pathway. They stabilize the transition state and bring substrates together in an optimal orientation, thus increasing the rate of reaction without being consumed.",
+    "type": "concept"
+  },
+  {
+    "id": 25,
+    "question": "What are taxonomical keys and how are they structured?",
+    "expected_chapter": "The Living World",
+    "expected_topics": ["Taxonomical Aids", "Taxonomic Categories", "Diversity in the Living World"],
+    "expected_answer": "Taxonomical keys are tools used for identifying organisms based on contrasting characters. They consist of a series of choices between two alternative traits called couplets. Each step leads to further identification until the organism is classified. The individual statements in a key are called leads.",
+    "type": "concept"
   }
 ]
