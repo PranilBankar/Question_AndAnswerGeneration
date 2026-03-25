@@ -3,7 +3,10 @@ from dotenv import load_dotenv
 from supabase import create_client, Client
 from sentence_transformers import SentenceTransformer
 
-load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), '..', 'pdf_to_embedding', '.env'))
+# Load .env for local development (Railway injects env vars directly)
+_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+load_dotenv(dotenv_path=os.path.join(_root, '.env'), override=False)
+load_dotenv(dotenv_path=os.path.join(_root, 'pdf_to_embedding', '.env'), override=False)
 
 # ==============================
 # CONFIG
