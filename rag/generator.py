@@ -76,17 +76,3 @@ def generate_justification(messages: list[dict]) -> list[str]:
     # Fallback: if no numbered lines, return original text split by newlines
     return steps if steps else [l.strip() for l in lines if l.strip()]
 
-
-def verify_answer(messages: list[dict]) -> dict:
-    """
-    Calls the Groq LLM to verify if the answer is supported by the NCERT context.
-    Returns: {"verified": bool, "explanation": str}
-    """
-    raw = call_groq(messages, temperature=0.0, max_tokens=100)
-
-    lines = [l.strip() for l in raw.strip().split("\n") if l.strip()]
-    verdict_line = lines[0].upper() if lines else ""
-    explanation  = lines[1] if len(lines) > 1 else ""
-
-    verified = verdict_line.startswith("YES")
-    return {"verified": verified, "explanation": explanation}

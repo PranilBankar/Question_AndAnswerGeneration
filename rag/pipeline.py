@@ -17,9 +17,9 @@ from rag.retriever      import retrieve_chunks
 from rag.prompt_builder import (
     build_answer_prompt,
     build_justification_prompt,
-    build_verifier_prompt,
 )
-from rag.generator  import generate_answer, generate_justification, verify_answer
+from rag.generator  import generate_answer, generate_justification
+from rag.nli_verifier import verify_answer_nli
 from rag.confidence import compute_confidence
 from Classification.classify_and_extract import classify_question
 
@@ -110,10 +110,9 @@ def run_pipeline(
     just_msgs     = build_justification_prompt(question, answer, chunks)
     justification = generate_justification(just_msgs)
 
-    # ── Step 5: Verify answer ───────────────────────────────────────────────
-    print("[Pipeline] Step 5: Verifying answer via Groq...")
-    verif_msgs      = build_verifier_prompt(question, answer, chunks)
-    verif_result    = verify_answer(verif_msgs)
+    # ── Step 5: Verify answer (Local NLI) ───────────────────────────────────
+    print("[Pipeline] Step 5: Verifying answer via NLI CrossEncoder...")
+    verif_result    = verify_answer_nli(answer, chunks)
     verified        = verif_result["verified"]
     verifier_note   = verif_result["explanation"]
 
