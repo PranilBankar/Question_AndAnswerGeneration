@@ -236,7 +236,7 @@ def generate_graphs(df: pd.DataFrame, non_rejected: pd.DataFrame):
         startangle=90,
         textprops={"fontsize": 14, "weight": "bold"},
     )
-    plt.title("Faithfulness: LLM Answer Verification Rate", pad=20)
+    plt.title("Faithfulness: NLI Verification Rate", pad=20)
     plt.savefig(os.path.join(GRAPHS_DIR, "2_verification_rate.png"), dpi=300)
     plt.close()
 
