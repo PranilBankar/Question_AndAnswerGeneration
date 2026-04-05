@@ -1,0 +1,402 @@
+[
+{
+"question": "A patient exhibits excessive dilute urine production and low blood pressure. If this condition is caused by a lack of ADH, which structures in the nephron and which endocrine gland are primarily involved?",
+"chapter_ids": [15, 18]
+},
+{
+"question": "How does the syncytial nature of cardiac muscle fibers allow for the coordinated contraction of the heart chambers, and how is this regulated by the autonomic nervous system?",
+"chapter_ids": [6, 14, 17]
+},
+{
+"question": "Which specific phase of Prophase I in meiosis is responsible for the genetic recombination that leads to variations observed in the F2 generation of a Mendelian dihybrid cross?",
+"chapter_ids": [9, 21]
+},
+{
+"question": "Compare the structure of the cell wall in Monerans, Fungi, and Plantae, and identify which kingdom utilizes chitin as a primary structural polysaccharide.",
+"chapter_ids": [1, 7, 8]
+},
+{
+"question": "During photorespiration, the oxygenation of RuBP occurs in the chloroplast. In which two other organelles do the subsequent steps of this 'wasteful' process take place?",
+"chapter_ids": [7, 10]
+},
+{
+"question": "In the human female reproductive cycle, which hormone surge triggers ovulation, and which structure is formed from the remains of the Graafian follicle to maintain the endometrium?",
+"chapter_ids": [18, 19]
+},
+{
+"question": "How does the secretion of HCl by parietal cells in the stomach create an acidic environment necessary for the activation of proenzymes involved in protein digestion?",
+"chapter_ids": [8, 13]
+},
+{
+"question": "Identify the type of aestivation where margins of sepals or petals overlap one another but not in any particular direction, commonly seen in Cassia and Gulmohur.",
+"chapter_ids": [4]
+},
+{
+"question": "In a DNA molecule, if the percentage of Cytosine is 20%, calculate the percentage of Adenine using Chargaff's rule.",
+"chapter_ids": [22, 8]
+},
+{
+"question": "Explain how the 'lock and key' hypothesis of enzyme action relates to the tertiary structure of proteins and the concept of competitive inhibition.",
+"chapter_ids": [8, 26]
+},
+{
+"question": "Which phytohormone is responsible for apical dominance, and how is its transport affected when the shoot tip is removed in tea plantations?",
+"chapter_ids": [12, 4]
+},
+{
+"question": "Differentiate between the vascular bundles of a dicot stem and a monocot stem based on the presence of cambium and the arrangement of tissues.",
+"chapter_ids": [5]
+},
+{
+"question": "A person living at high altitudes has a higher RBC count than someone living in the plains. This is an example of which type of adaptation and which organ releases the stimulating hormone?",
+"chapter_ids": [14, 18, 28]
+},
+{
+"question": "Describe the flow of energy through a detritus food chain compared to a grazing food chain in a terrestrial ecosystem.",
+"chapter_ids": [29]
+},
+{
+"question": "How do the p-p bonds in ATP store energy, and how is this energy utilized during the sliding filament theory of muscle contraction?",
+"chapter_ids": [8, 11, 16]
+},
+{
+"question": "Identify the primary messenger and the secondary messenger (like cAMP) involved in the mechanism of action of water-soluble hormones.",
+"chapter_ids": [18, 8]
+},
+{
+"question": "In the lac operon, what is the role of the inducer (lactose), and how does its absence affect the binding of RNA polymerase to the promoter?",
+"chapter_ids": [22]
+},
+{
+"question": "Which specific immune cells are targeted by the HIV virus, and how does this lead to the opportunistic infections seen in AIDS patients?",
+"chapter_ids": [24, 25]
+},
+{
+"question": "How does the use of statins, produced by the yeast Monascus purpureus, lower blood cholesterol levels through competitive inhibition?",
+"chapter_ids": [25, 8]
+},
+{
+"question": "The use of Bt-toxin in cotton plants targets which specific order of insects, and what is the physiological mechanism of its action in the insect gut?",
+"chapter_ids": [27, 3]
+},
+{
+"question": "Distinguish between 'In-situ' and 'Ex-situ' conservation strategies, and classify a 'Sacred Grove' and a 'Zoological Park' accordingly.",
+"chapter_ids": [30]
+},
+{
+"question": "What is the evolutionary significance of the 'Analogy' seen in the wings of a butterfly and a bird, and does it represent convergent or divergent evolution?",
+"chapter_ids": [23, 3]
+},
+{
+"question": "Explain the process of 'Translation' in protein synthesis, specifically the role of aminoacyl-tRNA synthetase and the Ribosome's P and A sites.",
+"chapter_ids": [22, 7]
+},
+{
+"question": "In an ECG, what does the T-wave represent, and how does a flattened T-wave correlate with the oxygenation of the heart muscle?",
+"chapter_ids": [14]
+},
+{
+"question": "During the C4 pathway, why is the CO2 fixation in bundle sheath cells considered more efficient in preventing photorespiration than in C3 plants?",
+"chapter_ids": [10, 5]
+},
+{
+"question": "Which part of the brain is responsible for thermoregulation and the control of the master endocrine gland?",
+"chapter_ids": [17, 18]
+},
+{
+"question": "If a father is colorblind and the mother is a carrier, what is the probability that their son will be colorblind?",
+"chapter_ids": [21]
+},
+{
+"question": "Identify the unique features of the phylum Echinodermata, specifically their water vascular system and its role in locomotion.",
+"chapter_ids": [3, 16]
+},
+{
+"question": "Describe the 'Z-scheme' of light reaction and the role of the oxygen-evolving complex in Phostosystem II.",
+"chapter_ids": [10]
+},
+{
+"question": "What is the difference between 'Innate Immunity' and 'Acquired Immunity' in terms of specificity and memory?",
+"chapter_ids": [24]
+},
+{
+"question": "How does the increase in BOD (Biochemical Oxygen Demand) indicate the level of organic pollution in a water body?",
+"chapter_ids": [25, 29]
+},
+{
+"question": "In the process of PCR, explain the importance of 'Taq Polymerase' and why it must be thermostable.",
+"chapter_ids": [26, 1]
+},
+{
+"question": "Which specific mineral ion is essential for the photolysis of water during photosynthesis and the maintenance of the ribosome structure?",
+"chapter_ids": [10, 7]
+},
+{
+"question": "How do 'barrier methods' of contraception differ from 'IUDs' in terms of preventing fertilization versus implantation?",
+"chapter_ids": [20, 19]
+},
+{
+"question": "Describe the transition from a 'Notochord' to a 'Vertebral Column' during the embryonic development of higher vertebrates.",
+"chapter_ids": [3, 23]
+},
+{
+"question": "In the Krebs cycle, which 4-carbon compound combines with Acetyl CoA to form Citric Acid?",
+"chapter_ids": [11]
+},
+{
+"question": "Identify the hormonal changes that lead to 'Parturition' and the role of the 'Fetal Ejection Reflex'.",
+"chapter_ids": [19, 18]
+},
+{
+"question": "What is 'Saltatory Conduction', and how does the presence of Myelin sheaths and Nodes of Ranvier speed up nerve impulse transmission?",
+"chapter_ids": [17, 6]
+},
+{
+"question": "Discuss the 'Competitive Exclusion Principle' by Gause and how it applies to the distribution of species in a niche.",
+"chapter_ids": [28]
+},
+{
+"question": "Which taxonomic category is the most inclusive and which is the most specific in the hierarchy of classification?",
+"chapter_ids": [0]
+},
+{
+"question": "Explain the significance of 'Double Fertilization' in Angiosperms and the resulting ploidy of the endosperm.",
+"chapter_ids": [2, 19]
+},
+{
+"question": "How do 'Restriction Endonucleases' identify palindromic sequences in DNA for gene cloning?",
+"chapter_ids": [26, 22]
+},
+{
+"question": "What is the role of 'Pneumatophores' in plants like Rhizophora, and in which specific ecosystem are they found?",
+"chapter_ids": [4, 28]
+},
+{
+"question": "Describe the Bohr effect and how the partial pressure of CO2 influences the oxygen dissociation curve of hemoglobin.",
+"chapter_ids": [13, 14]
+},
+{
+"question": "How does the 'Symplastic' pathway of water movement in roots differ from the 'Apoplastic' pathway regarding the Casparian strip?",
+"chapter_ids": [5, 12]
+},
+{
+"question": "What are 'Homologous Organs', and how do they provide evidence for 'Adaptive Radiation' using the example of Darwin's finches?",
+"chapter_ids": [23]
+},
+{
+"question": "Which enzyme is responsible for the conversion of glucose-6-phosphate to fructose-6-phosphate in glycolysis?",
+"chapter_ids": [11, 8]
+},
+{
+"question": "Identify the structural differences between 'Smooth Endoplasmic Reticulum' and 'Rough Endoplasmic Reticulum' and their primary functions.",
+"chapter_ids": [7]
+},
+{
+"question": "In a population of 1000 individuals, if the frequency of a recessive allele is 0.4, calculate the number of heterozygous individuals using the Hardy-Weinberg principle.",
+"chapter_ids": [23, 21]
+},
+{
+"question": "Explain the role of 'Meiosis II' in the production of male gametes in humans and the resulting number of spermatids.",
+"chapter_ids": [19, 9]
+},
+{
+"question": "What is 'Apomixis', and why is it commercially significant in the hybrid seed industry?",
+"chapter_ids": [2, 21]
+},
+{
+"question": "Identify the hormone secreted by the Heart wall that helps in reducing blood pressure.",
+"chapter_ids": [14, 18]
+},
+{
+"question": "During muscle contraction, which band within the sarcomere remains constant in length while others shorten?",
+"chapter_ids": [16, 6]
+},
+{
+"question": "How does 'Mutualism' differ from 'Commensalism' using the example of the Fig tree and the Wasp?",
+"chapter_ids": [28]
+},
+{
+"question": "Which secondary metabolite is used as a drug for treating cancer, and from which plant is it derived?",
+"chapter_ids": [8, 0]
+},
+{
+"question": "What is the function of the 'Tapetum' in the microsporangium wall of a flowering plant?",
+"chapter_ids": [2]
+},
+{
+"question": "How does the 'Counter Current Mechanism' in the Henle's loop and vasa recta help in the concentration of urine?",
+"chapter_ids": [15, 14]
+},
+{
+"question": "Explain 'RNA Interference' (RNAi) as a method of cellular defense in plants against nematode infestation.",
+"chapter_ids": [27, 22]
+},
+{
+"question": "What is 'Pedigree Analysis', and how can it be used to determine if a trait is autosomal dominant or X-linked recessive?",
+"chapter_ids": [21]
+},
+{
+"question": "Identify the three main types of 'RNA' involved in protein synthesis and their specific roles.",
+"chapter_ids": [22, 7]
+},
+{
+"question": "Describe the structure of 'Flagella' in prokaryotes versus eukaryotes and the arrangement of microtubules in the latter.",
+"chapter_ids": [1, 7]
+},
+{
+"question": "How does 'Eutrophication' lead to the depletion of oxygen in a lake and the subsequent death of aquatic life?",
+"chapter_ids": [29, 30]
+},
+{
+"question": "Identify the gland that acts as both exocrine and endocrine, and name the hormones it secretes to regulate blood glucose levels.",
+"chapter_ids": [18, 8]
+},
+{
+"question": "What is the 'Link Reaction' in aerobic respiration, and what are its products before entering the Krebs cycle?",
+"chapter_ids": [11]
+},
+{
+"question": "How does 'Natural Selection' act on 'Industrial Melanism' in the case of the Peppered Moth in England?",
+"chapter_ids": [23]
+},
+{
+"question": "Which enzyme is used to join the 'Okazaki fragments' on the lagging strand during DNA replication?",
+"chapter_ids": [22, 26]
+},
+{
+"question": "Explain the concept of 'Resource Partitioning' as a mechanism to avoid competition among species.",
+"chapter_ids": [28]
+},
+{
+"question": "What is the function of 'Leydig Cells' in the testes and which hormone stimulates them?",
+"chapter_ids": [19, 18]
+},
+{
+"question": "Distinguish between 'Incomplete Dominance' and 'Co-dominance' using the examples of Snapdragons and ABO blood groups.",
+"chapter_ids": [21, 14]
+},
+{
+"question": "How do 'Methanogens' contribute to the production of biogas in a rural setting?",
+"chapter_ids": [1, 25]
+},
+{
+"question": "Describe the role of 'Phycoerythrin' in Rhodophyceae and how it enables them to live in deep sea waters.",
+"chapter_ids": [2, 10]
+},
+{
+"question": "Which part of the human ear is responsible for maintaining body balance and posture?",
+"chapter_ids": [17]
+},
+{
+"question": "Identify the stage of the cell cycle where 'DNA Replication' occurs and the amount of DNA per cell is doubled.",
+"chapter_ids": [9, 7]
+},
+{
+"question": "How does 'Gene Gun' (Biolistics) differ from 'Micro-injection' as a method of introducing alien DNA into host cells?",
+"chapter_ids": [26]
+},
+{
+"question": "What is 'Ecological Succession', and distinguish between 'Hydrarch' and 'Xerarch' succession.",
+"chapter_ids": [29]
+},
+{
+"question": "How do 'Stomata' open and close based on the turgidity of 'Guard Cells'?",
+"chapter_ids": [12, 5]
+},
+{
+"question": "Explain the significance of the 'S-shaped' (Sigmoid) growth curve in a population with limited resources.",
+"chapter_ids": [28, 12]
+},
+{
+"question": "What are 'Prions', and how do they differ from 'Viruses' and 'Viroids' in terms of composition?",
+"chapter_ids": [1]
+},
+{
+"question": "Identify the primary lymphoid organs where immature lymphocytes differentiate into antigen-sensitive lymphocytes.",
+"chapter_ids": [24]
+},
+{
+"question": "Describe the 'Placentation' where ovules are borne on the central axis and septa are absent, as seen in Dianthus.",
+"chapter_ids": [4]
+},
+{
+"question": "How does 'Ethylene' act as a gaseous phytohormone in fruit ripening and the 'Respiratory Climacteric'?",
+"chapter_ids": [12, 11]
+},
+{
+"question": "What is 'Down's Syndrome', and how does it relate to 'Aneuploidy' during meiosis?",
+"chapter_ids": [21, 9]
+},
+{
+"question": "Identify the specific enzyme that facilitates the formation of a peptide bond between two amino acids.",
+"chapter_ids": [8, 22]
+},
+{
+"question": "Describe the structure of 'Myoglobin' and its affinity for oxygen compared to hemoglobin in muscle tissues.",
+"chapter_ids": [8, 16, 13]
+},
+{
+"question": "What is 'Biofortification', and how can it help in addressing 'Hidden Hunger' in developing countries?",
+"chapter_ids": [25, 27]
+},
+{
+"question": "How does 'Allosteric Regulation' control metabolic pathways through feedback inhibition?",
+"chapter_ids": [8]
+},
+{
+"question": "Explain the 'Fluid Mosaic Model' of the plasma membrane and the role of 'Integral Proteins'.",
+"chapter_ids": [7]
+},
+{
+"question": "What is 'Species Diversity', and how does it vary with latitude from the equator to the poles?",
+"chapter_ids": [30]
+},
+{
+"question": "Identify the vector for 'Malaria' and 'Filariasis' and the causative organisms involved in each.",
+"chapter_ids": [24, 3]
+},
+{
+"question": "How does 'Gene Flow' differ from 'Genetic Drift' in changing the allele frequencies of a population?",
+"chapter_ids": [23]
+},
+{
+"question": "What is the 'Corpus Luteum', and how does its degeneration lead to 'Menstruation' if fertilization does not occur?",
+"chapter_ids": [19, 18]
+},
+{
+"question": "Describe the role of 'Carbonic Anhydrase' in the transport of CO2 in the blood.",
+"chapter_ids": [13, 14, 8]
+},
+{
+"question": "Which stage of the 'Plasmodium' life cycle is infectious to humans, and where does fertilization of the parasite occur?",
+"chapter_ids": [24, 3]
+},
+{
+"question": "How does the 'Hypothalamus' regulate the secretion of 'Thyroid Stimulating Hormone' (TSH) from the pituitary?",
+"chapter_ids": [18, 17]
+},
+{
+"question": "Explain the term 'Totipotency' and its application in 'Plant Tissue Culture'.",
+"chapter_ids": [27, 12]
+},
+{
+"question": "What is 'Competitive Inhibition' of enzymes, and use the example of 'Malonate' and 'Succinate Dehydrogenase'.",
+"chapter_ids": [8, 11]
+},
+{
+"question": "Describe the 'Double Helix' structure of DNA, focusing on the anti-parallel nature of the two strands.",
+"chapter_ids": [22, 8]
+},
+{
+"question": "What are 'Pioneer Species', and what is their role in 'Primary Succession' on a bare rock?",
+"chapter_ids": [29, 2]
+},
+{
+"question": "Identify the cells in the 'Islets of Langerhans' that secrete 'Glucagon' and 'Insulin'.",
+"chapter_ids": [18, 8]
+},
+{
+"question": "How does 'Global Warming' affect the 'Hydrological Cycle' and the distribution of biomes?",
+"chapter_ids": [29, 28]
+}
+]

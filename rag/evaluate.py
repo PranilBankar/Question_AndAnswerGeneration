@@ -39,8 +39,12 @@ os.makedirs(GRAPHS_DIR,  exist_ok=True)
 
 # ─── Helpers ─────────────────────────────────────────────────────────────────
 
+import re
+
 def normalize(text: str) -> str:
     """Strict normalization: lowercase, strip, replace hyphens/underscores with spaces."""
+    # Remove leading numbers and decorators (e.g. "9.8.6 - ")
+    text = re.sub(r'^[\d\.\s\-]+', '', text)
     return text.lower().strip().replace("-", " ").replace("_", " ")
 
 
@@ -88,7 +92,7 @@ def evaluate_pipeline():
         expected_topics  = item.get("expected_topics", [])
 
         start_time = time.time()
-        res        = run_pipeline(question, top_k=5, use_classifier=True)
+        res        = run_pipeline(question, top_k=5, use_classifier=False)
         latency    = time.time() - start_time
 
         # ── Rejection check ──────────────────────────────────────────────────

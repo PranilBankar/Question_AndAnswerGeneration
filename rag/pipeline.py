@@ -28,7 +28,7 @@ def run_pipeline(
     question: str,
     chapter_filter: str = None,
     top_k: int = 5,
-    use_classifier: bool = True,
+    use_classifier: bool = False,
 ) -> dict:
     """
     End-to-end RAG pipeline for a NEET Biology question.

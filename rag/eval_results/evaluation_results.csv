@@ -1,26 +1,26 @@
 id,question,expected_chapter,predicted_chapter,chapter_correct,recall_at_5,precision_at_3,avg_similarity,is_verified,confidence,latency_sec,rejected
-1,"What is the detailed role of cofactors, co-enzymes, and prosthetic groups in enzyme activity?",Biomolecules,Biomolecules,True,0.7,0.3333333333333333,0.75814,False,0.4549,17.11872386932373,False
-2,"Explain the difference between primary and secondary metabolites, providing examples of each.",Biomolecules,Biomolecules,True,0.7,0.3333333333333333,0.6829599999999999,True,0.8098,9.756080150604248,False
-3,How does carbonic anhydrase accelerate the formation of carbonic acid?,Biomolecules,Respiration in Plants,False,0.0,0.0,0.67564,False,0.4054,3.540236473083496,False
-4,Describe the system of binomial nomenclature and its universal rules.,The Living World,,False,,,,False,0.0,0.9280753135681152,True
-5,What is the difference between anabolism and catabolism in the context of metabolism?,Biomolecules,Respiration in Plants,False,0.0,0.0,0.6692199999999999,True,0.8015,21.50677466392517,False
-6,"To which taxonomic categories do Solanum, Panthera and Homo belong?",The Living World,Animal Kingdom,False,0.0,0.0,0.61592,False,0.3696,24.333248138427734,False
-7,What is a herbarium and how is it prepared and used?,The Living World,Plant Kingdom,False,0.0,0.0,0.59026,False,0.3541,21.944719552993774,False
-8,Are nucleic acids polymers? Describe their structure briefly.,Biomolecules,Biomolecules,True,1.0,1.0,0.7173200000000001,True,0.8304,21.7753324508667,False
-9,What does a biological key rely on for identification?,The Living World,Molecular Basis of Inheritance,False,0.0,0.0,0.66034,False,0.3962,15.089920997619629,False
-10,Explain the nature of the peptide bond in proteins.,Biomolecules,Molecular Basis of Inheritance,False,0.0,0.0,0.7215400000000001,True,0.8329,19.19485378265381,False
-11,How are living organisms classified hierarchically?,The Living World,The Living World,True,1.0,1.0,0.7715200000000001,True,0.8629,22.25699234008789,False
-12,What is the Watson-Crick model of DNA?,Biomolecules,Molecular Basis of Inheritance,False,0.0,0.0,0.7231400000000001,True,0.8339,14.896737575531006,False
-13,What defines the defining properties of living organisms compared to non-living objects?,The Living World,,False,,,,False,0.0,1.0744514465332031,True
-14,Describe the B-DNA structure dimensions.,Biomolecules,Molecular Basis of Inheritance,False,0.0,0.0,0.7621399999999999,True,0.8573,16.00179147720337,False
-15,What is competitive inhibition in enzyme kinetics? Provide an example.,Biomolecules,Biomolecules,True,0.0,0.0,0.75482,True,0.8529,20.814998149871826,False
-16,What are the different levels of protein structure and how are they stabilized?,Biomolecules,Biomolecules,True,1.0,0.6666666666666666,0.7381800000000001,False,0.4429,21.150768995285034,False
-17,What is the role of metal ions as cofactors in enzyme activity?,Biomolecules,Biomolecules,True,0.7,0.3333333333333333,0.7384599999999999,True,0.8431,21.598052263259888,False
-18,Explain the significance of botanical gardens as taxonomical aids.,The Living World,,False,,,,False,0.0,1.052309274673462,True
-19,What is the importance of museums in biological classification?,The Living World,Biological Classification,False,0.0,0.0,0.59224,False,0.3553,20.223182439804077,False
-20,What are polysaccharides? Give examples and their functions.,Biomolecules,Biomolecules,True,0.7,0.0,0.71098,True,0.8266,23.40393328666687,False
-21,What is the difference between saturated and unsaturated fatty acids?,Biomolecules,Biomolecules,True,1.0,0.6666666666666666,0.61344,False,0.3681,17.791187047958374,False
-22,Define species and explain its importance in taxonomy.,The Living World,The Living World,True,1.0,0.6666666666666666,0.80246,True,0.8815,23.209630250930786,False
-23,What are the components of a nucleotide and how are they arranged?,Biomolecules,Molecular Basis of Inheritance,False,0.0,0.0,0.7652,True,0.8591,20.143720626831055,False
-24,What is the role of enzymes in lowering activation energy?,Biomolecules,,False,,,,False,0.0,0.7961039543151855,True
-25,What are taxonomical keys and how are they structured?,The Living World,,False,,,,False,0.0,0.623054027557373,True
+1,"What is the detailed role of cofactors, co-enzymes, and prosthetic groups in enzyme activity?",Biomolecules,Biomolecules,True,0.7,0.3333333333333333,0.75814,False,0.4549,16.98667287826538,False
+2,"Explain the difference between primary and secondary metabolites, providing examples of each.",Biomolecules,Biomolecules,True,0.7,0.3333333333333333,0.6829599999999999,True,0.8098,4.398167371749878,False
+3,How does carbonic anhydrase accelerate the formation of carbonic acid?,Biomolecules,Respiration in Plants,False,0.0,0.0,0.67564,False,0.4054,13.718585968017578,False
+4,Describe the system of binomial nomenclature and its universal rules.,The Living World,,False,,,,False,0.0,1.5404183864593506,True
+5,What is the difference between anabolism and catabolism in the context of metabolism?,Biomolecules,Respiration in Plants,False,0.0,0.0,0.6692199999999999,True,0.8015,27.646445274353027,False
+6,"To which taxonomic categories do Solanum, Panthera and Homo belong?",The Living World,Animal Kingdom,False,0.0,0.0,0.61592,False,0.3696,23.647260665893555,False
+7,What is a herbarium and how is it prepared and used?,The Living World,Plant Kingdom,False,0.0,0.0,0.59026,False,0.3541,22.012534141540527,False
+8,Are nucleic acids polymers? Describe their structure briefly.,Biomolecules,Biomolecules,True,1.0,1.0,0.7173200000000001,True,0.8304,21.200618267059326,False
+9,What does a biological key rely on for identification?,The Living World,Molecular Basis of Inheritance,False,0.0,0.0,0.66034,False,0.3962,14.745102643966675,False
+10,Explain the nature of the peptide bond in proteins.,Biomolecules,Molecular Basis of Inheritance,False,0.0,0.0,0.7215400000000001,True,0.8329,19.65728998184204,False
+11,How are living organisms classified hierarchically?,The Living World,The Living World,True,1.0,1.0,0.7715200000000001,True,0.8629,22.375441551208496,False
+12,What is the Watson-Crick model of DNA?,Biomolecules,Molecular Basis of Inheritance,False,0.0,0.0,0.7231400000000001,True,0.8339,15.922670602798462,False
+13,What defines the defining properties of living organisms compared to non-living objects?,The Living World,,False,,,,False,0.0,1.0280537605285645,True
+14,Describe the B-DNA structure dimensions.,Biomolecules,Molecular Basis of Inheritance,False,0.0,0.0,0.7621399999999999,True,0.8573,16.17473077774048,False
+15,What is competitive inhibition in enzyme kinetics? Provide an example.,Biomolecules,Biomolecules,True,0.0,0.0,0.75482,True,0.8529,19.71001672744751,False
+16,What are the different levels of protein structure and how are they stabilized?,Biomolecules,Biomolecules,True,1.0,0.6666666666666666,0.7381800000000001,False,0.4429,21.552035808563232,False
+17,What is the role of metal ions as cofactors in enzyme activity?,Biomolecules,Biomolecules,True,0.7,0.3333333333333333,0.7384599999999999,True,0.8431,20.897082567214966,False
+18,Explain the significance of botanical gardens as taxonomical aids.,The Living World,,False,,,,False,0.0,1.2371582984924316,True
+19,What is the importance of museums in biological classification?,The Living World,Biological Classification,False,0.0,0.0,0.59224,False,0.3553,20.2664532661438,False
+20,What are polysaccharides? Give examples and their functions.,Biomolecules,Biomolecules,True,0.7,0.0,0.71098,True,0.8266,23.344910621643066,False
+21,What is the difference between saturated and unsaturated fatty acids?,Biomolecules,Biomolecules,True,1.0,0.6666666666666666,0.61344,False,0.3681,19.04604935646057,False
+22,Define species and explain its importance in taxonomy.,The Living World,The Living World,True,1.0,0.6666666666666666,0.80246,True,0.8815,22.738133907318115,False
+23,What are the components of a nucleotide and how are they arranged?,Biomolecules,Molecular Basis of Inheritance,False,0.0,0.0,0.7652,True,0.8591,20.884496688842773,False
+24,What is the role of enzymes in lowering activation energy?,Biomolecules,,False,,,,False,0.0,1.4447367191314697,True
+25,What are taxonomical keys and how are they structured?,The Living World,,False,,,,False,0.0,0.9197194576263428,True
