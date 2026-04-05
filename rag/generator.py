@@ -22,19 +22,34 @@ def get_groq_client() -> Groq:
     return _groq_client
 
 
-def call_groq(messages: list[dict], temperature: float = 0.2, max_tokens: int = 512) -> str:
+def call_groq(messages: list[dict], temperature: float = 0.2, max_tokens: int = 512, max_retries: int = 5) -> str:
     """
-    Makes a single Groq chat completion call.
+    Makes a single Groq chat completion call with exponential backoff for rate limits.
     Returns the raw text response from the LLM.
     """
+    import time
     client = get_groq_client()
-    response = client.chat.completions.create(
-        model=GROQ_MODEL,
-        messages=messages,
-        temperature=temperature,
-        max_tokens=max_tokens,
-    )
-    return response.choices[0].message.content.strip()
+    delay = 5.0
+    for attempt in range(max_retries):
+        try:
+            response = client.chat.completions.create(
+                model=GROQ_MODEL,
+                messages=messages,
+                temperature=temperature,
+                max_tokens=max_tokens,
+            )
+            return response.choices[0].message.content.strip()
+        except Exception as e:
+            error_msg = str(e).lower()
+            if "429" in error_msg or "rate limit" in error_msg or "too many requests" in error_msg:
+                if attempt == max_retries - 1:
+                    print(f"[Groq API] Max retries reached. Failing.")
+                    raise e
+                print(f"[Groq API] Rate limit hit. Waiting {delay}s before attempt {attempt+2}/{max_retries}...")
+                time.sleep(delay)
+                delay *= 1.5  # Exponential backoff
+            else:
+                raise e
 
 
 def generate_answer(messages: list[dict]) -> str:

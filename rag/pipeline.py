@@ -62,7 +62,7 @@ def run_pipeline(
         print(f"[Pipeline] Auto-filtered to chapter: {chapter_filter}")
 
         # ── Confidence gate: reject if BERT is too uncertain ──
-        if classification["chapter_confidence"] < 0.45:
+        if classification["chapter_confidence"] < 0.30:
             print(f"[Pipeline] ⚠️ Low confidence ({classification['chapter_confidence']:.2%}) — rejecting question.")
             return {
                 "question"       : question,

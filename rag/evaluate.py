@@ -271,22 +271,22 @@ def generate_graphs(df: pd.DataFrame, non_rejected: pd.DataFrame):
     plt.savefig(os.path.join(GRAPHS_DIR, "5_retrieval_similarity.png"), dpi=300)
     plt.close()
 
-    # 6. Chapter Classification Accuracy (new)
-    plt.figure(figsize=(8, 8))
-    acc_counts = non_rejected["chapter_correct"].value_counts()
-    plt.pie(
-        acc_counts,
-        labels=[f"{'Correct' if bool(k) else 'Wrong'} ({v})" for k, v in acc_counts.items()],
-        autopct="%1.1f%%",
-        colors=["#3498db", "#e67e22"],
-        startangle=90,
-        textprops={"fontsize": 14, "weight": "bold"},
-    )
-    plt.title("Chapter Classification Accuracy (BERT)", pad=20)
-    plt.savefig(os.path.join(GRAPHS_DIR, "6_chapter_accuracy.png"), dpi=300)
-    plt.close()
+    # # 6. Chapter Classification Accuracy (new)
+    # plt.figure(figsize=(8, 8))
+    # acc_counts = non_rejected["chapter_correct"].value_counts()
+    # plt.pie(
+    #     acc_counts,
+    #     labels=[f"{'Correct' if bool(k) else 'Wrong'} ({v})" for k, v in acc_counts.items()],
+    #     autopct="%1.1f%%",
+    #     colors=["#3498db", "#e67e22"],
+    #     startangle=90,
+    #     textprops={"fontsize": 14, "weight": "bold"},
+    # )
+    # plt.title("Chapter Classification Accuracy (BERT)", pad=20)
+    # plt.savefig(os.path.join(GRAPHS_DIR, "6_chapter_accuracy.png"), dpi=300)
+    # plt.close()
 
-    print(f"✅ Generated 6 graphs in {GRAPHS_DIR}")
+    print(f"✅ Generated 5 graphs in {GRAPHS_DIR}")
 
 
 if __name__ == "__main__":

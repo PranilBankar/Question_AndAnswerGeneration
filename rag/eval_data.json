@@ -60,30 +60,6 @@
     "type": "concept"
   },
   {
-    "id": 6,
-    "question": "To which taxonomic categories do Solanum, Panthera and Homo belong?",
-    "expected_chapter": "The Living World",
-    "expected_topics": [
-      "Taxonomic Categories",
-      "Diversity in the Living World",
-      "Taxonomical Aids"
-    ],
-    "expected_answer": "They belong to the taxonomic category Genus. For example, potato and brinjal are two different species but both belong to the genus Solanum. Lion (Panthera leo), leopard (P. pardus) and tiger (P. tigris) belong to the genus Panthera. Human beings belong to the genus Homo.",
-    "type": "factoid"
-  },
-  {
-    "id": 7,
-    "question": "What is a herbarium and how is it prepared and used?",
-    "expected_chapter": "The Living World",
-    "expected_topics": [
-      "Taxonomical Aids",
-      "Diversity in the Living World",
-      "Taxonomic Categories"
-    ],
-    "expected_answer": "A herbarium is a store house of collected plant specimens. These specimens are dried, pressed and preserved on paper sheets. The sheets are then arranged according to a universally accepted system of classification. These specimens, along with their descriptions on herbarium sheets, become a storehouse or repository for future use. The herbarium sheets also carry a label providing information about date and place of collection, English, local and botanical names, family, collector's name, etc. Herbaria serve as quick referral systems in taxonomical studies.",
-    "type": "concept"
-  },
-  {
     "id": 8,
     "question": "Are nucleic acids polymers? Describe their structure briefly.",
     "expected_chapter": "Biomolecules",
@@ -92,7 +68,7 @@
       "Structure of Proteins",
       "Biomacromolecules"
     ],
-    "expected_answer": "Yes, nucleic acids (DNA and RNA) are macromolecules that are polymers of nucleotides—hence they are polynucleotides. A nucleotide has three chemically distinct components: a heterocyclic compound (a nitrogenous base like adenine, guanine, uracil, cytosine, or thymine), a monosaccharide (ribose or deoxyribose sugar), and a phosphoric acid or phosphate group.",
+    "expected_answer": "Yes, nucleic acids (DNA and RNA) are macromolecules that are polymers of nucleotides\u00e2\u20ac\u201dhence they are polynucleotides. A nucleotide has three chemically distinct components: a heterocyclic compound (a nitrogenous base like adenine, guanine, uracil, cytosine, or thymine), a monosaccharide (ribose or deoxyribose sugar), and a phosphoric acid or phosphate group.",
     "type": "concept"
   },
   {
@@ -105,18 +81,6 @@
       "Taxonomic Categories"
     ],
     "expected_answer": "A Key is a taxonomical aid used for identification of plants and animals based on the similarities and dissimilarities. The keys are based on the contrasting characters generally in a pair called a couplet. It represents the choice made between two opposite options. This results in acceptance of only one and rejection of the other. The separate statements in a key are called leads. Separate taxonomic keys are required for each taxonomic category such as family, genus and species.",
-    "type": "concept"
-  },
-  {
-    "id": 10,
-    "question": "Explain the nature of the peptide bond in proteins.",
-    "expected_chapter": "Biomolecules",
-    "expected_topics": [
-      "Nature of Bond Linking Monomers in a Polymer",
-      "Proteins",
-      "Structure of Proteins"
-    ],
-    "expected_answer": "In a polypeptide or a protein, amino acids are linked by a peptide bond. This bond is formed when the carboxyl (-COOH) group of one amino acid reacts with the amino (-NH2) group of the next amino acid. This chemical reaction occurs with the elimination of a water moiety, which is a process known as dehydration.",
     "type": "concept"
   },
   {
@@ -204,18 +168,6 @@
     "type": "concept"
   },
   {
-    "id": 18,
-    "question": "Explain the significance of botanical gardens as taxonomical aids.",
-    "expected_chapter": "The Living World",
-    "expected_topics": [
-      "Taxonomical Aids",
-      "Diversity in the Living World",
-      "Taxonomic Categories"
-    ],
-    "expected_answer": "Botanical gardens are specialized institutions where living plant species are cultivated for reference and study. Each plant is labeled with its scientific name and family. They serve as important taxonomical aids for identification, conservation, and research. Botanical gardens also provide information about plant diversity and help in education and scientific studies.",
-    "type": "concept"
-  },
-  {
     "id": 19,
     "question": "What is the importance of museums in biological classification?",
     "expected_chapter": "The Living World",
@@ -285,18 +237,6 @@
       "Metabolic Basis for Living"
     ],
     "expected_answer": "Enzymes lower the activation energy of a reaction by providing an alternative reaction pathway. They stabilize the transition state and bring substrates together in an optimal orientation, thus increasing the rate of reaction without being consumed.",
-    "type": "concept"
-  },
-  {
-    "id": 25,
-    "question": "What are taxonomical keys and how are they structured?",
-    "expected_chapter": "The Living World",
-    "expected_topics": [
-      "Taxonomical Aids",
-      "Taxonomic Categories",
-      "Diversity in the Living World"
-    ],
-    "expected_answer": "Taxonomical keys are tools used for identifying organisms based on contrasting characters. They consist of a series of choices between two alternative traits called couplets. Each step leads to further identification until the organism is classified. The individual statements in a key are called leads.",
     "type": "concept"
   }
 ]
