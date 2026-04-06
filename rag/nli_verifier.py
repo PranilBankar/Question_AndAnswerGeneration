@@ -19,28 +19,31 @@ def verify_answer_nli(answer: str, chunks: list[dict]) -> dict:
         
     model = get_nli_model()
     
-    # Combine the top 2 chunks as the "Premise" (limits token length to ~512)
-    top_chunks = chunks[:2]
-    premise = " ".join([c.get("text_content", "") for c in top_chunks])
+    # Loop through top 5 chunks to see if ANY chunk successfully entails the answer.
+    # This prevents the 512 token limit from hiding evidence located in chunk 3 or 4.
+    best_entailment = -999.0
+    best_scores = [0, 0, 0]
     
-    # Predict takes a list of pairs: [(Premise, Hypothesis)]
-    scores = model.predict([(premise, answer)])[0]
+    for c in chunks[:5]:
+        premise = c.get("text_content", "")
+        if not premise: continue
+        
+        # Predict pair
+        scores = model.predict([(premise, answer)])[0]
+        entailment_score = scores[1]
+        
+        if entailment_score > best_entailment:
+            best_entailment = entailment_score
+            best_scores = scores
+            
+    contradiction = best_scores[0]
+    entailment    = best_scores[1]
+    neutral       = best_scores[2]
     
-    # For 'cross-encoder/nli-distilroberta-base':
-    # scores[0] = Contradiction
-    # scores[1] = Entailment
-    # scores[2] = Neutral
-    
-    contradiction = scores[0]
-    entailment    = scores[1]
-    neutral       = scores[2]
-    
-    # A simple deterministic gate:
-    # If entailment is stronger than contradiction, it's considered verified.
-    # Optionally, we could require entailment > neutral, but often 'neutral' is high if the answer is short.
+    # Simple deterministic gate: Entailment vs Contradiction
     verified = bool(entailment > contradiction)
     
-    explanation = f"NLI Scores -> Entailment: {entailment:.2f} | Contradiction: {contradiction:.2f} | Neutral: {neutral:.2f}"
+    explanation = f"NLI Max Scores -> Entailment: {entailment:.2f} | Contradiction: {contradiction:.2f} | Neutral: {neutral:.2f}"
     
     return {
         "verified": verified,
