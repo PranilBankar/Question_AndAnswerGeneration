@@ -92,7 +92,7 @@ def evaluate_pipeline():
         expected_topics  = item.get("expected_topics", [])
 
         start_time = time.time()
-        res        = run_pipeline(question, top_k=5, use_classifier=False)
+        res        = run_pipeline(question, top_k=5, use_classifier=True)
         latency    = time.time() - start_time
 
         # ── Rejection check ──────────────────────────────────────────────────

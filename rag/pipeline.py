@@ -55,11 +55,11 @@ def run_pipeline(
 
     # ── Step 0: BERT Classification + Topic Extraction ──────────────────────
     classification = None
-    if use_classifier and chapter_filter is None:
+    if use_classifier:
         print("[Pipeline] Step 0: BERT classification + topic extraction...")
         classification = classify_question(question)
-        chapter_filter = classification["chapter"]
-        print(f"[Pipeline] Auto-filtered to chapter: {chapter_filter}")
+        predicted_chapter = classification["chapter"]
+        print(f"[Pipeline] Predicted chapter: {predicted_chapter} (Not used as filter)")
 
         # ── Confidence gate: reject if BERT is too uncertain ──
         if classification["chapter_confidence"] < 0.30:
@@ -77,8 +77,8 @@ def run_pipeline(
             }
 
     # ── Step 1: Retrieve relevant NCERT chunks ──────────────────────────────
-    print("[Pipeline] Step 1: Retrieving NCERT chunks...")
-    chunks = retrieve_chunks(question, chapter_filter=chapter_filter, top_k=top_k)
+    print("[Pipeline] Step 1: Retrieving NCERT chunks (Global DB Search)...")
+    chunks = retrieve_chunks(question, chapter_filter=None, top_k=top_k)
 
     if not chunks:
         return {
