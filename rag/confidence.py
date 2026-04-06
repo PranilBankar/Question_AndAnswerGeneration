@@ -25,7 +25,8 @@ def compute_confidence(
     if not retrieval_scores:
         avg_retrieval = 0.0
     else:
-        avg_retrieval = sum(retrieval_scores) / len(retrieval_scores)
+        # avg_retrieval = sum(retrieval_scores) / len(retrieval_scores)
+        avg_retrieval = max(retrieval_scores)
 
     verifier_score = 1.0 if verified else 0.0
 
