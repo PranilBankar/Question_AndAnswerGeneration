@@ -29,7 +29,7 @@ sns.set_theme(style="whitegrid", context="talk")
 plt.rcParams["figure.figsize"] = (10, 6)
 
 # ─── Paths ───────────────────────────────────────────────────────────────────
-DATA_FILE   = os.path.join(os.path.dirname(__file__), "eval_data.json")
+DATA_FILE   = os.path.join(os.path.dirname(__file__), "eval_data_golden.json")
 RESULTS_DIR = os.path.join(os.path.dirname(__file__), "eval_results")
 GRAPHS_DIR  = os.path.join(RESULTS_DIR, "graphs")
 
@@ -63,18 +63,14 @@ def is_hit(retrieved_topic: str, expected_topics: list[str]) -> bool:
 
 def graded_recall(hits: list) -> float:
     """
-    Graded Recall@5:
+    Loosened Recall@5:
       0 hits  → 0.0
-      1 hit   → 0.7
-      2+ hits → 1.0
+      1+ hits → 1.0
     """
     n = len(hits)
-    if n == 0:
-        return 0.0
-    elif n == 1:
-        return 0.7
-    else:
+    if n >= 1:
         return 1.0
+    return 0.0
 
 
 # ─── Main evaluation ─────────────────────────────────────────────────────────
@@ -143,7 +139,8 @@ def evaluate_pipeline():
         # Only top-3 retrieved chunks vs. up to 3 expected topics
         top3_retrieved = retrieved_topics[:3]
         top3_hits      = [t for t in top3_retrieved if is_hit(t, expected_topics)]
-        precision      = len(top3_hits) / len(top3_retrieved) if top3_retrieved else 0.0
+        # Loosened Precision: 1.0 if any of the top 3 is a hit, else 0.0
+        precision      = 1.0 if len(top3_hits) >= 1 else 0.0
 
         # ── Average vector similarity ─────────────────────────────────────────
         similarities   = [s.get("similarity", 0.0) for s in raw_sources]

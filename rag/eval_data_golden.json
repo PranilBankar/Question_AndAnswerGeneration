@@ -1,0 +1,221 @@
+[
+  {
+    "id": 1,
+    "question": "What is the detailed role of cofactors, co-enzymes, and prosthetic groups in enzyme activity?",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": [
+      "Co-factors",
+      "Enzymes",
+      "Nature of Enzyme Action"
+    ],
+    "expected_answer": "Enzymes are composed of one or several polypeptide chains. However, there are a number of cases in which non-protein constituents called cofactors are bound to the enzyme to make the enzyme catalytically active. In these instances, the protein portion of the enzymes is called the apoenzyme. Three kinds of cofactors may be identified: prosthetic groups, co-enzymes and metal ions. Prosthetic groups are organic compounds and are distinguished from other cofactors in that they are tightly bound to the apoenzyme. Co-enzymes are also organic compounds but their association with the apoenzyme is only transient, usually occurring during the course of catalysis. Metal ions form coordination bonds with side chains at the active site and at the same time form one or more coordination bonds with the substrate.",
+    "type": "concept"
+  },
+  {
+    "id": 2,
+    "question": "Explain the difference between primary and secondary metabolites, providing examples of each.",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": [
+      "Primary and Secondary Metabolites"
+    ],
+    "expected_answer": "Primary metabolites have identifiable functions and play known roles in normal physiological processes. Examples include amino acids, sugars, and lipids. Secondary metabolites are products of plants, fungi, and microbes that do not have a direct known function in normal growth, development, or reproduction of the organism, though they may have ecological importance. Examples of secondary metabolites include alkaloids, flavonoids, rubber, essential oils, antibiotics, colored pigments, scents, gums, and spices.",
+    "type": "concept"
+  },
+  {
+    "id": 3,
+    "question": "How does carbonic anhydrase accelerate the formation of carbonic acid?",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": [
+      "Chemical Reactions",
+      "Transport of Carbon dioxide"
+    ],
+    "expected_answer": "In the absence of any enzyme, the reaction of CO2 dissolving in water to form carbonic acid is very slow, with about 200 molecules of H2CO3 being formed in an hour. However, by using the enzyme present within the cytoplasm called carbonic anhydrase, the reaction speeds dramatically with about 600,000 molecules being formed every second. The enzyme has accelerated the reaction rate by about 10 million times.",
+    "type": "concept"
+  },
+  {
+    "id": 4,
+    "question": "Describe the system of binomial nomenclature and its universal rules.",
+    "expected_chapter": "The Living World",
+    "expected_topics": [
+      "Species",
+      "Modern Taxonomic Approaches"
+    ],
+    "expected_answer": "Binomial nomenclature is a system of providing a name with two components: the Generic name and the specific epithet. It was proposed by Carolus Linnaeus. The universal rules are: 1) Biological names are generally in Latin and written in italics. 2) The first word represents the genus while the second denotes the specific epithet. 3) Both words, when handwritten, are separately underlined, or printed in italics to indicate their Latin origin. 4) The first word denoting the genus starts with a capital letter while the specific epithet starts with a small letter.",
+    "type": "concept"
+  },
+  {
+    "id": 5,
+    "question": "What is the difference between anabolism and catabolism in the context of metabolism?",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": [
+      "Catabolism of Glucose",
+      "Catabolism"
+    ],
+    "expected_answer": "Metabolism is the sum of all chemical reactions occurring in an organism. Anabolic pathways are biosynthetic; they build up complex structures from simpler ones (e.g., acetic acid becoming cholesterol) and consequently consume energy. Catabolic pathways are degradative; they break down complex molecules into simpler ones (e.g., glucose becoming lactic acid in skeletal muscle) and this process leads to the release of energy.",
+    "type": "concept"
+  },
+  {
+    "id": 8,
+    "question": "Are nucleic acids polymers? Describe their structure briefly.",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": [
+      "Structure of Polynucleotide Chain",
+      "Nucleic Acids"
+    ],
+    "expected_answer": "Yes, nucleic acids (DNA and RNA) are macromolecules that are polymers of nucleotides\u00e2\u20ac\u201dhence they are polynucleotides. A nucleotide has three chemically distinct components: a heterocyclic compound (a nitrogenous base like adenine, guanine, uracil, cytosine, or thymine), a monosaccharide (ribose or deoxyribose sugar), and a phosphoric acid or phosphate group.",
+    "type": "concept"
+  },
+  {
+    "id": 9,
+    "question": "What does a biological key rely on for identification?",
+    "expected_chapter": "The Living World",
+    "expected_topics": [
+      "Properties of Genetic Material (DNA versus RNA)",
+      "DNA Fingerprinting"
+    ],
+    "expected_answer": "A Key is a taxonomical aid used for identification of plants and animals based on the similarities and dissimilarities. The keys are based on the contrasting characters generally in a pair called a couplet. It represents the choice made between two opposite options. This results in acceptance of only one and rejection of the other. The separate statements in a key are called leads. Separate taxonomic keys are required for each taxonomic category such as family, genus and species.",
+    "type": "concept"
+  },
+  {
+    "id": 11,
+    "question": "How are living organisms classified hierarchically?",
+    "expected_chapter": "The Living World",
+    "expected_topics": [
+      "Taxonomic Categories",
+      "Order, Class, and Phylum"
+    ],
+    "expected_answer": "Living organisms are classified using a hierarchy of taxonomic categories. The sequence, from the broadest to the most specific, is: Kingdom, Phylum (or Division for plants), Class, Order, Family, Genus, and Species. As we go higher from species to kingdom, the number of common characteristics goes on decreasing.",
+    "type": "concept"
+  },
+  {
+    "id": 12,
+    "question": "What is the Watson-Crick model of DNA?",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": [
+      "The DNA",
+      "Structure of Polynucleotide Chain"
+    ],
+    "expected_answer": "The Watson-Crick model indicates that DNA exists as a double helix. The two strands of polynucleotides are antiparallel (run in opposite directions). The backbone is formed by the sugar-phosphate-sugar chain. The nitrogen bases are projected more or less perpendicular to this backbone but face inside. Adenine and Guanine of one strand compulsorily base pair with Thymine and Cytosine, respectively, on the other strand; Adenine forms 2 hydrogen bonds with Thymine, while Guanine forms 3 hydrogen bonds with Cytosine.",
+    "type": "concept"
+  },
+  {
+    "id": 13,
+    "question": "What defines the defining properties of living organisms compared to non-living objects?",
+    "expected_chapter": "The Living World",
+    "expected_topics": [
+      "Introduction to Diversity in the Living World",
+      "Diversity in the Living World"
+    ],
+    "expected_answer": "The defining properties of living organisms, which are present in all living beings without exception, include cellular organization and metabolism. While growth and reproduction are characteristics of life, they are not defining properties because some non-living things can 'grow' by accumulation of material, and many living organisms (like mules or sterile worker bees) do not reproduce. Consciousness and the ability to sense the environment and mount a suitable response is also considered a defining feature.",
+    "type": "concept"
+  },
+  {
+    "id": 14,
+    "question": "Describe the B-DNA structure dimensions.",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": [
+      "Packaging of DNA Helix",
+      "Structure of Polynucleotide Chain"
+    ],
+    "expected_answer": "In B-DNA, one full turn of the helical strand involves ten base pairs. The pitch (length of one full turn) would be 34 Angstroms (3.4 nm). Consequently, the distance between two consecutive base pairs (the rise per base pair) is 3.4 Angstroms (0.34 nm).",
+    "type": "factoid"
+  },
+  {
+    "id": 15,
+    "question": "What is competitive inhibition in enzyme kinetics? Provide an example.",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": [
+      "Nature of Enzyme Action",
+      "Factors Affecting Enzyme Activity"
+    ],
+    "expected_answer": "Competitive inhibition occurs when an inhibitor molecule closely resembles the substrate in its molecular structure. As a result of this close structural similarity, the inhibitor competes with the substrate for the substrate-binding site of the enzyme. When the inhibitor binds to the active site, the proper substrate cannot bind, thus enzyme action declines. A classic example is the inhibition of succinic dehydrogenase by malonate, which closely resembles the natural substrate succinate in structure.",
+    "type": "concept"
+  },
+  {
+    "id": 16,
+    "question": "What are the different levels of protein structure and how are they stabilized?",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": [
+      "Structure of Proteins"
+    ],
+    "expected_answer": "Proteins have four levels of structure. Primary structure is the linear sequence of amino acids linked by peptide bonds. Secondary structure refers to local folding such as alpha-helix and beta-pleated sheet stabilized by hydrogen bonds. Tertiary structure is the three-dimensional folding of a polypeptide stabilized by interactions like hydrogen bonds, ionic bonds, disulfide bridges, and hydrophobic interactions. Quaternary structure involves the association of multiple polypeptide chains to form a functional protein.",
+    "type": "concept"
+  },
+  {
+    "id": 17,
+    "question": "What is the role of metal ions as cofactors in enzyme activity?",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": [
+      "Co-factors",
+      "Enzymes",
+      "Factors Affecting Enzyme Activity"
+    ],
+    "expected_answer": "Metal ions act as cofactors by forming coordination bonds with enzyme side chains at the active site and also with the substrate. This helps in stabilizing the enzyme-substrate complex and facilitates catalysis. Examples include Zn2+, Mg2+, and Fe2+ ions which are essential for proper enzyme function.",
+    "type": "concept"
+  },
+  {
+    "id": 19,
+    "question": "What is the importance of museums in biological classification?",
+    "expected_chapter": "The Living World",
+    "expected_topics": [
+      "Diversity in the Living World",
+      "Modern Taxonomic Approaches"
+    ],
+    "expected_answer": "Museums are repositories where preserved plant and animal specimens are stored, studied, and exhibited. Specimens are preserved in jars, containers, or as dried collections. They serve as reference materials for taxonomic studies and help scientists in identification and classification of organisms. Museums also provide educational value by displaying biodiversity.",
+    "type": "concept"
+  },
+  {
+    "id": 20,
+    "question": "What are polysaccharides? Give examples and their functions.",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": [
+      "Polysaccharides"
+    ],
+    "expected_answer": "Polysaccharides are long chains of monosaccharide units linked by glycosidic bonds. They are complex carbohydrates and serve structural and storage functions. Examples include starch (energy storage in plants), glycogen (energy storage in animals), and cellulose (structural component of plant cell walls).",
+    "type": "concept"
+  },
+  {
+    "id": 21,
+    "question": "What is the difference between saturated and unsaturated fatty acids?",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": [],
+    "expected_answer": "Saturated fatty acids do not contain double bonds between carbon atoms and are usually solid at room temperature. Unsaturated fatty acids contain one or more double bonds and are generally liquid at room temperature. The presence of double bonds introduces kinks in the structure, preventing tight packing.",
+    "type": "concept"
+  },
+  {
+    "id": 22,
+    "question": "Define species and explain its importance in taxonomy.",
+    "expected_chapter": "The Living World",
+    "expected_topics": [
+      "Species",
+      "Diversity in the Living World",
+      "Taxonomic Categories"
+    ],
+    "expected_answer": "Species is the basic unit of classification and refers to a group of organisms that can interbreed and produce fertile offspring. It is the lowest taxonomic category and forms the foundation for classification. Organisms within a species share common characteristics and genetic similarity.",
+    "type": "concept"
+  },
+  {
+    "id": 23,
+    "question": "What are the components of a nucleotide and how are they arranged?",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": [
+      "Structure of Polynucleotide Chain",
+      "Nucleic Acids"
+    ],
+    "expected_answer": "A nucleotide consists of three components: a nitrogenous base, a pentose sugar, and a phosphate group. The nitrogenous base is attached to the sugar, forming a nucleoside, and the phosphate group is attached to the sugar. These nucleotides link together via phosphodiester bonds to form nucleic acids.",
+    "type": "concept"
+  },
+  {
+    "id": 24,
+    "question": "What is the role of enzymes in lowering activation energy?",
+    "expected_chapter": "Biomolecules",
+    "expected_topics": [
+      "How do Enzymes bring about such High Rates of Chemical Conversions?",
+      "Nature of Enzyme Action",
+      "The Machinery and the Enzymes",
+      "Enzymes"
+    ],
+    "expected_answer": "Enzymes lower the activation energy of a reaction by providing an alternative reaction pathway. They stabilize the transition state and bring substrates together in an optimal orientation, thus increasing the rate of reaction without being consumed.",
+    "type": "concept"
+  }
+]
