@@ -1,21 +1,21 @@
 id,question,expected_chapter,predicted_chapter,chapter_correct,recall_at_5,precision_at_3,avg_similarity,is_verified,confidence,latency_sec,rejected
-1,"What is the detailed role of cofactors, co-enzymes, and prosthetic groups in enzyme activity?",Biomolecules,Biomolecules,True,1.0,1.0,0.75814,True,0.8549,25.0657742023468,False
-2,"Explain the difference between primary and secondary metabolites, providing examples of each.",Biomolecules,Biomolecules,True,1.0,1.0,0.69038,False,0.4142,17.71899104118347,False
-3,How does carbonic anhydrase accelerate the formation of carbonic acid?,Biomolecules,Respiration in Plants,False,1.0,1.0,0.70714,False,0.4243,36.72834229469299,False
-4,Describe the system of binomial nomenclature and its universal rules.,The Living World,,False,,,,False,0.0,5.332303047180176,True
-5,What is the difference between anabolism and catabolism in the context of metabolism?,Biomolecules,Respiration in Plants,False,1.0,1.0,0.67038,True,0.8022,37.27441215515137,False
-8,Are nucleic acids polymers? Describe their structure briefly.,Biomolecules,Biomolecules,True,1.0,1.0,0.7830600000000001,True,0.8698,29.792909145355225,False
-9,What does a biological key rely on for identification?,The Living World,Molecular Basis of Inheritance,False,1.0,1.0,0.6614000000000001,True,0.7968,24.778770208358765,False
-11,How are living organisms classified hierarchically?,The Living World,The Living World,True,1.0,1.0,0.7721600000000001,True,0.8633,33.00599670410156,False
-12,What is the Watson-Crick model of DNA?,Biomolecules,Molecular Basis of Inheritance,False,1.0,1.0,0.7231400000000001,True,0.8339,23.214563131332397,False
-13,What defines the defining properties of living organisms compared to non-living objects?,The Living World,,False,,,,False,0.0,1.8654730319976807,True
-14,Describe the B-DNA structure dimensions.,Biomolecules,Molecular Basis of Inheritance,False,1.0,1.0,0.7621399999999999,False,0.4573,23.374768257141113,False
-15,What is competitive inhibition in enzyme kinetics? Provide an example.,Biomolecules,Biomolecules,True,1.0,1.0,0.7562599999999999,True,0.8537,29.972883939743042,False
-16,What are the different levels of protein structure and how are they stabilized?,Biomolecules,Biomolecules,True,1.0,1.0,0.74594,False,0.4476,30.103047609329224,False
-17,What is the role of metal ions as cofactors in enzyme activity?,Biomolecules,Biomolecules,True,1.0,1.0,0.7384599999999999,False,0.4431,28.976297855377197,False
-19,What is the importance of museums in biological classification?,The Living World,Biological Classification,False,1.0,1.0,0.65822,True,0.7949,29.41348886489868,False
-20,What are polysaccharides? Give examples and their functions.,Biomolecules,Biomolecules,True,1.0,1.0,0.7155999999999999,False,0.4294,36.33011722564697,False
-21,What is the difference between saturated and unsaturated fatty acids?,Biomolecules,Biomolecules,True,0.0,0.0,0.62592,True,0.7755,32.889395236968994,False
-22,Define species and explain its importance in taxonomy.,The Living World,The Living World,True,1.0,1.0,0.8047599999999999,True,0.8829,33.466288328170776,False
-23,What are the components of a nucleotide and how are they arranged?,Biomolecules,Molecular Basis of Inheritance,False,1.0,1.0,0.7731399999999999,True,0.8639,29.993414640426636,False
-24,What is the role of enzymes in lowering activation energy?,Biomolecules,,False,,,,False,0.0,1.7475495338439941,True
+1,"What is the detailed role of cofactors, co-enzymes, and prosthetic groups in enzyme activity?",Biomolecules,Biomolecules,True,1.0,1.0,0.75814,False,0.4549,20.052091360092163,False
+2,"Explain the difference between primary and secondary metabolites, providing examples of each.",Biomolecules,Biomolecules,True,1.0,1.0,0.69038,False,0.4142,9.616599559783936,False
+3,How does carbonic anhydrase accelerate the formation of carbonic acid?,Biomolecules,Respiration in Plants,False,1.0,1.0,0.70714,False,0.4243,41.34372282028198,False
+4,Describe the system of binomial nomenclature and its universal rules.,The Living World,,False,,,,False,0.0,1.4192452430725098,True
+5,What is the difference between anabolism and catabolism in the context of metabolism?,Biomolecules,Respiration in Plants,False,1.0,1.0,0.67038,True,0.8022,36.85939121246338,False
+8,Are nucleic acids polymers? Describe their structure briefly.,Biomolecules,Biomolecules,True,1.0,1.0,0.7830600000000001,True,0.8698,25.433082580566406,False
+9,What does a biological key rely on for identification?,The Living World,Molecular Basis of Inheritance,False,1.0,1.0,0.6614000000000001,False,0.3968,26.389898777008057,False
+11,How are living organisms classified hierarchically?,The Living World,The Living World,True,1.0,1.0,0.7721600000000001,True,0.8633,36.415372371673584,False
+12,What is the Watson-Crick model of DNA?,Biomolecules,Molecular Basis of Inheritance,False,1.0,1.0,0.7231400000000001,False,0.4339,20.052990913391113,False
+13,What defines the defining properties of living organisms compared to non-living objects?,The Living World,,False,,,,False,0.0,1.1042215824127197,True
+14,Describe the B-DNA structure dimensions.,Biomolecules,Molecular Basis of Inheritance,False,1.0,1.0,0.7621399999999999,False,0.4573,24.94531536102295,False
+15,What is competitive inhibition in enzyme kinetics? Provide an example.,Biomolecules,Biomolecules,True,1.0,1.0,0.7562599999999999,False,0.4537,28.229418754577637,False
+16,What are the different levels of protein structure and how are they stabilized?,Biomolecules,Biomolecules,True,1.0,1.0,0.74594,False,0.4476,36.54216003417969,False
+17,What is the role of metal ions as cofactors in enzyme activity?,Biomolecules,Biomolecules,True,1.0,1.0,0.7384599999999999,False,0.4431,25.07787299156189,False
+19,What is the importance of museums in biological classification?,The Living World,Biological Classification,False,1.0,1.0,0.65822,False,0.3949,31.875385284423828,False
+20,What are polysaccharides? Give examples and their functions.,Biomolecules,Biomolecules,True,1.0,1.0,0.7155999999999999,False,0.4294,39.21031045913696,False
+21,What is the difference between saturated and unsaturated fatty acids?,Biomolecules,Biomolecules,True,0.0,0.0,0.62592,False,0.3755,25.8453950881958,False
+22,Define species and explain its importance in taxonomy.,The Living World,The Living World,True,1.0,1.0,0.8047599999999999,False,0.4829,33.699798583984375,False
+23,What are the components of a nucleotide and how are they arranged?,Biomolecules,Molecular Basis of Inheritance,False,1.0,1.0,0.7731399999999999,False,0.4639,30.93913459777832,False
+24,What is the role of enzymes in lowering activation energy?,Biomolecules,,False,,,,False,0.0,1.5109140872955322,True
