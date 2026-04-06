@@ -17,9 +17,9 @@ from rag.retriever      import retrieve_chunks
 from rag.prompt_builder import (
     build_answer_prompt,
     build_justification_prompt,
+    build_verifier_prompt,
 )
-from rag.generator  import generate_answer, generate_justification
-from rag.nli_verifier import verify_answer_nli
+from rag.generator  import generate_answer, generate_justification, verify_answer_llm
 from rag.confidence import compute_confidence
 from Classification.classify_and_extract import classify_question
 
@@ -97,22 +97,41 @@ def run_pipeline(
     top_chapter = top_chunk.get("chapter", "Unknown Chapter")
     top_section = top_chunk.get("section_title", "Unknown Topic")
 
-    # ── Step 2: Build prompts ───────────────────────────────────────────────
-    print("[Pipeline] Step 2: Building prompts...")
-    answer_msgs      = build_answer_prompt(question, top_chapter, top_section, chunks)
+    # ── Step 3: Generate answer + justification in a single Groq call ──────
+    print("[Pipeline] Step 3: Generating answer + justification via Groq...")
+    answer_msgs = build_answer_prompt(question, top_chapter, top_section, chunks)
+    # Append instruction to also include justification in the same response
+    answer_msgs[-1]["content"] += (
+        "\n\nAfter the answer, on a new line write '---JUSTIFICATION---' "
+        "and then provide a numbered step-by-step biological justification "
+        "for why the answer is correct, citing only the NCERT context above."
+    )
+    raw_response = generate_answer(answer_msgs)
     
-    # ── Step 3: Generate answer ─────────────────────────────────────────────
-    print("[Pipeline] Step 3: Generating answer via Groq...")
-    answer = generate_answer(answer_msgs)
+    # Parse answer and justification apart
+    if "---JUSTIFICATION---" in raw_response:
+        parts = raw_response.split("---JUSTIFICATION---", 1)
+        answer = parts[0].strip()
+        just_raw = parts[1].strip()
+    else:
+        answer = raw_response.strip()
+        just_raw = ""
+    
+    # Parse justification into numbered steps
+    if just_raw:
+        lines = just_raw.strip().split("\n")
+        justification = [l.strip() for l in lines if l.strip() and (
+            l.strip()[0].isdigit() or l.strip().lower().startswith("step")
+        )]
+        if not justification:
+            justification = [l.strip() for l in lines if l.strip()]
+    else:
+        justification = []
 
-    # ── Step 4: Generate justification ──────────────────────────────────────
-    print("[Pipeline] Step 4: Generating justification via Groq...")
-    just_msgs     = build_justification_prompt(question, answer, chunks)
-    justification = generate_justification(just_msgs)
-
-    # ── Step 5: Verify answer (Local NLI) ───────────────────────────────────
-    print("[Pipeline] Step 5: Verifying answer via NLI CrossEncoder...")
-    verif_result    = verify_answer_nli(answer, chunks)
+    # ── Step 5: Verify answer (LLM Judge) ───────────────────────────────────
+    print("[Pipeline] Step 5: Verifying answer via LLM Judge...")
+    verif_msgs      = build_verifier_prompt(question, answer, chunks)
+    verif_result    = verify_answer_llm(verif_msgs)
     verified        = verif_result["verified"]
     verifier_note   = verif_result["explanation"]
 

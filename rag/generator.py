@@ -57,7 +57,7 @@ def generate_answer(messages: list[dict]) -> str:
     Calls the Groq LLM to generate the main answer.
     Uses low temperature (0.2) for factual consistency.
     """
-    return call_groq(messages, temperature=0.2, max_tokens=512)
+    return call_groq(messages, temperature=0.2, max_tokens=768)
 
 
 def generate_justification(messages: list[dict]) -> list[str]:
@@ -75,4 +75,22 @@ def generate_justification(messages: list[dict]) -> list[str]:
 
     # Fallback: if no numbered lines, return original text split by newlines
     return steps if steps else [l.strip() for l in lines if l.strip()]
+
+def verify_answer_llm(messages: list[dict]) -> dict:
+    """
+    Calls Groq to act as a Faithfulness/NLI judge.
+    Expects the prompt to dictate a YES/NO verdict followed by an explanation.
+    """
+    raw = call_groq(messages, temperature=0.1, max_tokens=150)
+    lines = raw.strip().split("\n")
+    
+    first_line = lines[0].strip().upper()
+    verified = "YES" in first_line and "NO" not in first_line
+    
+    explanation = " ".join(lines[1:]).strip() if len(lines) > 1 else first_line
+    
+    return {
+        "verified": verified,
+        "explanation": f"LLM Judge: {explanation}"
+    }
 
