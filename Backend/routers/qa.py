@@ -17,9 +17,11 @@ from Backend.schemas import (
     ClassificationResult,
     TopicInfo,
     SourceChunk,
+    IsNeetBioRequest,
+    IsNeetBioResponse
 )
 from rag.pipeline import run_pipeline
-from Classification.classify_and_extract import classify_question
+from Classification.classify_and_extract import classify_question, get_predictor
 
 router = APIRouter(prefix="/api", tags=["Question Answering"])
 
@@ -62,6 +64,10 @@ async def answer_question(req: QuestionRequest):
                 chapter=raw["chapter"],
                 chapter_id=raw["chapter_id"],
                 chapter_confidence=raw["chapter_confidence"],
+                rejected=raw.get("rejected", False),
+                rejection_reason=raw.get("rejection_reason", ""),
+                entropy=raw.get("entropy", 0.0),
+                margin=raw.get("margin", 0.0),
                 topics=[
                     TopicInfo(
                         section_code=t["section_code"],
@@ -128,6 +134,10 @@ async def classify_only(req: ClassifyOnlyRequest):
             chapter=raw["chapter"],
             chapter_id=raw["chapter_id"],
             chapter_confidence=raw["chapter_confidence"],
+            rejected=raw.get("rejected", False),
+            rejection_reason=raw.get("rejection_reason", ""),
+            entropy=raw.get("entropy", 0.0),
+            margin=raw.get("margin", 0.0),
             topics=[
                 TopicInfo(
                     section_code=t["section_code"],
@@ -148,4 +158,37 @@ async def classify_only(req: ClassifyOnlyRequest):
         raise HTTPException(
             status_code=500,
             detail=f"Classification error: {str(e)}",
+        )
+
+
+# ==============================
+# POST /api/is-neet-bio
+# ==============================
+@router.post(
+    "/is-neet-bio",
+    response_model=IsNeetBioResponse,
+    summary="Quickly check if a string is a valid NEET Biology question",
+)
+async def is_neet_bio(req: IsNeetBioRequest):
+    """
+    Runs only the BERT classifier prediction to check OOD (Out-Of-Domain) logic.
+    Fast path validation for frontend to prevent garbage from triggering the RAG pipeline.
+    """
+    try:
+        predictor = get_predictor()
+        bert_result = predictor.predict(req.question)
+        
+        rejected = bert_result.get("rejected", False)
+        reason = bert_result.get("rejection_reason", "")
+        
+        return IsNeetBioResponse(
+            is_valid=not rejected,
+            rejected=rejected,
+            reason=reason
+        )
+    except Exception as e:
+        traceback.print_exc()
+        raise HTTPException(
+            status_code=500,
+            detail=f"Validation error: {str(e)}",
         )

@@ -79,9 +79,14 @@ class ClassifierPredictor:
             logits = self.model(**inputs).logits       # (1, num_labels)
 
         probs = F.softmax(logits, dim=-1).squeeze(0)  # (num_labels,)
+        
+        # Calculate Normalized Entropy
+        num_labels = len(self.label_map)
+        entropy = -torch.sum(probs * torch.log(probs + 1e-9)).item()
+        normalized_entropy = entropy / torch.log(torch.tensor(num_labels, dtype=torch.float32)).item()
 
         # Top-k predictions
-        top_probs, top_ids = torch.topk(probs, k=min(top_k, len(self.label_map)))
+        top_probs, top_ids = torch.topk(probs, k=min(top_k, num_labels))
 
         top_predictions = []
         for prob, label_id in zip(top_probs.tolist(), top_ids.tolist()):
@@ -92,8 +97,42 @@ class ClassifierPredictor:
             })
 
         best = top_predictions[0]
+        margin = top_probs[0].item() - top_probs[1].item() if len(top_probs) > 1 else 1.0
 
-        if best["confidence"] < CONFIDENCE_WARNING:
+        # Heuristic Keyword Check (Expanded list)
+        question_lower = question.lower()
+        bio_keywords = [
+            "cell", "dna", "plant", "animal", "human", "body", "blood", "heart", 
+            "gene", "protein", "virus", "bacteria", "disease", "reproduction", 
+            "organ", "tissue", "biology", "enzyme", "acid", "carbon", "oxygen", 
+            "water", "bone", "muscle", "lung", "brain", "leaf", "root", "stem", 
+            "flower", "seed", "fruit", "chromosome", "rna", "atp", "metabolism",
+            "photosynthesis", "respiration", "digestion", "nervous", "hormone"
+        ]
+        has_bio_signal = any(kw in question_lower for kw in bio_keywords)
+
+        # Dynamic Confidence Threshold
+        # If the question contains no known biology words, be highly skeptical.
+        min_confidence = 0.55 if has_bio_signal else 0.85
+
+        # OOD Rejection Rules
+        rejected = False
+        rejection_reason = ""
+        
+        if best["confidence"] < min_confidence:
+            rejected = True
+            if not has_bio_signal:
+                rejection_reason = f"No biological keywords found & Confidence too low ({best['confidence']:.2f} < 0.85 for generic text)"
+            else:
+                rejection_reason = f"Top-1 confidence too low ({best['confidence']:.2f} < 0.55)"
+        elif margin < 0.12:
+            rejected = True
+            rejection_reason = f"Margin between top 2 chapters too small ({margin:.2f} < 0.12)"
+        elif normalized_entropy > 0.86:
+            rejected = True
+            rejection_reason = f"Model uncertainty too high (Entropy {normalized_entropy:.2f} > 0.86)"
+
+        if best["confidence"] < CONFIDENCE_WARNING and not rejected:
             print(
                 f"[Classifier] ⚠️  Low confidence ({best['confidence']:.2f}) for question:\n"
                 f"    '{question}'\n"
@@ -101,10 +140,14 @@ class ClassifierPredictor:
             )
 
         return {
-            "chapter"    : best["chapter"],
-            "chapter_id" : best["chapter_id"],
-            "confidence" : best["confidence"],
-            "top3"       : top_predictions,
+            "chapter"       : best["chapter"],
+            "chapter_id"    : best["chapter_id"],
+            "confidence"    : best["confidence"],
+            "top3"          : top_predictions,
+            "rejected"      : rejected,
+            "rejection_reason": rejection_reason,
+            "entropy"       : round(normalized_entropy, 4),
+            "margin"        : round(margin, 4)
         }
 
 

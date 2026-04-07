@@ -298,16 +298,32 @@ function renderQAResult(data, showClassification) {
 // ==============================
 
 function renderClassificationCard(cls) {
-    // Chapter confidence badge
+    // Chapter confidence badge & Name
     const confEl = document.getElementById("chapterConfidence");
-    const confPct = (cls.chapter_confidence * 100).toFixed(1);
-    const confClass = cls.chapter_confidence >= 0.8 ? "confidence-high" :
-                      cls.chapter_confidence >= 0.5 ? "confidence-medium" : "confidence-low";
-    confEl.className = `confidence-badge ${confClass}`;
-    confEl.textContent = `${confPct}% confidence`;
-
-    // Chapter name
-    document.getElementById("chapterName").textContent = cls.chapter;
+    const chapterNameEl = document.getElementById("chapterName");
+    
+    if (cls.rejected || cls.chapter_confidence < 0.45) {
+        chapterNameEl.textContent = "No Chapter Relevant";
+        confEl.className = "confidence-badge confidence-low";
+        
+        let reasonStr = cls.rejection_reason || "Out of domain";
+        // If it simply failed the 45% check but wasn't explicitly OOD
+        if (!cls.rejected && cls.chapter_confidence < 0.45) {
+            reasonStr = "Confidence too low";
+        }
+        
+        // Strip out the parentheses containing the actual numbers if we want to hide them completely
+        // e.g. "Top-1 confidence too low (0.43 < 0.55)" -> "Top-1 confidence too low"
+        const cleanReason = reasonStr.split("(")[0].trim();
+        confEl.textContent = `Rejected: ${cleanReason}`;
+    } else {
+        chapterNameEl.textContent = cls.chapter;
+        const confPct = (cls.chapter_confidence * 100).toFixed(1);
+        const confClass = cls.chapter_confidence >= 0.8 ? "confidence-high" :
+                          cls.chapter_confidence >= 0.5 ? "confidence-medium" : "confidence-low";
+        confEl.className = `confidence-badge ${confClass}`;
+        confEl.textContent = `${confPct}% confidence`;
+    }
 
     // Topics
     const topicsList = document.getElementById("topicsList");

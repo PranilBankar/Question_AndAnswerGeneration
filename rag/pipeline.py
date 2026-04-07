@@ -61,18 +61,19 @@ def run_pipeline(
         predicted_chapter = classification["chapter"]
         print(f"[Pipeline] Predicted chapter: {predicted_chapter} (Not used as filter)")
 
-        # ── Confidence gate: reject if BERT is too uncertain ──
-        if classification["chapter_confidence"] < 0.45:
-            print(f"[Pipeline] ⚠️ Low confidence ({classification['chapter_confidence']:.2%}) — rejecting question.")
+        # ── Confidence gate: reject if BERT is too uncertain or OOD ──
+        if classification.get("rejected") or classification["chapter_confidence"] < 0.45:
+            reject_reason = classification.get("rejection_reason") or f"BERT confidence ({classification['chapter_confidence']:.2%}) is below the 45% threshold."
+            print(f"[Pipeline] ⚠️ Classifier Rejected — {reject_reason}")
             return {
                 "question"       : question,
-                "classification" : None,
-                "answer"         : "invalid question",
+                "classification" : classification,
+                "answer"         : "This question does not appear to be related to NEET Biology.",
                 "justification"  : [],
                 "sources"        : [],
                 "confidence"     : 0.0,
                 "verified"       : False,
-                "verifier_note"  : f"BERT confidence ({classification['chapter_confidence']:.2%}) is below the 45% threshold.",
+                "verifier_note"  : reject_reason,
                 "rejected"       : True,
             }
 

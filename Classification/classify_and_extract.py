@@ -29,7 +29,7 @@ from rag.retriever import retrieve_chunks
 # ==============================
 # CONFIG
 # ==============================
-TOPIC_SIMILARITY_THRESHOLD = 0.30   # Minimum similarity to consider a topic relevant
+TOPIC_SIMILARITY_THRESHOLD = 0.45   # Minimum similarity to consider a topic relevant
 MAX_TOPICS = 3                      # Maximum topics/subtopics to return
 MIN_TOPICS = 1                      # Minimum topics to always return (top-1 fallback)
 RETRIEVAL_TOP_K = 10                # Fetch more chunks to find diverse topics
@@ -90,8 +90,25 @@ def classify_question(
     chapter_name = bert_result["chapter"]
     chapter_id = bert_result["chapter_id"]
     chapter_confidence = bert_result["confidence"]
+    rejected = bert_result.get("rejected", False)
+    rejection_reason = bert_result.get("rejection_reason", "")
+    entropy = bert_result.get("entropy", 0.0)
+    margin = bert_result.get("margin", 0.0)
 
     print(f"[Classify] BERT → {chapter_name} (confidence: {chapter_confidence:.2%})")
+    
+    if rejected:
+        print(f"[Classify] ❌ Rejected: {rejection_reason}")
+        return {
+            "chapter": chapter_name,
+            "chapter_id": chapter_id,
+            "chapter_confidence": chapter_confidence,
+            "topics": [],
+            "rejected": rejected,
+            "rejection_reason": rejection_reason,
+            "entropy": entropy,
+            "margin": margin
+        }
 
     # ── Step 2: Retrieve chunks filtered by predicted chapter ──
     chunks = retrieve_chunks(
@@ -107,6 +124,10 @@ def classify_question(
             "chapter_id": chapter_id,
             "chapter_confidence": chapter_confidence,
             "topics": [],
+            "rejected": False,
+            "rejection_reason": "",
+            "entropy": entropy,
+            "margin": margin
         }
 
     # ── Step 3: Extract unique topics, keeping highest similarity per topic ──
@@ -165,6 +186,10 @@ def classify_question(
         "chapter_id": chapter_id,
         "chapter_confidence": chapter_confidence,
         "topics": filtered,
+        "rejected": rejected,
+        "rejection_reason": rejection_reason,
+        "entropy": entropy,
+        "margin": margin
     }
 
 

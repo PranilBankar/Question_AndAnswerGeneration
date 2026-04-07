@@ -59,6 +59,26 @@ class ClassificationResult(BaseModel):
         default=[],
         description="Top 1-3 relevant topics/subtopics within the chapter",
     )
+    rejected: bool = Field(default=False, description="True if rejected by OOD gating")
+    rejection_reason: str = Field(default="", description="Reason for rejection")
+    entropy: float = Field(default=0.0, description="Normalized entropy of prediction")
+    margin: float = Field(default=0.0, description="Confidence margin between top-1 and top-2")
+
+
+class IsNeetBioRequest(BaseModel):
+    """Request body for the /is-neet-bio validation endpoint."""
+    question: str = Field(
+        ...,
+        min_length=3,
+        max_length=500,
+        description="The question to validate."
+    )
+
+class IsNeetBioResponse(BaseModel):
+    """Response indicating whether the query is valid NEET biology."""
+    is_valid: bool
+    rejected: bool
+    reason: str
 
 
 class SourceChunk(BaseModel):
