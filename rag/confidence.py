@@ -33,4 +33,4 @@ def compute_confidence(
     confidence = (0.6 * avg_retrieval) + (0.4 * verifier_score)
 
     # Clamp to [0, 1] for safety
-    return round(min(max(confidence, 0.0), 1.0), 4) 
+    return round(min(max(confidence, 0.0), 1.0), 4)
