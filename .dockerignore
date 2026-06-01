@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.git/
+Frontend/
+pdf_to_embedding/*.pdf
+.env
